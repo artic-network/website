@@ -4,6 +4,7 @@
     /* #########################
 	ORIGINAL COLOUR SCHEME:
 	#########################
+	*/
     --main-colour: #005C68;
     --text-colour: #F6EECA;
     --background-colour: #fffef7;
@@ -11,8 +12,7 @@
     --lighter-colour: #7f8f9d;
     --contrast-colour: #F1605D;
     --definition-colour: #7f8f9d;
-	--grey-colour: #707070;
-	*/
+    --grey-colour: #707070;
     /* new tags */
     --highlight: #F1605D;
     --primary-text: #fffef7;
