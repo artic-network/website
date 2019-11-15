@@ -1319,8 +1319,9 @@ body.is-preload #bg:before {
     justify-content: space-between;
     position: relative;
     min-height: 100vh;
+    height: 100%;
     width: 100%;
-    /*padding: 4rem 2rem;*/
+    padding: 4rem 2rem;
     z-index: 3;
 }
 
@@ -1331,22 +1332,19 @@ body.is-preload #bg:before {
 
 @media screen and (max-width: 1680px) {
     #wrapper {
-        padding: 0 0 6rem 0;
-        /*padding: 3rem 2rem;*/
+        padding: 3rem 2rem;
     }
 }
 
 @media screen and (max-width: 736px) {
     #wrapper {
-        padding: 0 0 4rem 0;
-        /*padding: 2rem 1rem;*/
+        padding: 2rem 1rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     #wrapper {
-        padding: 0 0 2rem 0;
-        /*padding: 1rem;*/
+        padding: 1rem;
     }
 }
 
@@ -1406,18 +1404,18 @@ body.is-preload #bg:before {
     display: none;
 }
 
-/*#header .logo {*/
-    /*width: 5.5rem;*/
-    /*height: 5.5rem;*/
-    /*line-height: 5.5rem;*/
+#header .logo {
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
     /*border: none;*/
     /*border: solid 1px var(--primary-text);*/
     /*border-radius: 100%;*/
-/*}*/
+}
 
-/*#header .logo .icon:before {*/
-    /*font-size: 2rem;*/
-/*}*/
+#header .logo .icon:before {
+    font-size: 2rem;
+}
 
 #header .content {
     border-style: solid;
