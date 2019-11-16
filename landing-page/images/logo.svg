@@ -1,21 +1,14 @@
 <svg width="5000px" height="5000px" xmlns="http://www.w3.org/2000/svg">
     <style>
-        <!--:root {-->
-        <!--&#45;&#45;main-colour: #005C68; /* var(&#45;&#45;main-colour) better: 3f4f54 */-->
-        <!--&#45;&#45;text-colour: #F6EECA;-->
-        <!--&#45;&#45;background-colour: #fffef7;-->
-        <!--&#45;&#45;darker-colour: #4b555e;-->
-        <!--&#45;&#45;lighter-colour: #7f8f9d;-->
-        <!--&#45;&#45;contrast-colour: #F1605D; /* more saturated: #b02921 */-->
-        <!--&#45;&#45;definition-colour: #7f8f9d;-->
-        <!--&#45;&#45;grey-colour: #707070;-->
-        <!--}-->
-        .logo-compass-line { fill: none; stroke: white; stroke-width:0.5 }
-        .logo-globe-line { fill: none; stroke: white; stroke-width:0.5 }
-        .logo-epi-line { fill: none; stroke: white; stroke-width:5 }
-        .logo-epi-circle { fill: #F1605D; stroke: white; stroke-width:5 }
-        .logo-central-circle { fill: #F1605D; stroke: white; stroke-width:5 }
-        .logo-virus { fill: white; stroke: none }
+        <!--ARTIC blue: #005C68 -->
+        <!--ARTIC yellow: #F6EECA -->
+        <!--ARTIC red: #F1605D -->
+        .logo-compass-line { fill: none; stroke: #F6EECA; stroke-width:0.5 }
+        .logo-globe-line { fill: none; stroke: #F6EECA; stroke-width:0.5 }
+        .logo-epi-line { fill: none; stroke: #F6EECA; stroke-width:5 }
+        .logo-epi-circle { fill: #F1605D; stroke: #F6EECA; stroke-width:5 }
+        .logo-central-circle { fill: #F1605D; stroke: #F6EECA; stroke-width:5 }
+        .logo-virus { fill: #F6EECA; stroke: none }
 
     </style>
     <g>
