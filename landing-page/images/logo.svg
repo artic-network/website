@@ -12,12 +12,12 @@
 
     </style>
     <g>
-        <g class="logo-compass-1" >
+        <g >
             <animateTransform
                     attributeName="transform"
                     type="rotate"
-                    from="-45 2500 2500"
-                    to="315 2500 2500"
+                    from="0 2500 2500"
+                    to="360 2500 2500"
                     dur="480s"
                     repeatCount="indefinite" />
             <line class="logo-compass-line" x1="0" y1="2500" x2="2400" y2="2500"/>
@@ -25,12 +25,25 @@
             <line class="logo-compass-line" x1="2500" y1="0" x2="2500" y2="2400"/>
             <line class="logo-compass-line" x1="2500" y1="2600" x2="2500" y2="5000"/>
         </g>
-        <g class="logo-compass-2" >
+        <g>
             <animateTransform
                     attributeName="transform"
                     type="rotate"
-                    from="360 2500 2500"
-                    to="0 2500 2500"
+                    from="60 2500 2500"
+                    to="420 2500 2500"
+                    dur="360s"
+                    repeatCount="indefinite" />
+            <line class="logo-compass-line" x1="0" y1="2500" x2="2400" y2="2500"/>
+            <line class="logo-compass-line" x1="2600" y1="2500" x2="5000" y2="2500"/>
+            <line class="logo-compass-line" x1="2500" y1="0" x2="2500" y2="2400"/>
+            <line class="logo-compass-line" x1="2500" y1="2600" x2="2500" y2="5000"/>
+        </g>
+        <g>
+            <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    from="390 2500 2500"
+                    to="30 2500 2500"
                     dur="360s"
                     repeatCount="indefinite" />
             <line class="logo-compass-line" x1="0" y1="2500" x2="2400" y2="2500"/>
