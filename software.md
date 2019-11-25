@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Software
+layout: post
 description: Check out our software
 image: assets/images/minion.jpg
 nav-menu: true
@@ -12,7 +12,7 @@ Underneath we will have a box per tool; each tool is collected from the `_softwa
 
 TODO: animate each panel on hover - give the name layover or something
 
-
+<hr class="major" />
 
 <h4>Software</h4>
 <div class="box alt">
@@ -24,7 +24,7 @@ TODO: animate each panel on hover - give the name layover or something
 		{% else %}
 			<div class="4u"><span class="image fit">
 		{% endif %}
-			<figure class="imghvr-flip-vert"><img src="{{ page.image }}" alt=""/>
+			<figure class="imghvr-reveal-right"><img src="{{ page.image }}" alt=""/>
 				<figcaption>
 					<h3>{{ page.title }}</h3>
 					<p>{{ page.description }}</p>

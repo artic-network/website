@@ -2,6 +2,55 @@
 
 ## How To
 
+### Write content
+
+if you want it in the nav menu -
+
+if you want to hide it on the main page
+```
+---
+layout: post
+title: Protocols
+image: assets/images/aerial-shot.jpg
+nav-menu: true
+
+layout: post
+title: RAMPART
+description: description line
+image: assets/images/rampart-placeholder.jpg
+show_tile: false
+permalink: /rampart
+
+
+layout: post
+title: WP 1
+description: work package one description here
+image: assets/images/mantis.jpg
+show_tile: false
+permalink: work-package-1
+
+
+layout: allposts
+title: All posts
+landing-title: 'All posts'
+nav-menu: true
+description: null
+image: null
+author: null
+show_tile: false
+---
+
+
+
+content here
+```
+
+### Add images
+
+If you need an image to go with any content (e.g. an image for the software tiles), please upload it to `assets/images`.
+
+In terms of image sizing, there are some templates in `assets/images/templates`. They are labelled according to their purpose on the site. So, for a new software tile, make sure your image is similar in dimensions to `assets/images/templates/software-tile.jpg`.
+
 ### Add new piece of software to the resources page
 
 It's easiest just to copy an existing a `*.md` file from the `_software` directory. Change the software name in the filename and edit the file contents.
@@ -13,6 +62,11 @@ It's easiest just to copy an existing a `*.md` file from the `_software` directo
 
 * keep working on getting the protocols.io api to work
 
+* fill in the about page
+* get a list of software - incl logos/imgs/screenshots
+* fill in the workpackages
+* do we want to host slide decks and photos etc.?
+
 
 ---
 
@@ -23,8 +77,6 @@ It's easiest just to copy an existing a `*.md` file from the `_software` directo
 # Forty - Jekyll Theme
 
 A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
-
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
 # How to Use
 
