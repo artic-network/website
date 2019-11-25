@@ -1,69 +1,11 @@
 ---
-layout: default
+layout: home
 title: Home
+landing-title: 'The ARTIC Network'
+description: null
+image: null
+author: null
+show_tile: false
 ---
 
-<section class="box special">
-	<header class="major">
-		<h2>Introducing the ultimate mobile app
-		<br />
-		for doing stuff with your phone</h2>
-		<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-		adipiscing nunc adipiscing. Condimentum turpis massa.</p>
-	</header>
-	<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-</section>
-
-<section class="box special features">
-	<div class="features-row">
-		<section>
-			<span class="icon major fa-bolt accent2"></span>
-			<h3>Magna etiam</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-		</section>
-		<section>
-			<span class="icon major fa-area-chart accent3"></span>
-			<h3>Ipsum dolor</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-		</section>
-	</div>
-	<div class="features-row">
-		<section>
-			<span class="icon major fa-cloud accent4"></span>
-			<h3>Sed feugiat</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-		</section>
-		<section>
-			<span class="icon major fa-lock accent5"></span>
-			<h3>Enim phasellus</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-		</section>
-	</div>
-</section>
-
-<div class="row">
-	<div class="6u 12u(narrower)">
-
-		<section class="box special">
-			<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
-			<h3>Sed lorem adipiscing</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-			<ul class="actions">
-				<li><a href="#" class="button alt">Learn More</a></li>
-			</ul>
-		</section>
-
-	</div>
-	<div class="6u 12u(narrower)">
-
-		<section class="box special">
-			<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-			<h3>Accumsan integer</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-			<ul class="actions">
-				<li><a href="#" class="button alt">Learn More</a></li>
-			</ul>
-		</section>
-
-	</div>
-</div>
+In recent viral outbreaks including Ebola and MERS-CoV, molecular sequencing of the viral pathogen has revealed critical insights into the evolution and transmission of the disease, and offered tantalizing examples of the potential value of this approach to future outbreak control efforts. However, the scale and impact of new DNA technologies in these outbreaks has largely been stunted, due in part to the complexities and logistics of shipping samples for sequencing at existing centres, and the resulting delays in the production of the sequence data meaning that the resulting inferences have limited direct utility for the response efforts. This project aims to overcome these challenges by producing a cheap, mobile virus sequencing system, supported by statistically rigorous analysis frameworks, and information sharing platforms, to prepare for the next outbreak and ensure that viral genome sequencing is positioned to have full impact on the public health response.
