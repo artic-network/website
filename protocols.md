@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Protocols
-image: assets/images/minion.jpg
+image: assets/images/aerial-shot.jpg
 nav-menu: true
 ---
 
