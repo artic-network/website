@@ -18,14 +18,24 @@ TODO: animate each panel on hover - give the name layover or something
 <div class="box alt">
 	<div class="row 50% uniform">
     	{% for page in site.software %}
-            <div class="4u"><span class="image fit"><a href="{{ page.permalink }}"><img src="{{ page.image }}" alt="" /></a></span></div>
+	    {% assign mod = forloop.index | modulo: 3 %}
+		{% if mod == 0 %}
+			<div class="4u$"><span class="image fit">
+		{% else %}
+			<div class="4u"><span class="image fit">
+		{% endif %}
+			<figure class="imghvr-flip-vert"><img src="{{ page.image }}" alt=""/>
+				<figcaption>
+					<h3>{{ page.title }}</h3>
+					<p>{{ page.description }}</p>
+				</figcaption>
+				<a href="{{ page.permalink }}"></a>
+			</figure>
+			</span></div>
         {% endfor %}
-
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
 	</div>
 </div>
+
+
+
+
