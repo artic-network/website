@@ -1,0 +1,39 @@
+# site settings
+title: Artic
+subtitle: Network
+email: w.rowe@bham.ac.uk
+description: Real-time molecular epidemiology for outbreak response
+baseurl: '/home' # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site # https://artic.network/
+author: Will Rowe
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United Kingdom
+phone: (716) 555-5555
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/artic-network
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/NetworkArtic
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+include: ['_software']
+collections:
+  - software

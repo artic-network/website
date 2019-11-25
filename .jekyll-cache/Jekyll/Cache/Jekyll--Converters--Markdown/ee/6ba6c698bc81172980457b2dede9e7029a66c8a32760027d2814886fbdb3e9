@@ -1,0 +1,34 @@
+I"Ò<p>Procols.io integrations</p>
+
+<div id="test-widget"></div>
+
+<script>
+	function testProtocolsIO() {
+		let widget = _protocolsio.init({
+			doi: 'dx.doi.org/10.17504/protocols.io.7w5hpg6',
+			type: 'list',
+			mode: 'view',
+			selector: 'test-widget',
+			access_token: '0beb1651aad1005a9369790220c29d2352ed2a47f34be1b8cc463c2ccd5a41da',
+		})
+		let data = widget.get()
+		console.log(data)
+	}
+
+	if (window.attachEvent) {
+		window.attachEvent('onload', testProtocolsIO());
+	} else {
+		if (window.onload) {
+			var curronload = window.onload;
+			var newonload = function (evt) {
+				curronload(evt);
+				testProtocolsIO(evt);
+			};
+			window.onload = newonload;
+		} else {
+			window.onload = testProtocolsIO();
+		}
+	}
+</script>
+
+:ET
