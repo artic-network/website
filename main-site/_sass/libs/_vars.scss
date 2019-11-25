@@ -5,77 +5,74 @@
 
 // Duration.
 	$duration: (
-		navPanel:			0.5s,
-		transition:			0.2s
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
 	);
 
 // Size.
 	$size: (
-		navPanel:			275px,
-		border-radius:		6px,
-		element-height:		3em,
-		element-margin:		2em
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
 	);
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', sans-serif),
-		family-fixed:		monospace,
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		400,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
 	);
 
 // Palette.
-	$palette: (
-		bg:					#f5f5f5,
-		fg:					#777,
-		fg-bold:			#646464,
-		fg-light:			#999,
-		border:				#e5e5e5,
-		border-bg:			#f8f8f8,
-		border2:			#dddddd,
-		border2-bg:			#f0f0f0,
-
-		header: (
-			bg:				#444,
-			fg:				#bbb,
-			fg-bold:		#fff,
-			fg-light:		#999
-		),
-
-		accent1: (
-			bg:				#666,
-			fg:				mix(#666, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#666, #ffffff, 40%)
-		),
-
-		accent2: (
-			bg:				#e89980,
-			fg:				mix(#e89980, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#e89980, #ffffff, 40%)
-		),
-
-		accent3: (
-			bg:				#7fcdb8,
-			fg:				mix(#7fcdb8, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#7fcdb8, #ffffff, 40%)
-		),
-
-		accent4: (
-			bg:				#90b0ba,
-			fg:				mix(#90b0ba, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#90b0ba, #ffffff, 40%)
-		),
-
-		accent5: (
-			bg:				#e5cb95,
-			fg:				mix(#e5cb95, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#e5cb95, #ffffff, 40%)
-		)
-
+	$original-palette: (
+		bg:					#242943,
+		bg-alt:				#2a2f4a,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#9bf1ff,
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
 	);
+
+	$palette: (
+		bg:					#005C68,
+		bg-alt:				#7f8f9d,
+		fg:					#fffef7,
+		fg-bold:			#fffef7,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#ec8d81,
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
+	);
+
+
+/*
+	$vars: (
+	--main-colour: #005C68,
+    --text-colour: #F6EECA,
+    --background-colour: #fffef7,
+    --darker-colour: #4b555e,
+    --lighter-colour: #7f8f9d,
+    --contrast-colour: #F1605D,
+    --definition-colour: #7f8f9d,
+    --grey-colour: #707070,
+	);
+*/

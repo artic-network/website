@@ -1,27 +1,30 @@
-<div id="page-wrapper">
+<!-- Wrapper -->
+<div id="wrapper">
 
 <!-- Header -->
-<header id="header" {% if page.url == "/index.html" %} class="alt"{% endif %}>
-	<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
-	{% include menu.html %}
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
 
-{% if page.layout == "default" %}
-<!-- Banner -->
-<section id="banner">
-	<h2>{{ site.title }}</h2>
-	<p>{{ site.description }}</p>
-	<ul class="actions">
-		<li><a href="#" class="button special">Sign Up</a></li>
-		<li><a href="#" class="button">Learn More</a></li>
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.pages %}
+		    {% if page.layout != "home" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
 	</ul>
-</section>
-{% else %}
-<!-- Main -->
-<section id="main" class="container">
-	<header>
-		<h2>{{ page.title }}</h2>
-		<p>{{ page.description }}</p>
-	</header>
-{% endif %}
-<div class="box">
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>

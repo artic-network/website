@@ -1,0 +1,22 @@
+I"ø<p>Intro to software here.</p>
+
+<p>Underneath we will have a box per tool; each tool is collected from the <code class="highlighter-rouge">_software</code> directory</p>
+
+<p>TODO: animate each panel on hover - give the name layover or something</p>
+
+<h4>Software</h4>
+<div class="box alt">
+	<div class="row 50% uniform">
+    	
+            <div class="4u"><span class="image fit"><a href="/rampart"><img src="assets/images/rampart-placeholder.jpg" alt="" /></a></span></div>
+        
+
+		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
+	</div>
+</div>
+:ET
