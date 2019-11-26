@@ -59,6 +59,16 @@ If you need an image to go with any content (e.g. an image for the software tile
 
 In terms of image sizing, there are some templates in `assets/images/templates`. They are labelled according to their purpose on the site. So, for a new software tile, make sure your image is similar in dimensions to `assets/images/templates/software-tile.jpg`.
 
+### Add protocols
+
+To collect all the protocols from the [protocols.io ARTIC group](https://www.protocols.io/groups/artic), clone the repo and run the python script:
+
+```
+python parse-protocols.py
+```
+
+This will add all the metadata for all the protcols from the ARTIC group to the `_protocols` directory. When you commit these files back to the repo, the site will populate the protocols page with thumbnails and links for each protocol.
+
 ***
 
 ## TODO
@@ -71,7 +81,7 @@ In terms of image sizing, there are some templates in `assets/images/templates`.
 
 ***
 
-## Acknlowdgements
+## Acknlowdgements
 
 ### Forty - Jekyll Theme
 
