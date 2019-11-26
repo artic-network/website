@@ -10,7 +10,7 @@ One markdown file equates to one page on the site. Links to your new page will b
 
 Make sure the filename is in the format following format:
 
-> YYYY-MM-DD-page-name.md
+> YYYY-MM-DD-pagename.md
 
 When adding a new page, you need to add some build tags to the top of your markdown file. Here are the allowed tags:
 
@@ -117,4 +117,4 @@ Credits:
 
 ### Jekyll port
 
-The Jekyll port was made by [andrewbanchich](https://github.com/andrewbanchich/forty-jekyll-theme) and tweaked by me.
+The Jekyll port was made by [andrewbanchich](https://github.com/andrewbanchich/forty-jekyll-theme) and tweaked by [will-rowe](https://github.com/will-rowe).
