@@ -4,7 +4,7 @@ subtitle: Network
 email: w.rowe@bham.ac.uk
 description: Real-time molecular epidemiology for outbreak response
 url: '' # the base hostname & protocol for your site # https://artic.network/
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl: 'website' # the subpath of your site, e.g. /blog
 author: Will Rowe
 street_address: 1234 Somewhere Road
 city: Nashville
