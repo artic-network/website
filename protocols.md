@@ -3,7 +3,7 @@ title: Protocols
 layout: post
 description: View and download our protocols
 image: assets/images/aerial-shot.jpg
-nav-menu: true
+nav_menu: true
 ---
 
 Procols.io integrations

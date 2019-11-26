@@ -3,7 +3,7 @@ layout: page
 title: Resources
 description: Download stuff
 show_tile: false
-nav-menu: true
+nav_menu: true
 ---
 
 <!-- Main -->

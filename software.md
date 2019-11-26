@@ -3,7 +3,7 @@ title: Software
 layout: post
 description: Check out our software
 image: assets/images/minion.jpg
-nav-menu: true
+nav_menu: true
 ---
 
 Intro to software here.

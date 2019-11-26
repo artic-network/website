@@ -1,48 +1,56 @@
 # ARTIC Website
 
-## How To
+## How To Add Content
 
-### Write content
+### Add a page using markdown
 
-if you want it in the nav menu -
+To add/edit a `post`, `workpackage` or `software` page, you just need to add a markdown file to the appropriate top-level directory of the same name.
 
-if you want to hide it on the main page
+One markdown file equates to one page on the site. Links to your new page will be added throughout the site.
+
+Make sure the filename is in the format following format:
+
+> YYYY-MM-DD-page-name.md
+
+When adding a new page, you need to add some build tags to the top of your markdown file. Here are the allowed tags:
+
+| tag         | choices                | explanation                                                                                         |
+| ----------- | ---------------------- | --------------------------------------------------------------------------------------------------- |
+| title       | free text              | the title to give the new page (will display on the page itself and in the links to the page)       |
+| description | free text              | the decsription to give the new page (will display on the page itself and in the links to the page) |
+| layout      | post/landing/home/page | how to structure the new page                                                                       |
+| image       | free text              | file path to the image to tag this new page with                                                    |
+| nav_menu    | true/flase             | display a link to the new page in the nav menu                                                      |
+| show_tile   | true/flase             | display a tile to the new page on the homepage                                                      |
+| permalink   | free text              | override the jekyll default web address for this page                                               |
+| author      | free text              | your name (displayed alongside posts)                                                               |
+
+You then use regular markdown, or html, to add content. Here is an example page:
+
 ```
 ---
-layout: post
-title: Protocols
-image: assets/images/aerial-shot.jpg
-nav-menu: true
-
-layout: post
 title: RAMPART
 description: description line
+layout: post
 image: assets/images/rampart-placeholder.jpg
+nav_menu: false
 show_tile: false
 permalink: /rampart
-
-
-layout: post
-title: WP 1
-description: work package one description here
-image: assets/images/mantis.jpg
-show_tile: false
-permalink: work-package-1
-
-
-layout: allposts
-title: All posts
-landing-title: 'All posts'
-nav-menu: true
-description: null
-image: null
-author: null
-show_tile: false
 ---
 
+## Introduction
 
+Some content
 
-content here
+## Methods
+
+Some more content and a bullet list:
+
+* item 1
+* item 2
+  * item 2a
+  * item 2b
+
 ```
 
 ### Add images
@@ -51,60 +59,23 @@ If you need an image to go with any content (e.g. an image for the software tile
 
 In terms of image sizing, there are some templates in `assets/images/templates`. They are labelled according to their purpose on the site. So, for a new software tile, make sure your image is similar in dimensions to `assets/images/templates/software-tile.jpg`.
 
-### Add new piece of software to the resources page
-
-It's easiest just to copy an existing a `*.md` file from the `_software` directory. Change the software name in the filename and edit the file contents.
-
+***
 
 ## TODO
 
-* animate the software panes
-
 * keep working on getting the protocols.io api to work
-
 * fill in the about page
 * get a list of software - incl logos/imgs/screenshots
 * fill in the workpackages
 * do we want to host slide decks and photos etc.?
 
+***
 
----
+## Acknlowdgements
 
-> UNDER THIS LINE IS THE ORIGINAL README
+### Forty - Jekyll Theme
 
----
-
-# Forty - Jekyll Theme
-
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
-
-# How to Use
-
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
-
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this repository and create a branch named `gh-pages`, then start editing the `_config.yml` file.
-
-# Added Features
-
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
-
-# Issues
-
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/forty-jekyll-theme) and I will be more than happy to help!
-
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com).
-
-The GitHub repository is simply a mirror of the GitLab repository.
-
-# Credits
-
-Original README from HTML5 UP:
+A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/). Original README from HTML5 UP:
 
 ```
 Forty by HTML5 UP
@@ -144,4 +115,6 @@ Credits:
 		Skel (skel.io)
 ```
 
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+### Jekyll port
+
+The Jekyll port was made by [andrewbanchich](https://github.com/andrewbanchich/forty-jekyll-theme) and tweaked by me.

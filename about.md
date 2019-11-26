@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: Get an overview of the project
-nav-menu: true
+nav_menu: true
 ---
 
 <!-- Main -->

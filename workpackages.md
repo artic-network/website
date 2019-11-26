@@ -3,7 +3,7 @@ title: Work Packages
 layout: landing
 description: Explore the work packages
 image: assets/images/artic-meeting.jpg
-nav-menu: true
+nav_menu: true
 ---
 
 <!-- Main -->
