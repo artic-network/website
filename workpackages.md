@@ -21,7 +21,7 @@ nav_menu: true
 -->
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<section id="content" class="spotlights">
 {% for item in site.workpackages %}
 	<section>
 		<a href="wp1.html" class="image">

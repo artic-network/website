@@ -18,19 +18,21 @@
                 <img src="{{ page.image }}" alt="">
             </span>
             <header class="major">
-
                 <h1>{{ page.title }}</h1>
-
             </header>
             <div class="content">
-
-                {{ page.description }}
-
+                <p style="text-transform: uppercase;">{{ page.description }}</p>
+                <ul class="actions">
+                    <li><a href="#content" class="button next scrolly">Read on</a></li>
+                </ul>
             </div>
         </div>
     </section>
 
-    {{ content }} {% include footer.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
 
 </body>
 

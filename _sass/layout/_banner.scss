@@ -17,11 +17,14 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
+		/*
 		height: 60vh;
-		margin-bottom: -3.25em;
 		max-height: 32em;
+		*/
+		height: 100vh;
 		min-height: 22em;
 		position: relative;
+		margin-bottom: -3.25em;
 		top: -3.25em;
 
 		&:after {
