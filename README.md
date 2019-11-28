@@ -14,16 +14,19 @@ Make sure the filename is in the format following format:
 
 When adding a new page, you need to add some build tags to the top of your markdown file. Here are the allowed tags:
 
-| tag         | choices                | explanation                                                                                         |
-| ----------- | ---------------------- | --------------------------------------------------------------------------------------------------- |
-| title       | free text              | the title to give the new page (will display on the page itself and in the links to the page)       |
-| description | free text              | the decsription to give the new page (will display on the page itself and in the links to the page) |
-| layout      | post/landing/home/page | how to structure the new page                                                                       |
-| image       | free text              | file path to the image to tag this new page with                                                    |
-| nav_menu    | true/flase             | display a link to the new page in the nav menu                                                      |
-| show_tile   | true/flase             | display a tile to the new page on the homepage                                                      |
-| permalink   | free text              | override the jekyll default web address for this page                                               |
-| author      | free text              | your name (displayed alongside posts)                                                               |
+| tag           | choices                | explanation                                                                                         |
+| ------------- | ---------------------- | --------------------------------------------------------------------------------------------------- |
+| title         | free text              | the title to give the new page (will display on the page itself and in the links to the page)       |
+| description   | free text              | the decsription to give the new page (will display on the page itself and in the links to the page) |
+| layout        | post/landing/home/page | how to structure the new page                                                                       |
+| image         | free text              | file path to the image to tag this new page with                                                    |
+| nav_menu      | true/flase             | display a link to the new page in the nav menu                                                      |
+| show_tile     | true/flase             | display a tile to the new page on the homepage                                                      |
+| display_image | true/flase             | display the image in the header of the post page                                                    |
+| permalink     | free text              | override the jekyll default web address for this page                                               |
+| author        | free text              | your name (displayed alongside posts)                                                               |
+
+> note: any true/false tags will default to false if not included in the markdown file
 
 You then use regular markdown, or html, to add content. Here is an example page:
 
@@ -68,6 +71,10 @@ python parse-protocols.py
 ```
 
 This will add all the metadata for all the protcols from the ARTIC group to the `_protocols` directory. When you commit these files back to the repo, the site will populate the protocols page with thumbnails and links for each protocol.
+
+### Add a page using html
+
+You can also add a page using html. Checkout `template.md` (via [artic.network/template.html](https://artic.network/template.html)) if you want to see the stock example. 
 
 ***
 

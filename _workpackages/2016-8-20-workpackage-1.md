@@ -4,6 +4,7 @@ title: Work Package 1
 description: The Field Laboratory
 image: assets/images/mantis.jpg
 show_tile: false
+display_image: false
 permalink: work-package-1
 ---
 
