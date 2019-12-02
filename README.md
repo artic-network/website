@@ -87,7 +87,7 @@ You can also add a page using html. Checkout `template.md` (via [artic.network/t
 * keep working on getting the protocols.io api to work
 * fill in the about page
 * get a list of software - incl logos/imgs/screenshots
-* fill in the workpackages
+* fill in the activities
 * do we want to host slide decks and photos etc.?
 
 ***

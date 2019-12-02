@@ -33,9 +33,9 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-include: ['_software', '_workpackages', '_protocols', '_people']
+include: ['_software', '_activities', '_protocols', '_people']
 collections:
   - software
-  - workpackages
+  - activities
   - protocols
   - people

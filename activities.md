@@ -1,7 +1,7 @@
 ---
-title: Work Packages
+title: Activities
 layout: landing
-description: Explore the work packages
+description: Explore what we are up to
 image: assets/images/artic-meeting.jpg
 nav_menu: true
 ---
@@ -22,7 +22,7 @@ nav_menu: true
 
 <!-- Two -->
 <section id="content" class="spotlights">
-{% for item in site.workpackages %}
+{% for item in site.activities %}
 	<section>
 		<a href="wp1.html" class="image">
 			<img src="assets/images/mantis.jpg" alt="" data-position="center center" />
