@@ -4,9 +4,11 @@
 
 ### Add a page using markdown
 
-To add/edit a `post`, `workpackage` or `software` page, you just need to add a markdown file to the appropriate top-level directory of the same name.
+To add/edit a `post`, `workpackage` or `software` page, or add a person to the team members page, you just need to add a markdown file to the appropriate top-level directory of the same name.
 
-One markdown file equates to one page on the site. Links to your new page will be added throughout the site.
+One markdown file equates to one page on the site. Links to your new page will be added throughout the site where applicable.
+
+It's easiest just to copy on of the existing markdown files for the type of page you want to add.
 
 Make sure the filename is in the format following format:
 
@@ -24,7 +26,9 @@ When adding a new page, you need to add some build tags to the top of your markd
 | show_tile     | true/flase             | display a tile to the new page on the homepage                                                      |
 | display_image | true/flase             | display the image in the header of the post page                                                    |
 | permalink     | free text              | override the jekyll default web address for this page                                               |
-| author        | free text              | your name (displayed alongside posts)                                                               |
+| author        | free text              | your name (can be displayed alongside posts)                                                        |
+| author        | free text              | your name (can be displayed alongside posts)                                                        |
+| link          | free text              | used on the team members page to link out to personal sites / twitter etc.                          |
 
 > note: any true/false tags will default to false if not included in the markdown file
 
@@ -83,7 +87,7 @@ You can also add a page using html. Checkout `template.md` (via [artic.network/t
 * keep working on getting the protocols.io api to work
 * fill in the about page
 * get a list of software - incl logos/imgs/screenshots
-* fill in the workpackages
+* fill in the activities
 * do we want to host slide decks and photos etc.?
 
 ***
