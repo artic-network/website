@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include header_document.html %}
+
+    <script>
+        function printDocument() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+<!--
+<div id='firstheader'>Title</div>
+<div id='pageheader'>{{ page.document_name }}</div>
+<div id="pagefooter">
+    {{ page.revision_date }}
+    <span class="custom-footer-page-number">Page: </span>
+</div>
+-->
+
+<!-- Page Content -->
+<div class="container">
+    <button class="btn btn-default hidden-print" id="print-button" onclick="printDocument()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
+    <div id="main">
+        <!-- Preamble Column -->
+        <div>
+            <img style="float: left; width: 192px; height: 255px; margin: 0px 15px 15px 0px;" src="/assets/images/artic-logo-sticker.png" />
+            <div>
+                <h1>{{ page.title_text }}</h1>
+                <h2 class="subtitle">{{ page.subtitle_text }}</h2>
+                <table style=""><tbody>
+                <tr style="background-color: transparent"><td style="text-align: right">Document: </td><td>{{ page.document_name }}-{{ page.version }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Creation Date: </td><td>{{ page.creation_date }}</td></tr>
+                {% if page.revision_date %}<tr style="background-color: transparent"><td style="text-align: right">Revision Date: </td><td>{{ page.revision_date }}</td></tr>{% endif %}
+                {% if page.forked_from %}<tr style="background-color: transparent"><td style="text-align: right">Forked from: </td><td>{{ page.forked_from }}</td></tr>{% endif %}
+                <tr style="background-color: transparent"><td style="text-align: right">Author: </td><td>{{ page.author }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Licence: </td><td><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></td></tr>
+                </tbody></table>
+            </div>
+        </div>
+        <div style="clear: left;">
+            {{content}}
+        </div>
+    </div>
+</div>
+<!-- /.container -->
+</body>
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+</html>
