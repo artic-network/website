@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Jan 22, 2020
 tags: [protocol] 
-permalink: ncov/ncov-it-setup.html
+permalink: ncov-2019/ncov2019-it-setup.html
 folder: ncov
 title_text: "nCoV-2019 novel coronavirus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
@@ -27,12 +27,12 @@ content='**Overview:** Instructions for setting up the laptop computing environm
 <br />
 
 This document is part of the nCoV-2019 Nanopore sequencing protocol package:
-: [http://artic.network/ncov/](http://artic.network/ncov/)
+: [http://artic.network/ncov-2019/](http://artic.network/ncov-2019/)
 
 #### Related documents:
 
 nCoV-2019 Nanopore bioinformatics protocol:
-: [http://artic.network/ncov/ncov-bioinformatics-sop.html](http://artic.network/ncov/ncov-bioinformatics-sop.html)
+: [http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html](http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html)
 
 
 <br /><br /><br />
