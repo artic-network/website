@@ -27,7 +27,7 @@ content='**Overview:** Instructions for setting up the laptop computing environm
 <br />
 
 This document is part of the nCoV-2019 Nanopore sequencing protocol package:
-: [http://artic.network/ncov-2019/](http://artic.network/ncov-2019/)
+: [http://artic.network/ncov-2019](http://artic.network/ncov-2019)
 
 #### Related documents:
 
