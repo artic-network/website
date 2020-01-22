@@ -166,145 +166,145 @@ Ebola virus Nanopore sequencing kit-list:
 
 <div class="pagebreak"> </div>
 
-  |                     Name | Sequence                         |                      Name | Sequence                         | Pool | [Stock]     |
-  | -----------------------: | -------------------------------- | ------------------------: | -------------------------------- | ---- | ----------- |
-  |       Ebov-10-Pan_1_LEFT | `TGTGTGCGAATAACTATGAGGAAGA`      |       Ebov-10-Pan_1_RIGHT | `TTTCCAATGTTTTACCCCAAGCTTT`      | 1    | 100&micro;M |
-  |                          |                                  |  Ebov-10-Pan_1_RIGHT_alt1 | `TTTCCAATGCTTTACCCCAAGCTTT`      | 1    | 100&micro;M |
-  |                          |                                  |  Ebov-10-Pan_1_RIGHT_alt2 | `TTTCCAATGTTTTACCCCAAGTTTT`      | 1    | 100&micro;M |
-  |       Ebov-10-Pan_2_LEFT | `CAAGCAAGATTGAGAATTAACCTTGGT`    |       Ebov-10-Pan_2_RIGHT | `ATCTCCCTGGTACGCATGATGA`         | 2    | 100&micro;M |
-  |  Ebov-10-Pan_2_LEFT_alt1 | `CAAGCAAGATTGAGAATTAACCTTGAT`    |  Ebov-10-Pan_2_RIGHT_alt1 | `ATCTCCTTGGTACGCATGATGA`         | 2    | 100&micro;M |
-  |       Ebov-10-Pan_3_LEFT | `GGCCTTTGAAGCAGGTGTTGAT`         |       Ebov-10-Pan_3_RIGHT | `TCAGTCCTTGCTCTGCATGTAC`         | 1    | 100&micro;M |
-  |       Ebov-10-Pan_4_LEFT | `CCTTTGCAAGTCTATTCCTTCCGA`       |       Ebov-10-Pan_4_RIGHT | `CTGAGTGCAGCCTTAAAGGAGT`         | 2    | 100&micro;M |
-  |  Ebov-10-Pan_4_LEFT_alt1 | `CTTTTGCAAGTCTATTCCTTCCGA`       |                           |                                  | 2    | 100&micro;M |
-  |       Ebov-10-Pan_5_LEFT | `AGTTCGTCTCCATCCTCTTGCA`         |       Ebov-10-Pan_5_RIGHT | `CTGGAAGCTGATTTCGTTCTTTTTCT`     | 1    | 100&micro;M |
-  |       Ebov-10-Pan_6_LEFT | `GAGTCTCGCGAACTTGACCATC`         |       Ebov-10-Pan_6_RIGHT | `TCCTCGTCGTCCTCGTCTAGAT`         | 2    | 100&micro;M |
-  |  Ebov-10-Pan_6_LEFT_alt1 | `GAATCTCGCGAACTTGACCATC`         |  Ebov-10-Pan_6_RIGHT_alt1 | `TCCTCATCGTCCTCGTCTAGAT`         | 2    | 100&micro;M |
-  |       Ebov-10-Pan_7_LEFT | `AGCTACGGCGAATACCAGAGTT`         |       Ebov-10-Pan_7_RIGHT | `GTCCCTGTCCTGCTCTTCATCA`         | 1    | 100&micro;M |
-  |                          |                                  |  Ebov-10-Pan_7_RIGHT_alt1 | `GTCCCTGTCCTGTTCTTCATCA`         | 1    | 100&micro;M |
-  |                          |                                  |  Ebov-10-Pan_7_RIGHT_alt2 | `GTCCCTGTCCTGTTCTTCATCG`         | 1    | 100&micro;M |
-  |       Ebov-10-Pan_8_LEFT | `TTAACGAAGAGGCAGACCCACT`         |       Ebov-10-Pan_8_RIGHT | `TTCCTCTTCAAGGGAGTCTGGA`         | 2    | 100&micro;M |
-  |  Ebov-10-Pan_8_LEFT_alt1 | `TCAACGAAGAGGCAGACCCACT`         |  Ebov-10-Pan_8_RIGHT_alt1 | `TTCCTCTTCAAGGGAGTCCGGA`         | 2    | 100&micro;M |
-  |       Ebov-10-Pan_9_LEFT | `GTGACAACACCCAGTCAGAACA`         |       Ebov-10-Pan_9_RIGHT | `TCTTCCTGTTTTCGTTCCTTGACT`       | 1    | 100&micro;M |
-  |  Ebov-10-Pan_9_LEFT_alt1 | `GTGACAACACCCAGCCAGAACA`         |  Ebov-10-Pan_9_RIGHT_alt1 | `TCTTCCTGTTTGCGTTCCTTGACT`       | 1    | 100&micro;M |
-  |                          |                                  |  Ebov-10-Pan_9_RIGHT_alt2 | `TCTTCCTGTTTGCGTTTCTTGACT`       | 1    | 100&micro;M |
-  |      Ebov-10-Pan_10_LEFT | `ACAATGGGATGATTCAACCGACA`        |      Ebov-10-Pan_10_RIGHT | `TCGAGTGCTAGAGAATTCAATTGACG`     | 2    | 100&micro;M |
-  | Ebov-10-Pan_10_LEFT_alt1 | `ATAATGGGATGATTTAACCGACA`        |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_11_LEFT | `ACCTACTAGCCTGCCCAACATT`         |      Ebov-10-Pan_11_RIGHT | `AATTGGGTCCGTTTGGGTTTGA`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_11_LEFT_alt1 | `ACCTACTAGCCTACCCAACATT`         | Ebov-10-Pan_11_RIGHT_alt1 | `AATTGGATCCGTTTGGGTTTGA`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_12_LEFT | `CCCAAATGCAACAAACGAAGCC`         |      Ebov-10-Pan_12_RIGHT | `TCAATCTTACCCCGAATCGCAC`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_12_LEFT_alt1 | `CCCAAATGCAACAAACAAAGCC`         | Ebov-10-Pan_12_RIGHT_alt1 | `TCAATCTTACCCCGAATTGCAC`         | 2    | 100&micro;M |
-  |      Ebov-10-Pan_13_LEFT | `TATTGGGCCGAACATGGTCAAC`         |      Ebov-10-Pan_13_RIGHT | `TGACAGGTGGAGCAGCATCTTG`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_13_LEFT_alt1 | `TATTGGGCTGAACATGGTCAAC`         |                           |                                  | 1    | 100&micro;M |
-  |      Ebov-10-Pan_14_LEFT | `CATTCATGCTGAGTTCCAGGCC`         |      Ebov-10-Pan_14_RIGHT | `GCGAGATATGAACAATTTTATCTTGGTCG`  | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_14_RIGHT_alt1 | `GCGAGATAAGGACAATTTTATCTTGGTCG`  | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_14_RIGHT_alt2 | `GCGAGATAAGAACAATTTTATCTTGGTCG`  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_15_LEFT | `TGAGTATCAGCCCTGGATAATATAAGTCA`  |      Ebov-10-Pan_15_RIGHT | `TCGATGGAGTGTCCCCATTGAC`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_15_LEFT_alt1 | `TGAGTATCAGCCCTAGATAATATAAGTCA`  | Ebov-10-Pan_15_RIGHT_alt1 | `TCGATGGAGTGTCTCCATTGAC`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_16_LEFT | `GCAACAGCAATACAGGCTTCCT`         |      Ebov-10-Pan_16_RIGHT | `GAAAGCCTGGTTTCCAATTCGC`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_16_LEFT_alt1 | `GCAACAACAATACAGGCTTCCT`         | Ebov-10-Pan_16_RIGHT_alt1 | `GAAGGCCTGGTTTCCAATTCGC`         | 2    | 100&micro;M |
-  |      Ebov-10-Pan_17_LEFT | `CCACTTGTCAGAGTCAATCGGC`         |      Ebov-10-Pan_17_RIGHT | `GTTTCTGGCACTTCGATTCCCA`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_17_RIGHT_alt1 | `GTTTCTGGCACTTCGATACCCA`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_18_LEFT | `AAAATCCAAGCAATAATGACTTCACTCC`   |      Ebov-10-Pan_18_RIGHT | `TTGATCAATTAAAAGTGTCTCCTCTAATGG` | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_18_RIGHT_alt1 | `TCGATCAATTTAAAGTATCTCCTCTAATGG` | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_18_RIGHT_alt2 | `TTGATCAATTAAAAGTATCTCCTCTAATAG` | 2    | 100&micro;M |
-  |      Ebov-10-Pan_19_LEFT | `AGATCCAGTTTTATAGAATCTTCTCAGGGA` |      Ebov-10-Pan_19_RIGHT | `AGAAGGGCAATGTCTGTACTTGG`        | 1    | 100&micro;M |
-  | Ebov-10-Pan_19_LEFT_alt1 | `AGATCCAGTTTTACAGAATCTTCTCAGGGA` | Ebov-10-Pan_19_RIGHT_alt1 | `AGAAGGGCGATGTCTGTGCTTGG`        | 1    | 100&micro;M |
-  |      Ebov-10-Pan_20_LEFT | `AGCCAGTGTGACTTGGATTGGA`         |      Ebov-10-Pan_20_RIGHT | `AGTTTGTCGACATCACTAACCTGT`       | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_20_RIGHT_alt1 | `AGTTTGTCGACATCACTAACTTGT`       | 2    | 100&micro;M |
-  |      Ebov-10-Pan_21_LEFT | `AGAACATTTTCCATCCCACTTGGA`       |      Ebov-10-Pan_21_RIGHT | `AAGCACCCTCTTTATGGAAGGC`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_21_RIGHT_alt1 | `AAGCACCCTCTTTGTGGAAGGC`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_22_LEFT | `TGCCGGTATGTGCACAAAGTAT`         |      Ebov-10-Pan_22_RIGHT | `ATATATTGTCTCATTCAGCTGGAGCA`     | 2    | 100&micro;M |
-  |      Ebov-10-Pan_23_LEFT | `CGAGGTTGACAATTTGACCTACGT`       |      Ebov-10-Pan_23_RIGHT | `GCAAGGGTTGTTAGATGCGACA`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_23_RIGHT_alt1 | `GCAAGGGTTGTCAGATGCGACA`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_24_LEFT | `TGCAATGGTTCAAGTGCACAGT`         |      Ebov-10-Pan_24_RIGHT | `CTGGCACTCTCTTCTCCGGTAT`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_24_LEFT_alt1 | `TGCAATGGTTCAAGTGCACAAT`         |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_25_LEFT | `ACCACAACAAGTCCCCAAAACC`         |      Ebov-10-Pan_25_RIGHT | `TAGCTCAGTTGTGGCTCTCAGG`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_25_RIGHT_alt1 | `TAGCTCGGTTGTGGCTCTCAGG`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_26_LEFT | `ATCTGTGGGTTGAGACAGCTGG`         |      Ebov-10-Pan_26_RIGHT | `GCTTTTCCATGAAGCAATCTGAAGA`      | 2    | 100&micro;M |
-  | Ebov-10-Pan_26_LEFT_alt1 | `ATCTGTGGATTGAGGCAGCTGG`         | Ebov-10-Pan_26_RIGHT_alt1 | `GCTTTGCCATGAAGCAATCTGAAGA`      | 2    | 100&micro;M |
-  | Ebov-10-Pan_26_LEFT_alt2 | `ATCTGTGGGTTGAGGCAGCTGG`         |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_27_LEFT | `TGGAGTTACAGGCGTTATAATTGCA`      |      Ebov-10-Pan_27_RIGHT | `AAAGGCTTCTTTCCCTTGTCACT`        | 1    | 100&micro;M |
-  |      Ebov-10-Pan_28_LEFT | `TCATCCTTGATTCTACAATCATGACAGT`   |      Ebov-10-Pan_28_RIGHT | `AGGTGCTGGAGGAACTGTTAATG`        | 2    | 100&micro;M |
-  | Ebov-10-Pan_28_LEFT_alt1 | `TCATCCTTGATTCTACAATCATAACAGT`   |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_29_LEFT | `GAGTACCGTCAATCAAGGAGCG`         |      Ebov-10-Pan_29_RIGHT | `CACAGCACATAGAGTCAACAATGC`       | 1    | 100&micro;M |
-  |      Ebov-10-Pan_30_LEFT | `GATCAAGACGGCAGAACACTGG`         |      Ebov-10-Pan_30_RIGHT | `ATCAGACCATGAGCATGTCCCC`         | 2    | 100&micro;M |
-  |      Ebov-10-Pan_31_LEFT | `CTGCTGTCGTTGTTTCAGGGTT`         |      Ebov-10-Pan_31_RIGHT | `ATGGGATGGATCGTTGCTACCT`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_31_RIGHT_alt1 | `ATGGGATGGATCGTTGCTGCCT`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_31_RIGHT_alt2 | `ATGAGATGGATCGTTGCTACCT`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_32_LEFT | `GCCAAGCATACCTCTTGCACAA`         |      Ebov-10-Pan_32_RIGHT | `TGGACTACCCTGAAATAGTACTTTGC`     | 2    | 100&micro;M |
-  |      Ebov-10-Pan_33_LEFT | `TGCGGAGGTCTGATAAGAATAAACC`      |      Ebov-10-Pan_33_RIGHT | `TTCAACCTTGAAACCTTGCGCT`         | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_33_RIGHT_alt1 | `TTCAACTTTGAAACCTTGCGCT`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_34_LEFT | `GCTGAAAAGAAGCTTACCTACAACG`      |      Ebov-10-Pan_34_RIGHT | `TCCTTGTCATTGACCATGCAGG`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_34_LEFT_alt1 | `GTTGAAAAAAGGCCTACCTACAACG`      |                           |                                  | 2    | 100&micro;M |
-  | Ebov-10-Pan_34_LEFT_alt2 | `GCTGAAAAGAAGCCCACCTACAACG`      |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_35_LEFT | `GTGACTCACAAAGGAATGGCCC`         |      Ebov-10-Pan_35_RIGHT | `ACAATCCGTTGTAGTTCACGACA`        | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_35_RIGHT_alt1 | `ACAACCCGTTGTAGTTCACGACA`        | 1    | 100&micro;M |
-  |      Ebov-10-Pan_36_LEFT | `TGCTGTCGTTGATTCGATCCAA`         |      Ebov-10-Pan_36_RIGHT | `AGCAGAGATGTCAAGATAACTATTGAGT`   | 2    | 100&micro;M |
-  |      Ebov-10-Pan_37_LEFT | `ACACGAATGCAAAGTTTGATTCTTGA`     |      Ebov-10-Pan_37_RIGHT | `TGAAACCTAACACATGTGACCTGC`       | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_37_RIGHT_alt1 | `TGAAACCTAACACACGTGACCTGC`       | 1    | 100&micro;M |
-  |      Ebov-10-Pan_38_LEFT | `CCCTCAAACAAGAGATTCCAAGACA`      |      Ebov-10-Pan_38_RIGHT | `ACAGTTGCGTAGTTGCGGATTA`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_38_LEFT_alt1 | `CCCTCAAATAAGAGATTCCAAGACA`      |                           |                                  | 2    | 100&micro;M |
-  | Ebov-10-Pan_38_LEFT_alt2 | `TCCTCAAATAAGAGATTCCAAGACA`      |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_39_LEFT | `ACCTAGTCACTAGAGCTTGCGG`         |      Ebov-10-Pan_39_RIGHT | `ACATTTGATGTAAAAATTCATTGCCCTG`   | 1    | 100&micro;M |
-  |      Ebov-10-Pan_40_LEFT | `GTGGGTGCTCAAGAAGACTGTG`         |      Ebov-10-Pan_40_RIGHT | `TGAGATTAGAGTTGTGTTGAATCGACA`    | 2    | 100&micro;M |
-  | Ebov-10-Pan_40_LEFT_alt1 | `GTGGGTGCTCAAGAGGACTGTG`         | Ebov-10-Pan_40_RIGHT_alt1 | `TGAGATTAGAGTCGTGTTGAATCGACA`    | 2    | 100&micro;M |
-  |      Ebov-10-Pan_41_LEFT | `AAGAAGCGGTTCAAGGGCATAC`         |      Ebov-10-Pan_41_RIGHT | `CTATGGAATTCACGGATCTTTTGAGC`     | 1    | 100&micro;M |
-  | Ebov-10-Pan_41_LEFT_alt1 | `AAGAAGCAGTTCAAGGGCATAC`         | Ebov-10-Pan_41_RIGHT_alt1 | `CTATGGAATTCACGGATCTTTTGATC`     | 1    | 100&micro;M |
-  |      Ebov-10-Pan_42_LEFT | `TGCATTTAGCTGTAAATCACACCCT`      |      Ebov-10-Pan_42_RIGHT | `AATCATTGGCAACGGAGGGAAT`         | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_42_RIGHT_alt1 | `AATCATTGGCAACGGGGGGAAT`         | 2    | 100&micro;M |
-  |      Ebov-10-Pan_43_LEFT | `GTCAAGGATCTTGGTACAGTGTTACT`     |      Ebov-10-Pan_43_RIGHT | `TGAGAAAGAAAAGTTCCGATATTGTGGT`   | 1    | 100&micro;M |
-  | Ebov-10-Pan_43_LEFT_alt1 | `GCCAAGGGTCTTGGTACAGTGTTACT`     | Ebov-10-Pan_43_RIGHT_alt1 | `TGAGAAAGAAAAATTCCGGTATTGTGGT`   | 1    | 100&micro;M |
-  | Ebov-10-Pan_43_LEFT_alt2 | `GTCAAGGGTCTTGGTACAGTGTTACT`     | Ebov-10-Pan_43_RIGHT_alt2 | `TGAGAAAGAAAAATTCCGATATTGTGGT`   | 1    | 100&micro;M |
-  |      Ebov-10-Pan_44_LEFT | `TTGAGAATGTTCTTTCCTACGCACA`      |      Ebov-10-Pan_44_RIGHT | `ACGGTTGCAATATTCTATAAAAGGTGC`    | 2    | 100&micro;M |
-  | Ebov-10-Pan_44_LEFT_alt1 | `TTGAGAATGTTCTTTCCTACGCGCA`      | Ebov-10-Pan_44_RIGHT_alt1 | `ACGGTTGCAATATTCGATAAAAGGTGC`    | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_44_RIGHT_alt2 | `ACGGTTACAATATTCTATAAAAGGTGC`    | 2    | 100&micro;M |
-  |      Ebov-10-Pan_45_LEFT | `CCACAGTTAGAGGGAGTAGCTTTG`       |      Ebov-10-Pan_45_RIGHT | `GCTCGTCTGCGTCAGTCTCTAA`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_45_LEFT_alt1 | `CCACAGTTAGAGGGAGTAGTTTTG`       |                           |                                  | 1    | 100&micro;M |
-  |      Ebov-10-Pan_46_LEFT | `AAGTTACGCTCAGCTGTGATGG`         |      Ebov-10-Pan_46_RIGHT | `ATGGAAAGCTGCGGTTATCCTG`         | 2    | 100&micro;M |
-  |      Ebov-10-Pan_47_LEFT | `TAGGCACTGCTTTTGAGCGATC`         |      Ebov-10-Pan_47_RIGHT | `CACAAAGTCAATGGCAGTGCAG`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_47_LEFT_alt1 | `TAGGCACCGCTTTTGAGCGGTC`         |                           |                                  | 1    | 100&micro;M |
-  | Ebov-10-Pan_47_LEFT_alt2 | `TAGGCACTGCTTTTGAACGATC`         |                           |                                  | 1    | 100&micro;M |
-  |      Ebov-10-Pan_48_LEFT | `TCTCCGAATGATTGAGATGGATGATT`     |      Ebov-10-Pan_48_RIGHT | `CTCAGTCTGTCCAAAACCGGTG`         | 2    | 100&micro;M |
-  | Ebov-10-Pan_48_LEFT_alt1 | `TCTCCGAATGATTGGGATGGATGATT`     |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_49_LEFT | `GATATCTTTTCACGCACGCCGA`         |      Ebov-10-Pan_49_RIGHT | `CCACCTGGTTGCTTTGCATTTG`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_49_LEFT_alt1 | `GATATCTTTTCACGCACGCCCA`         | Ebov-10-Pan_49_RIGHT_alt1 | `CCACCAGGTTGCTTTGCATTTG`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_50_LEFT | `TCAAAGTGTTTTGGCTGAAACCCT`       |      Ebov-10-Pan_50_RIGHT | `TCCTGAGTAATGTGAAGGGGTCA`        | 2    | 100&micro;M |
-  | Ebov-10-Pan_50_LEFT_alt1 | `TCAAAGTGGTTTGGCTGAAACCCT`       | Ebov-10-Pan_50_RIGHT_alt1 | `TCCTGAGTAATGTGAAGGAGTCA`        | 2    | 100&micro;M |
-  |      Ebov-10-Pan_51_LEFT | `AACAGTGACTTGCTAATAAAACCATTTTTG` |      Ebov-10-Pan_51_RIGHT | `AAATACTGAGCTGGTACTTCCCG`        | 1    | 100&micro;M |
-  | Ebov-10-Pan_51_LEFT_alt1 | `AACAGTGACTTGCTAATAAAGCCATTTTTG` |                           |                                  | 1    | 100&micro;M |
-  | Ebov-10-Pan_51_LEFT_alt2 | `AACAGTGATTTGCTAATAAAACCATTTTTG` |                           |                                  | 1    | 100&micro;M |
-  |      Ebov-10-Pan_52_LEFT | `AATCGTGCTCACCTTCATCTAACT`       |      Ebov-10-Pan_52_RIGHT | `CCCAAAACTGTACAGAAGTCCTATCT`     | 2    | 100&micro;M |
-  |      Ebov-10-Pan_53_LEFT | `ACAGACCCAATTAGCAGTGGAGA`        |      Ebov-10-Pan_53_RIGHT | `ACAATTGTTCCGCGATTAATTATCCAT`    | 1    | 100&micro;M |
-  | Ebov-10-Pan_53_LEFT_alt1 | `ACAGACCCAATTAGCAGCGGAGA`        | Ebov-10-Pan_53_RIGHT_alt1 | `ACAATTGTTCCGCGATTAATTATCCACT`   | 1    | 100&micro;M |
-  |      Ebov-10-Pan_54_LEFT | `TCTCAGATGCGGCCAGGTTATT`         |      Ebov-10-Pan_54_RIGHT | `TGACCATCACTGTTGTTTGTGCT`        | 2    | 100&micro;M |
-  | Ebov-10-Pan_54_LEFT_alt1 | `TCTCAGATGCGGCCAGATTATT`         |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_55_LEFT | `TGGAGGAGCAGACACAGAAACA`         |      Ebov-10-Pan_55_RIGHT | `ATGACGTTAATTGGCGTGTCCC`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_55_LEFT_alt1 | `TGGAGGAGCAGGCACAGAAACA`         | Ebov-10-Pan_55_RIGHT_alt1 | `ATGACGTCAATTGGCGTGTCCC`         | 1    | 100&micro;M |
-  | Ebov-10-Pan_55_LEFT_alt2 | `TGGAGAAGCAGGCACAGAAACA`         | Ebov-10-Pan_55_RIGHT_alt2 | `ATGACGTTAATTGGCGCGTCCC`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_56_LEFT | `CTCACACCGTCTAGTCCTACCT`         |      Ebov-10-Pan_56_RIGHT | `TTTGACATAACAGGTAGAAGCATCCT`     | 2    | 100&micro;M |
-  | Ebov-10-Pan_56_LEFT_alt1 | `CTCGCACCGTCTAGTCCTACCT`         |                           |                                  | 2    | 100&micro;M |
-  | Ebov-10-Pan_56_LEFT_alt2 | `CTCACATCGTCTAGTCCTACCT`         |                           |                                  | 2    | 100&micro;M |
-  |      Ebov-10-Pan_57_LEFT | `ACACGCTAGCTACTGAGTCCAG`         |      Ebov-10-Pan_57_RIGHT | `ATTGGCTTAATTAAATAACCAGTGGCA`    | 1    | 100&micro;M |
-  |      Ebov-10-Pan_58_LEFT | `TGAAAGCAGTGGTCCTTAAAGTCT`       |      Ebov-10-Pan_58_RIGHT | `TGCTCTAAGATGTGCTAAGTGCTG`       | 2    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_58_RIGHT_alt1 | `TGCTCTAAGATGTGCCAAGTGCTG`       | 2    | 100&micro;M |
-  |      Ebov-10-Pan_59_LEFT | `CGTCGATTCAAAAAGAGGTCCACT`       |      Ebov-10-Pan_59_RIGHT | `TCAGAAGCCCTGTCAGCCTTTC`         | 1    | 100&micro;M |
-  |      Ebov-10-Pan_60_LEFT | `AGATTGCAATTGTGAAGAACGTTTCT`     |      Ebov-10-Pan_60_RIGHT | `AGAGTGCAGAGTTTATTATGTTGCGT`     | 2    | 100&micro;M |
-  |      Ebov-10-Pan_61_LEFT | `TCACAATGCAGCATGTGTGACA`         |      Ebov-10-Pan_61_RIGHT | `AGGTATTTCTGATTTTACAGTCCTGCC`    | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_61_RIGHT_alt1 | `AGGTATTTATGATTTTACAGTCCTGCC`    | 1    | 100&micro;M |
-  |                          |                                  | Ebov-10-Pan_61_RIGHT_alt2 | `AGGTATTTCTGATTTTACAGTCATGCC`    | 1    | 100&micro;M |
-  |      Ebov-10-Pan_62_LEFT | `CCTGTCAGATGGAATAGTGTTTTGGT`     |      Ebov-10-Pan_62_RIGHT | `AATTTTTGTGTGCGACCATTTTTCC`      | 2    | 100&micro;M |
+  | Name         | Sequence                         | Name          | Sequence                 | Pool | [Stock] |
+  |-------------:|----------------------------------|--------------:|--------------------------|------|---------|
+  | Ebov-10-Pan_1_LEFT | `TGTGTGCGAATAACTATGAGGAAGA` | Ebov-10-Pan_1_RIGHT | `TTTCCAATGTTTTACCCCAAGCTTT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_1_RIGHT_alt1 | `TTTCCAATGCTTTACCCCAAGCTTT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_1_RIGHT_alt2 | `TTTCCAATGTTTTACCCCAAGTTTT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_2_LEFT | `CAAGCAAGATTGAGAATTAACCTTGGT` | Ebov-10-Pan_2_RIGHT | `ATCTCCCTGGTACGCATGATGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_2_LEFT_alt1 | `CAAGCAAGATTGAGAATTAACCTTGAT` | Ebov-10-Pan_2_RIGHT_alt1 | `ATCTCCTTGGTACGCATGATGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_3_LEFT | `GGCCTTTGAAGCAGGTGTTGAT` | Ebov-10-Pan_3_RIGHT | `TCAGTCCTTGCTCTGCATGTAC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_4_LEFT | `CCTTTGCAAGTCTATTCCTTCCGA` | Ebov-10-Pan_4_RIGHT | `CTGAGTGCAGCCTTAAAGGAGT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_4_LEFT_alt1 | `CTTTTGCAAGTCTATTCCTTCCGA` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_5_LEFT | `AGTTCGTCTCCATCCTCTTGCA` | Ebov-10-Pan_5_RIGHT | `CTGGAAGCTGATTTCGTTCTTTTTCT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_6_LEFT | `GAGTCTCGCGAACTTGACCATC` | Ebov-10-Pan_6_RIGHT | `TCCTCGTCGTCCTCGTCTAGAT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_6_LEFT_alt1 | `GAATCTCGCGAACTTGACCATC` | Ebov-10-Pan_6_RIGHT_alt1 | `TCCTCATCGTCCTCGTCTAGAT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_7_LEFT | `AGCTACGGCGAATACCAGAGTT` | Ebov-10-Pan_7_RIGHT | `GTCCCTGTCCTGCTCTTCATCA` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_7_RIGHT_alt1 | `GTCCCTGTCCTGTTCTTCATCA` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_7_RIGHT_alt2 | `GTCCCTGTCCTGTTCTTCATCG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_8_LEFT | `TTAACGAAGAGGCAGACCCACT` | Ebov-10-Pan_8_RIGHT | `TTCCTCTTCAAGGGAGTCTGGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_8_LEFT_alt1 | `TCAACGAAGAGGCAGACCCACT` | Ebov-10-Pan_8_RIGHT_alt1 | `TTCCTCTTCAAGGGAGTCCGGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_9_LEFT | `GTGACAACACCCAGTCAGAACA` | Ebov-10-Pan_9_RIGHT | `TCTTCCTGTTTTCGTTCCTTGACT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_9_LEFT_alt1 | `GTGACAACACCCAGCCAGAACA` | Ebov-10-Pan_9_RIGHT_alt1 | `TCTTCCTGTTTGCGTTCCTTGACT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_9_RIGHT_alt2 | `TCTTCCTGTTTGCGTTTCTTGACT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_10_LEFT | `ACAATGGGATGATTCAACCGACA` | Ebov-10-Pan_10_RIGHT | `TCGAGTGCTAGAGAATTCAATTGACG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_10_LEFT_alt1 | `ATAATGGGATGATTTAACCGACA` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_11_LEFT | `ACCTACTAGCCTGCCCAACATT` | Ebov-10-Pan_11_RIGHT | `AATTGGGTCCGTTTGGGTTTGA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_11_LEFT_alt1 | `ACCTACTAGCCTACCCAACATT` | Ebov-10-Pan_11_RIGHT_alt1 | `AATTGGATCCGTTTGGGTTTGA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_12_LEFT | `CCCAAATGCAACAAACGAAGCC` | Ebov-10-Pan_12_RIGHT | `TCAATCTTACCCCGAATCGCAC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_12_LEFT_alt1 | `CCCAAATGCAACAAACAAAGCC` | Ebov-10-Pan_12_RIGHT_alt1 | `TCAATCTTACCCCGAATTGCAC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_13_LEFT | `TATTGGGCCGAACATGGTCAAC` | Ebov-10-Pan_13_RIGHT | `TGACAGGTGGAGCAGCATCTTG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_13_LEFT_alt1 | `TATTGGGCTGAACATGGTCAAC` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_14_LEFT | `CATTCATGCTGAGTTCCAGGCC` | Ebov-10-Pan_14_RIGHT | `GCGAGATATGAACAATTTTATCTTGGTCG` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_14_RIGHT_alt1 | `GCGAGATAAGGACAATTTTATCTTGGTCG` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_14_RIGHT_alt2 | `GCGAGATAAGAACAATTTTATCTTGGTCG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_15_LEFT | `TGAGTATCAGCCCTGGATAATATAAGTCA` | Ebov-10-Pan_15_RIGHT | `TCGATGGAGTGTCCCCATTGAC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_15_LEFT_alt1 | `TGAGTATCAGCCCTAGATAATATAAGTCA` | Ebov-10-Pan_15_RIGHT_alt1 | `TCGATGGAGTGTCTCCATTGAC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_16_LEFT | `GCAACAGCAATACAGGCTTCCT` | Ebov-10-Pan_16_RIGHT | `GAAAGCCTGGTTTCCAATTCGC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_16_LEFT_alt1 | `GCAACAACAATACAGGCTTCCT` | Ebov-10-Pan_16_RIGHT_alt1 | `GAAGGCCTGGTTTCCAATTCGC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_17_LEFT | `CCACTTGTCAGAGTCAATCGGC` | Ebov-10-Pan_17_RIGHT | `GTTTCTGGCACTTCGATTCCCA` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_17_RIGHT_alt1 | `GTTTCTGGCACTTCGATACCCA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_18_LEFT | `AAAATCCAAGCAATAATGACTTCACTCC` | Ebov-10-Pan_18_RIGHT | `TTGATCAATTAAAAGTGTCTCCTCTAATGG` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_18_RIGHT_alt1 | `TCGATCAATTTAAAGTATCTCCTCTAATGG` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_18_RIGHT_alt2 | `TTGATCAATTAAAAGTATCTCCTCTAATAG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_19_LEFT | `AGATCCAGTTTTATAGAATCTTCTCAGGGA` | Ebov-10-Pan_19_RIGHT | `AGAAGGGCAATGTCTGTACTTGG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_19_LEFT_alt1 | `AGATCCAGTTTTACAGAATCTTCTCAGGGA` | Ebov-10-Pan_19_RIGHT_alt1 | `AGAAGGGCGATGTCTGTGCTTGG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_20_LEFT | `AGCCAGTGTGACTTGGATTGGA` | Ebov-10-Pan_20_RIGHT | `AGTTTGTCGACATCACTAACCTGT` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_20_RIGHT_alt1 | `AGTTTGTCGACATCACTAACTTGT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_21_LEFT | `AGAACATTTTCCATCCCACTTGGA` | Ebov-10-Pan_21_RIGHT | `AAGCACCCTCTTTATGGAAGGC` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_21_RIGHT_alt1 | `AAGCACCCTCTTTGTGGAAGGC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_22_LEFT | `TGCCGGTATGTGCACAAAGTAT` | Ebov-10-Pan_22_RIGHT | `ATATATTGTCTCATTCAGCTGGAGCA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_23_LEFT | `CGAGGTTGACAATTTGACCTACGT` | Ebov-10-Pan_23_RIGHT | `GCAAGGGTTGTTAGATGCGACA` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_23_RIGHT_alt1 | `GCAAGGGTTGTCAGATGCGACA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_24_LEFT | `TGCAATGGTTCAAGTGCACAGT` | Ebov-10-Pan_24_RIGHT | `CTGGCACTCTCTTCTCCGGTAT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_24_LEFT_alt1 | `TGCAATGGTTCAAGTGCACAAT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_25_LEFT | `ACCACAACAAGTCCCCAAAACC` | Ebov-10-Pan_25_RIGHT | `TAGCTCAGTTGTGGCTCTCAGG` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_25_RIGHT_alt1 | `TAGCTCGGTTGTGGCTCTCAGG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_26_LEFT | `ATCTGTGGGTTGAGACAGCTGG` | Ebov-10-Pan_26_RIGHT | `GCTTTTCCATGAAGCAATCTGAAGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_26_LEFT_alt1 | `ATCTGTGGATTGAGGCAGCTGG` | Ebov-10-Pan_26_RIGHT_alt1 | `GCTTTGCCATGAAGCAATCTGAAGA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_26_LEFT_alt2 | `ATCTGTGGGTTGAGGCAGCTGG` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_27_LEFT | `TGGAGTTACAGGCGTTATAATTGCA` | Ebov-10-Pan_27_RIGHT | `AAAGGCTTCTTTCCCTTGTCACT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_28_LEFT | `TCATCCTTGATTCTACAATCATGACAGT` | Ebov-10-Pan_28_RIGHT | `AGGTGCTGGAGGAACTGTTAATG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_28_LEFT_alt1 | `TCATCCTTGATTCTACAATCATAACAGT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_29_LEFT | `GAGTACCGTCAATCAAGGAGCG` | Ebov-10-Pan_29_RIGHT | `CACAGCACATAGAGTCAACAATGC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_30_LEFT | `GATCAAGACGGCAGAACACTGG` | Ebov-10-Pan_30_RIGHT | `ATCAGACCATGAGCATGTCCCC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_31_LEFT | `CTGCTGTCGTTGTTTCAGGGTT` | Ebov-10-Pan_31_RIGHT | `ATGGGATGGATCGTTGCTACCT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_31_RIGHT_alt1 | `ATGGGATGGATCGTTGCTGCCT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_31_RIGHT_alt2 | `ATGAGATGGATCGTTGCTACCT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_32_LEFT | `GCCAAGCATACCTCTTGCACAA` | Ebov-10-Pan_32_RIGHT | `TGGACTACCCTGAAATAGTACTTTGC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_33_LEFT | `TGCGGAGGTCTGATAAGAATAAACC` | Ebov-10-Pan_33_RIGHT | `TTCAACCTTGAAACCTTGCGCT` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_33_RIGHT_alt1 | `TTCAACTTTGAAACCTTGCGCT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_34_LEFT | `GCTGAAAAGAAGCTTACCTACAACG` | Ebov-10-Pan_34_RIGHT | `TCCTTGTCATTGACCATGCAGG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_34_LEFT_alt1 | `GTTGAAAAAAGGCCTACCTACAACG` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_34_LEFT_alt2 | `GCTGAAAAGAAGCCCACCTACAACG` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_35_LEFT | `GTGACTCACAAAGGAATGGCCC` | Ebov-10-Pan_35_RIGHT | `ACAATCCGTTGTAGTTCACGACA` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_35_RIGHT_alt1 | `ACAACCCGTTGTAGTTCACGACA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_36_LEFT | `TGCTGTCGTTGATTCGATCCAA` | Ebov-10-Pan_36_RIGHT | `AGCAGAGATGTCAAGATAACTATTGAGT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_37_LEFT | `ACACGAATGCAAAGTTTGATTCTTGA` | Ebov-10-Pan_37_RIGHT | `TGAAACCTAACACATGTGACCTGC` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_37_RIGHT_alt1 | `TGAAACCTAACACACGTGACCTGC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_38_LEFT | `CCCTCAAACAAGAGATTCCAAGACA` | Ebov-10-Pan_38_RIGHT | `ACAGTTGCGTAGTTGCGGATTA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_38_LEFT_alt1 | `CCCTCAAATAAGAGATTCCAAGACA` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_38_LEFT_alt2 | `TCCTCAAATAAGAGATTCCAAGACA` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_39_LEFT | `ACCTAGTCACTAGAGCTTGCGG` | Ebov-10-Pan_39_RIGHT | `ACATTTGATGTAAAAATTCATTGCCCTG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_40_LEFT | `GTGGGTGCTCAAGAAGACTGTG` | Ebov-10-Pan_40_RIGHT | `TGAGATTAGAGTTGTGTTGAATCGACA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_40_LEFT_alt1 | `GTGGGTGCTCAAGAGGACTGTG` | Ebov-10-Pan_40_RIGHT_alt1 | `TGAGATTAGAGTCGTGTTGAATCGACA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_41_LEFT | `AAGAAGCGGTTCAAGGGCATAC` | Ebov-10-Pan_41_RIGHT | `CTATGGAATTCACGGATCTTTTGAGC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_41_LEFT_alt1 | `AAGAAGCAGTTCAAGGGCATAC` | Ebov-10-Pan_41_RIGHT_alt1 | `CTATGGAATTCACGGATCTTTTGATC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_42_LEFT | `TGCATTTAGCTGTAAATCACACCCT` | Ebov-10-Pan_42_RIGHT | `AATCATTGGCAACGGAGGGAAT` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_42_RIGHT_alt1 | `AATCATTGGCAACGGGGGGAAT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_43_LEFT | `GTCAAGGATCTTGGTACAGTGTTACT` | Ebov-10-Pan_43_RIGHT | `TGAGAAAGAAAAGTTCCGATATTGTGGT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_43_LEFT_alt1 | `GCCAAGGGTCTTGGTACAGTGTTACT` | Ebov-10-Pan_43_RIGHT_alt1 | `TGAGAAAGAAAAATTCCGGTATTGTGGT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_43_LEFT_alt2 | `GTCAAGGGTCTTGGTACAGTGTTACT` | Ebov-10-Pan_43_RIGHT_alt2 | `TGAGAAAGAAAAATTCCGATATTGTGGT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_44_LEFT | `TTGAGAATGTTCTTTCCTACGCACA` | Ebov-10-Pan_44_RIGHT | `ACGGTTGCAATATTCTATAAAAGGTGC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_44_LEFT_alt1 | `TTGAGAATGTTCTTTCCTACGCGCA` | Ebov-10-Pan_44_RIGHT_alt1 | `ACGGTTGCAATATTCGATAAAAGGTGC` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_44_RIGHT_alt2 | `ACGGTTACAATATTCTATAAAAGGTGC` | 2 | 100&micro;M |
+  | Ebov-10-Pan_45_LEFT | `CCACAGTTAGAGGGAGTAGCTTTG` | Ebov-10-Pan_45_RIGHT | `GCTCGTCTGCGTCAGTCTCTAA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_45_LEFT_alt1 | `CCACAGTTAGAGGGAGTAGTTTTG` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_46_LEFT | `AAGTTACGCTCAGCTGTGATGG` | Ebov-10-Pan_46_RIGHT | `ATGGAAAGCTGCGGTTATCCTG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_47_LEFT | `TAGGCACTGCTTTTGAGCGATC` | Ebov-10-Pan_47_RIGHT | `CACAAAGTCAATGGCAGTGCAG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_47_LEFT_alt1 | `TAGGCACCGCTTTTGAGCGGTC` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_47_LEFT_alt2 | `TAGGCACTGCTTTTGAACGATC` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_48_LEFT | `TCTCCGAATGATTGAGATGGATGATT` | Ebov-10-Pan_48_RIGHT | `CTCAGTCTGTCCAAAACCGGTG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_48_LEFT_alt1 | `TCTCCGAATGATTGGGATGGATGATT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_49_LEFT | `GATATCTTTTCACGCACGCCGA` | Ebov-10-Pan_49_RIGHT | `CCACCTGGTTGCTTTGCATTTG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_49_LEFT_alt1 | `GATATCTTTTCACGCACGCCCA` | Ebov-10-Pan_49_RIGHT_alt1 | `CCACCAGGTTGCTTTGCATTTG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_50_LEFT | `TCAAAGTGTTTTGGCTGAAACCCT` | Ebov-10-Pan_50_RIGHT | `TCCTGAGTAATGTGAAGGGGTCA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_50_LEFT_alt1 | `TCAAAGTGGTTTGGCTGAAACCCT` | Ebov-10-Pan_50_RIGHT_alt1 | `TCCTGAGTAATGTGAAGGAGTCA` | 2 | 100&micro;M |
+  | Ebov-10-Pan_51_LEFT | `AACAGTGACTTGCTAATAAAACCATTTTTG` | Ebov-10-Pan_51_RIGHT | `AAATACTGAGCTGGTACTTCCCG` | 1 | 100&micro;M |
+  | Ebov-10-Pan_51_LEFT_alt1 | `AACAGTGACTTGCTAATAAAGCCATTTTTG` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_51_LEFT_alt2 | `AACAGTGATTTGCTAATAAAACCATTTTTG` |  |  | 1 | 100&micro;M |
+  | Ebov-10-Pan_52_LEFT | `AATCGTGCTCACCTTCATCTAACT` | Ebov-10-Pan_52_RIGHT | `CCCAAAACTGTACAGAAGTCCTATCT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_53_LEFT | `ACAGACCCAATTAGCAGTGGAGA` | Ebov-10-Pan_53_RIGHT | `ACAATTGTTCCGCGATTAATTATCCAT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_53_LEFT_alt1 | `ACAGACCCAATTAGCAGCGGAGA` | Ebov-10-Pan_53_RIGHT_alt1 | `ACAATTGTTCCGCGATTAATTATCCACT` | 1 | 100&micro;M |
+  | Ebov-10-Pan_54_LEFT | `TCTCAGATGCGGCCAGGTTATT` | Ebov-10-Pan_54_RIGHT | `TGACCATCACTGTTGTTTGTGCT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_54_LEFT_alt1 | `TCTCAGATGCGGCCAGATTATT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_55_LEFT | `TGGAGGAGCAGACACAGAAACA` | Ebov-10-Pan_55_RIGHT | `ATGACGTTAATTGGCGTGTCCC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_55_LEFT_alt1 | `TGGAGGAGCAGGCACAGAAACA` | Ebov-10-Pan_55_RIGHT_alt1 | `ATGACGTCAATTGGCGTGTCCC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_55_LEFT_alt2 | `TGGAGAAGCAGGCACAGAAACA` | Ebov-10-Pan_55_RIGHT_alt2 | `ATGACGTTAATTGGCGCGTCCC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_56_LEFT | `CTCACACCGTCTAGTCCTACCT` | Ebov-10-Pan_56_RIGHT | `TTTGACATAACAGGTAGAAGCATCCT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_56_LEFT_alt1 | `CTCGCACCGTCTAGTCCTACCT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_56_LEFT_alt2 | `CTCACATCGTCTAGTCCTACCT` |  |  | 2 | 100&micro;M |
+  | Ebov-10-Pan_57_LEFT | `ACACGCTAGCTACTGAGTCCAG` | Ebov-10-Pan_57_RIGHT | `ATTGGCTTAATTAAATAACCAGTGGCA` | 1 | 100&micro;M |
+  | Ebov-10-Pan_58_LEFT | `TGAAAGCAGTGGTCCTTAAAGTCT` | Ebov-10-Pan_58_RIGHT | `TGCTCTAAGATGTGCTAAGTGCTG` | 2 | 100&micro;M |
+  |  |  | Ebov-10-Pan_58_RIGHT_alt1 | `TGCTCTAAGATGTGCCAAGTGCTG` | 2 | 100&micro;M |
+  | Ebov-10-Pan_59_LEFT | `CGTCGATTCAAAAAGAGGTCCACT` | Ebov-10-Pan_59_RIGHT | `TCAGAAGCCCTGTCAGCCTTTC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_60_LEFT | `AGATTGCAATTGTGAAGAACGTTTCT` | Ebov-10-Pan_60_RIGHT | `AGAGTGCAGAGTTTATTATGTTGCGT` | 2 | 100&micro;M |
+  | Ebov-10-Pan_61_LEFT | `TCACAATGCAGCATGTGTGACA` | Ebov-10-Pan_61_RIGHT | `AGGTATTTCTGATTTTACAGTCCTGCC` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_61_RIGHT_alt1 | `AGGTATTTATGATTTTACAGTCCTGCC` | 1 | 100&micro;M |
+  |  |  | Ebov-10-Pan_61_RIGHT_alt2 | `AGGTATTTCTGATTTTACAGTCATGCC` | 1 | 100&micro;M |
+  | Ebov-10-Pan_62_LEFT | `CCTGTCAGATGGAATAGTGTTTTGGT` | Ebov-10-Pan_62_RIGHT | `AATTTTTGTGTGCGACCATTTTTCC` | 2 | 100&micro;M |
 {: .compact}
 
 > **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, Pool 1 has 101 primers in it so the requirement is 3.8&micro;L of 10&micro;M primers Pool 1 per 25&micro;L reaction. Pool 2 has 106 primers so needs 4.0&micro;L of 10&micro;M primers Pool 2 per 25&micro;L reaction. For other schemes, adjust the volume added appropriately.
 
 6. Set up the amplicon PCR reactions as follows in 0.5mL thin-walled PCR or strip-tubes:
 
-    | Reagent                         | Pool 1       | Pool 2       |
-    | ------------------------------- | ------------ | ------------ |
-    | NEB Q5 Polymerase 2X MasterMix  | 12.5&micro;L | 12.5&micro;L |
-    | Primer Pool 1 or 2 (10&micro;M) | 3.8&micro;L  | 4.0&micro;L  |
-    | Water                           | 6.2&micro;L  | 6.0&micro;L  |
-    | TOTAL                           | 22.5&micro;L | 22.5&micro;L |
+    |Reagent                         |Pool 1       |Pool 2        |
+    |--------------------------------|-------------|--------------|
+    |NEB Q5 Polymerase 2X MasterMix  |12.5&micro;L |12.5&micro;L  |
+    |Primer Pool 1 or 2 (10&micro;M) |3.8&micro;L  |4.0&micro;L   |
+    |Water                           |6.2&micro;L  |6.0&micro;L   |
+    |TOTAL                           |22.5&micro;L |22.5&micro;L  |
 
 > **NOTE:** This should be carried out in the mastermix hood and cDNA should not be taken anywhere near the mastermix hood at any stage.
 
@@ -314,12 +314,12 @@ Ebola virus Nanopore sequencing kit-list:
 
 9. Set up the cycling conditions as follows:
 
-    | Step            | Temperature | Time        | Cycles |
-    | --------------- | ----------- | ----------- | ------ |
-    | Heat Activation | 98&deg;C    | 30 seconds  | 1      |
-    | Denaturation    | 98&deg;C    | 15 seconds  | 25-35  |
-    | Annealing       | 65&deg;C    | 300 seconds | 25-35  |
-    | Hold            | 4&deg;C     | Indefinite  | 1      |
+    |Step            |Temperature |Time        |Cycles |
+    |----------------|------------|------------|-------|
+    |Heat Activation |98&deg;C    |30 seconds  |1      |
+    |Denaturation    |98&deg;C    |15 seconds  |25-35  |
+    |Annealing       |65&deg;C    |300 seconds |25-35  |
+    |Hold            |4&deg;C     |Indefinite  |1      |				
 
 > **NOTE:** Cycle number should be 25 for Ct18-21 up to a maximum of 35 cycles for Ct 35
 
@@ -524,12 +524,12 @@ Ebola virus Nanopore sequencing kit-list:
 
 8. In a new tube prepare the library dilution for sequencing:
 
-    | Reagent         | Volume       |
-    | --------------- | ------------ |
-    | SQB             | 37.5&micro;L |
-    | LB              | 25.5&micro;L |
-    | Library (~30ng) | 12&micro;L   |
-    | Total           | 75&micro;L   |
+    | Reagent | Volume
+    |---|---
+    | SQB | 37.5&micro;L
+    | LB | 25.5&micro;L
+    | Library (~30ng) | 12&micro;L
+    | Total | 75&micro;L
 
 9. Gently lift the SpotON sample port cover to make the SpotON sample port accessible.
 

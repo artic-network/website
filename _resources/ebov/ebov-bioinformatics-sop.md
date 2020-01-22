@@ -52,19 +52,37 @@ Phylogenetic analysis and visualization:
 
 ## Preparation
 
-Set up the computing environment as described here in this document: [ebov-it-setup](ebov-it-setup.html). This should be done and tested prior to sequencing, particularly if this will be done in an environment without internet access or where this is slow or unreliable. Once this is done, the bioinformatics can be performed largely off-line. 
+Set up the computing environment as described here in this document: [ebov-it-setup](ebov-it-setup.html). This should be done and tested prior to sequencing, particularly if this will be done in an environment without internet access or where this is slow or unreliable. Once this is done, the bioinformatics can be performed largely off-line. If you are already using lab-on-SSD, you can skip this step.
 
-## Nanopore Bioinformatics
+## Make a new directory for analysis
 
-Activate the ARTIC environment:
+Give your analysis directory a meaningful name, e.g.. analysis/run_name
+
+```bash
+mkdir analysis
+cd analysis
+
+mkdir run_name
+cd run_name
+```
+
+## Activate the ARTIC environment:
+
+All steps in this tutorial should be performed in the artic-ebov conda environment:
 
 ```bash
 source activate artic-ebov
 ```
 
-### Basecalling with MinKNOW (local basecalling)
+## RAMPART
 
-When setting up the run, turn Basecalling on.
+To run RAMPART on a current run:
+
+```bash
+artic rampart
+```
+
+Select your run and protocol, enter the names of your barcodes, then open http://localhost:3000 in your browser.
 
 ### Basecalling with Guppy
 
@@ -99,10 +117,16 @@ We first collect all the FASTQ files (typically stored in files each containing 
 into a single file.
 
 ```bash
-artic gather --min-length 400 --max-length 700 --prefix run_name /path/to/reads
+artic gather --min-length 400 --max-length 700 --prefix run_name
 ```
 
-Here `/path_to_readss` should be the folder in which MinKNOW put the base-called reads (i.e., `run_name` from the command above).
+The command will show you the runs in /var/lib/MinKNOW/data and ask you to select one. If you know the path to the reads use:
+
+```bash
+artic gather --min-length 400 --max-length 700 --prefix run_name --directory /path/to/reads
+```
+
+Here `/path_to_reads` should be the folder in which MinKNOW put the base-called reads (i.e., `run_name` from the command above).
 
 We use a length filter here of between 400 and 700 to remove obviously chimeric reads.
 
@@ -117,7 +141,7 @@ as well as individual files for each barcode (if previously demultiplexed).
 
 ### Demultiplex with Porechop with stringent settings
 
-This stage is obligatory, even if you have already demultiplexed with Albacore, due to
+This stage is obligatory, even if you have already demultiplexed with Guppy, due to
 significant barcoding misassignments that can confound results:
 
 ```bash
@@ -127,20 +151,12 @@ artic demultiplex --threads 4 run_name_pass.fastq
 Now you will have new files called:
 
 ```bash
-run_name_pass_BC01.fastq
-run_name_pass_BC02.fastq
-run_name_pass_BC03.fastq
+run_name_pass_NB01.fastq
+run_name_pass_NB02.fastq
+run_name_pass_NB03.fastq
 ```
 
 ### Create the nanopolish index (once per sequencing run, not per sample)
-
-If you used MinKNOW basecalling, use the following command:
-
-```bash
-nanopolish index -d /path/to/reads run_name_pass.fastq
-```
-
-If you manually performed Guppy basecalling (but not if you used MinKNOW basecalling), this command can be made a little faster by using:
 
 ```bash
 nanopolish index -s run_name_sequencing_summary.txt -d /path/to/reads run_name_pass.fastq
@@ -150,13 +166,21 @@ Again, alter ``/path/to/reads`` to point to the original location of the FAST5 f
 
 ## Run the MinION pipeline
 
-For each barcode you wish to process:
+For each barcode you wish to process (e.g. run this command 12 times for 12 barcodes), replacing the file name and sample name as appropriate:
+
+E.g. for NB01
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ebov/primer-schemes --read-file run_name_final_NB01.fastq --nanopolish-read-file run_name_pass.fastq ZaireEbola/V2 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ebov/primer-schemes --read-file run_name_pass_NB01.fastq --nanopolish-read-file run_name_pass.fastq IturoEbola/V1 samplename
 ```
 
-Replace ``samplename`` as appropriate:
+Replace ``samplename`` as appropriate.
+
+E.g. for NB02
+
+```bash
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ebov/primer-schemes --read-file run_name_pass_NB02.fastq --nanopolish-read-file run_name_pass.fastq IturoEbola/V1 samplename
+```
 
 ## Output files
 
@@ -164,4 +188,27 @@ Replace ``samplename`` as appropriate:
    * ``samplename.vcf`` - detected variants in VCF format
    * ``samplename.variants.tab`` - detected variants
    * ``samplename.consensus.fasta`` - consensus sequence
+
+To put all the consensus sequences in one filei called my_consensus_genome, run
+
+```bash
+cat *.consensus.fasta > my_consensus_genomes.fasta
+```
+
+## To visualise genomes in Tablet
+
+Open a new Terminal window:
+
+```bash
+conda activate tablet
+tablet
+```
+
+Go to "Open Assembly"
+
+Load the BAM (binary alignment file) as the first file.
+
+Load the refernece file (in artic/artic-ebov/primer_schemes/IturiEbola/V1/IturiEbola.reference.fasta) as the second file.
+
+Select Variants mode in Color Schemes for ease of viewing variants.
 
