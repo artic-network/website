@@ -16,6 +16,8 @@ revision_date: 2019-09-25
 forked_from: doi:10.1038/nprot.2017.066
 author: Luke Meredith, Josh Quick
 citation: "Meredith, Quick *et al.* In Prep."
+nav_menu: false
+show_tile: false
 ---
 
 {% include callout.html

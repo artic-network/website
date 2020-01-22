@@ -16,6 +16,8 @@ revision_date:
 forked_from: 
 author: Nick Loman
 citation: "Loman *et al.* In Prep."
+nav_menu: false
+show_tile: false
 ---
 
 {% include callout.html
