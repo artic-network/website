@@ -98,4 +98,3 @@ title='Funded by the Wellcome Trust'
 subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
 %}
 
-{% include links.html %}
