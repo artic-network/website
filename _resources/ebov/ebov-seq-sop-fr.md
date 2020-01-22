@@ -19,6 +19,7 @@ author: Luke Meredith, Josh Quick, Sebastian Lequime, Sophie Gryseels, Audrey La
 citation: "Meredith, Quick *et al.* In Prep."
 nav_menu: false
 show_tile: false
+category: ebov
 ---
 
 {% include callout.html
@@ -115,11 +116,11 @@ Ebola virus Nanopore sequencing kit-list :
 
 1. Préparer la réaction suivante dans la cabine de master mix et ajouter 2&micro;L de réaction dans chaque tube :
 
-    | Réactif | Volume
-    |---|---
-    |50&micro;M hexamères aléatoires (random hexamers) | 9&micro;L
-    |10mM dNTPs mix (10mM chacun)| 9&micro;L
-    |TOTAL | 18&micro;L
+    | Réactif                                           | Volume     |
+    | ------------------------------------------------- | ---------- |
+    | 50&micro;M hexamères aléatoires (random hexamers) | 9&micro;L  |
+    | 10mM dNTPs mix (10mM chacun)                      | 9&micro;L  |
+    | TOTAL                                             | 18&micro;L |
 
 2. Dans la cabine d'extraction et de distribution d'échantillons, ajouter 11&micro;L d'ARN dans 7 tubes et 11&micro;L d'eau (bio-moléculaire) dans le 8ème tube qui servira de contrôle négatif.
 
@@ -129,29 +130,29 @@ Ebola virus Nanopore sequencing kit-list :
 
 4. Placer les tubes dans la machine mini16 PCR et démarrer le programme suivant (pour dénaturer l'ARN) :
 
-    |Étape|Temperature|Temps
-    |---|---|---
-    | Dénaturation | 65&deg;C | 5 mins
-    | Hybridation des amorces | Glace | 1 min
+    | Étape                   | Temperature | Temps  |
+    | ----------------------- | ----------- | ------ |
+    | Dénaturation            | 65&deg;C    | 5 mins |
+    | Hybridation des amorces | Glace       | 1 min  |
 
 5. Dans la cabine de master mix, préparer le master mix de synthèse d'ADNc :
 
-    | Réactif | Volume
-    |---|---
-    |Tampon (Buffer) SSIV | 36&micro;L
-    |100mM DTT | 9&micro;L
-    |RNaseOUT RNase Inhibitor | 9&micro;L
-    |SSIV Reverse Transcriptase | 9&micro;L
-    |TOTAL | 63&micro;L
+    | Réactif                    | Volume     |
+    | -------------------------- | ---------- |
+    | Tampon (Buffer) SSIV       | 36&micro;L |
+    | 100mM DTT                  | 9&micro;L  |
+    | RNaseOUT RNase Inhibitor   | 9&micro;L  |
+    | SSIV Reverse Transcriptase | 9&micro;L  |
+    | TOTAL                      | 63&micro;L |
 
 6. Dans la cabine d'extraction et de distribution d'échantillons, ajouter 7&micro;L du master mix au tubes d'ARN dénaturé
 7. Mélanger doucement (éviter de vortexer) puis centrifuger brièvement le tube pour assurer un contact maximum avec le thermocycleur.
 8. Dans la machine mini16 PCR, incuber la réaction selon le programme suivant :
 
-    |Étape|Temperature|Temps
-    |---|---|---
-    | Extension | 42&deg;C | 50 mins   
-    | Inactivation | 70&deg;C | 10 mins
+    | Étape        | Temperature | Temps   |
+    | ------------ | ----------- | ------- |
+    | Extension    | 42&deg;C    | 50 mins |
+    | Inactivation | 70&deg;C    | 10 mins |
 
 9. L'ADNc est maintenant prêt pour la synthèse des amplicons. Transférer les tubes d'ADNc dans la cabine d'extraction et de distribution d'échantillons.
 
@@ -171,14 +172,14 @@ Le stock d'amorces 100nM doivent être préparées et aliquotées AVANT LE DÉPA
 
 2. Dans la cabine de master mix, préparer les 2 master mixes pour les pool 1 et pool 2, et distribuer 22.5&micro;L de chaque mix dans les tubes pour le pool 1, puis dans les tubes pour le pool 2.
 
-    | Réactif | Volume
-    |---|---
-    |Q5 reaction buffer (5×)           |45&micro;L
-    |dNTPs (10 mM ea.)                 |4.5&micro;L
-    |Q5 DNA polymerase                 |2.25&micro;L
-    |Pool d'amorces 1 ou 2 (10&micro;M)|2.4&micro;L
-    |Eau                               |129.15&micro;L
-    |TOTAL                             |183.3&micro;L
+    | Réactif                            | Volume         |
+    | ---------------------------------- | -------------- |
+    | Q5 reaction buffer (5×)            | 45&micro;L     |
+    | dNTPs (10 mM ea.)                  | 4.5&micro;L    |
+    | Q5 DNA polymerase                  | 2.25&micro;L   |
+    | Pool d'amorces 1 ou 2 (10&micro;M) | 2.4&micro;L    |
+    | Eau                                | 129.15&micro;L |
+    | TOTAL                              | 183.3&micro;L  |
 
 3. Dans la cabine d'extraction et distribution d'échantillon, ajouter 2.5&micro;L d'ADNc à chaque tube de réaction Pool1 et Pool2 et bien mélanger en tapotant les tubes.
 
@@ -186,12 +187,12 @@ Le stock d'amorces 100nM doivent être préparées et aliquotées AVANT LE DÉPA
 
 5. Placer les tubes dans la machine mini16 PCR, démarrer le programme de PCR comme suit:
 
-    |Étape                     |Temperature |Temps       |Cycles
-    |--------------------------|------------|------------|-------
-    |Activation par la chaleur |98&deg;C    |30 secondes |1
-    |Dénaturation              |98&deg;C    |15 secondes |30
-    |Hybridation               |65&deg;C    |300 secondes|30
-    |Maintien                  |4&deg;C     |Indéfini    |1
+    | Étape                     | Temperature | Temps        | Cycles |
+    | ------------------------- | ----------- | ------------ | ------ |
+    | Activation par la chaleur | 98&deg;C    | 30 secondes  | 1      |
+    | Dénaturation              | 98&deg;C    | 15 secondes  | 30     |
+    | Hybridation               | 65&deg;C    | 300 secondes | 30     |
+    | Maintien                  | 4&deg;C     | Indéfini     | 1      |
 
 > **NOTE :** Le nombre de cycle doit être de 25 pour des Ct compris entre 18 et 21 jusqu'à un maximum de 35 cycles pour Ct 35.
 
@@ -279,12 +280,12 @@ Le stock d'amorces 100nM doivent être préparées et aliquotées AVANT LE DÉPA
 
 1. Dans la cabine de mastermix, préparer la réaction de préparation d'extrémité (End Prep) suivante, et distribuer 13&micro;L dans une nouvelle barette de 8 tubes.
 
-   | Réactif | Volume
-   |---|---
-   | Eau       | 94.5&micro;L
-   | Ultra II End Prep Reaction Buffer | 15.75&micro;L
-   | Ultra II End Prep Enzyme Mix | 6.75&micro;
-   | Total     | 117&micro;L  
+   | Réactif                           | Volume        |
+   | --------------------------------- | ------------- |
+   | Eau                               | 94.5&micro;L  |
+   | Ultra II End Prep Reaction Buffer | 15.75&micro;L |
+   | Ultra II End Prep Enzyme Mix      | 6.75&micro;   |
+   | Total                             | 117&micro;L   |
 
 2. Dans la cabine de post-PCR, ajouter 2&micro;L d'amplicon (à la concentration 2.5&ng/&micro;L) dans chaque tube.
 
@@ -297,11 +298,11 @@ Une fois le cycle terminé, transférer ces tubes dans la cabine post-PCR.
 
 5. Dans la cabine de master mix, préparer le master mix suivant, vortexer et centrifuger brièvement :
 
-    | Réactif | Volume
-    |---|---
-    | Ultra II Ligation Master Mix | 168&micro;L
-    | Ligation Enhancer | 4.8&micro;L
-    | Total | 172.8&micro;L
+    | Réactif                      | Volume        |
+    | ---------------------------- | ------------- |
+    | Ultra II Ligation Master Mix | 168&micro;L   |
+    | Ligation Enhancer            | 4.8&micro;L   |
+    | Total                        | 172.8&micro;L |
 
 6. Distribuer 19.8 &micro;L du mix dans chaque tube d'une nouvelle barette de 8 tubes. Puis ajouter 2.75 &micro;L de barcode NBXX dans chaque tube (un barcode par tube).
 
@@ -341,12 +342,12 @@ Une fois le cycle terminé, transférer ces tubes dans la cabine post-PCR.
 
 23. Dans la cabine de master mix, préparer la réaction de ligation d'adaptateur suivante :
 
-    | Réactif | Volume
-    |---|---
-    | NEBNext Quick Ligation Reaction Buffer (5X) | 11&micro;L
-    | AMII adapter mix | 5.5&micro;L
-    | Quick T4 DNA Ligase | 5.5&micro;L
-    | Volume total | 22&micro;L
+    | Réactif                                     | Volume      |
+    | ------------------------------------------- | ----------- |
+    | NEBNext Quick Ligation Reaction Buffer (5X) | 11&micro;L  |
+    | AMII adapter mix                            | 5.5&micro;L |
+    | Quick T4 DNA Ligase                         | 5.5&micro;L |
+    | Volume total                                | 22&micro;L  |
 
 Dans la cabine post-PCR, ajouter 20&micro;L du master mix au pool d'amplicons barcodés, puis vortexer et centrifuger brièvement.
 
@@ -413,12 +414,12 @@ Dans la cabine post-PCR, ajouter 20&micro;L du master mix au pool d'amplicons ba
 
 7. Dans un nouveau tube Eppendorf propre, préparer la dilution de la librairie pour le séquençage :
 
-    | Réactif | Volume
-    |---|---
-    | SQB | 37.5&micro;L
-    | LB | 25.5&micro;L
-    | Librairie (~10ng) | 12&micro;L
-    | Total | 75&micro;L
+    | Réactif           | Volume       |
+    | ----------------- | ------------ |
+    | SQB               | 37.5&micro;L |
+    | LB                | 25.5&micro;L |
+    | Librairie (~10ng) | 12&micro;L   |
+    | Total             | 75&micro;L   |
 
 8. Soulever doucement le couvercle du port d'échantillon SpotON pour rendre le port accessible.
 
