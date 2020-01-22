@@ -13,22 +13,33 @@ show_tile: false
 <section id="content" class="spotlights">
 	<div class="inner">
 			<header class="major">
-				<h1>EBOV</h1>
+				<h1>Ebola virus Nanopore sequencing resources</h1>
 			</header>
-			<p>Some intro text on EBOV to go here.....</p>
+			<blockquote>A collection of resources and documents for the genome sequencing of Ebola virus (EBOV) using Oxford Nanopore Technology's MinION platform. Includes a tiled primer scheme, complete lab protocol & equipement/reagent list.</blockquote>
+			<h3>Background</h3>
+			<p>The ongoing outbreak of <a href="http://www.who.int/emergencies/crises/cod/en/">Ebola virus in the Democratic Republic of Congo</a> has highlighted the need for rapid sequencing ability to help with source attribution and to aid epidemiological investigations (including environmental reservoirs).</p>
+			<p>These documents and resources are provided in the spirit of Open Science, to foster collaboration and sharing, and to benefit public health response to outbreaks. All written material is provided under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (BY) license</a> which allows unrestricted sharing and modification of the material as long as appropriate credit is given.</p>
+			<p>We  encourage the modification, improvement and re-purposing of these methods and protocols (under the permissive terms of the CC BY license). We would be happy to host modifications on this website or encourage posting to Open Science platforms such as <a href="http://virological.org/">http://virological.org/</a>.</p>
+			<p>We also ask that use of this resource is credited in publications or reports to allow us to report this impact to our funding bodies.</p>
+			<h3>Resources and documents</h3>
 			<ul>
 			{% for doc in ebovDocs %}
-				<li><a href="{{ doc.permalink }}">{{ doc.title }}</a></li>
+				<li>{{ doc.title_text }}</li>
+				<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 			{% endfor %}
 			</ul>
 			<hr class="major"/>
 			<header class="major">
 				<h1>NCOV</h1>
 			</header>
-			<p>Some intro text on NCOV to go here.....</p>
+			<blockquote>A collection of...</blockquote>
+			<h3>Background</h3>
+			<p>Text to go here....</p>
+			<h3>Resources and documents</h3>
 			<ul>
 			{% for doc in ncovDocs %}
-				<li><a href="{{ doc.permalink }}">{{ doc.title }}</a></li>
+				<li>{{ doc.title_text }}</li>
+				<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 			{% endfor %}
 			</ul>
 	</div>

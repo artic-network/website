@@ -39,6 +39,7 @@ include:
     "_activities",
     "_protocols",
     "_people",
+    "_resources",
     "_resources/ebov",
     "_resources/ncov",
   ]

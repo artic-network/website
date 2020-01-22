@@ -1,0 +1,42 @@
+#root circle {
+    fill: #7e2b58;
+}
+
+.internal-node circle {
+    fill: #4f70af;
+    stroke: white;
+    stroke-width: 2px;
+    r: 6px
+}
+
+.external-node circle {
+    fill: #a8bd4f;
+    stroke: black;
+    stroke-width: 0.5px;
+    r: 5px
+}
+
+#not-root circle {
+    display: none;
+    r: 0px
+}
+
+#phylogram_1a_svg text {
+    fill: #DDDDDD;
+}
+
+#phylogram_1b_svg text {
+    fill: #7e2b58;
+}
+
+#phylogram_1b_svg path {
+    stroke: #DDDDDD;
+}
+
+#tooltip {
+    background: #F6EECA;
+    border: 1px solid #005C68;
+    color: #005C68;
+    border-radius: 5px;
+    padding: 5px;
+}
