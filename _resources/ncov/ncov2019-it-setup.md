@@ -34,8 +34,7 @@ This document is part of the nCoV-2019 Nanopore sequencing protocol package:
 nCoV-2019 Nanopore bioinformatics protocol:
 : [http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html](http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html)
 
-
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 

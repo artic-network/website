@@ -34,8 +34,7 @@ This document is part of the nCoV-2019 Nanopore sequencing protocol package:
 nCoV-2019 Nanopore bioinformatics environment setup:
 : [http://artic.network/ncov-2019/ncov2019-it-setup.html](http://artic.network/ncov-2019/ncov2019-it-setup.html)
 
-
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 
@@ -65,7 +64,7 @@ The current stable release is `v1.0.3`.
 
 Our recommended procedure for a new sequencing run is to create a directory for that run. We suggest using the same name as the Experiment name you provide in MinKNOW:
 
-{% include image.html file='/assets/images/ncov-2019/minknow_1.png' max-width=450 %}
+{% include image.html file='/assets/images/ncov-2019/minknow_1.png' max-width='450' %}
 
 The experiment name will be referred to here as `<run_name>`.
 
@@ -76,7 +75,7 @@ cd nCoV-2019_Run_1
 
 By default MinKNOW writes 4000 reads to each FASTQ file it creates. If you want finer scale monitoring in RAMPART we suggest altering the settings to write 1000 reads per FASTQ file.  
 
-{% include image.html file='/assets/images/ncov-2019/minknow_2.png' max-width=450 %}
+{% include image.html file='/assets/images/ncov-2019/minknow_2.png' max-width='450' %}
 
 Also take note of where the data is going to be written (this is shown at the top of this window) as it can vary depending on your operating system. You can also change this to a different location (such as an external SSD).
 
