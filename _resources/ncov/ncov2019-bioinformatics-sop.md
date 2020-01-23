@@ -21,6 +21,5 @@ category: ncov
 
 {% include callout.html
 type='default'
-content='**Overview:** this document is being revised and will be available shortly.' 
-'
+content='**Overview:** this document is being revised and will be available shortly.'
 %}
