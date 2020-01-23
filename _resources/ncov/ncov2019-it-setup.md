@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Jan 22, 2020
 tags: [protocol] 
-permalink: ncov-2019/ncov2019-it-setup.html
+permalink: /ncov-2019/ncov2019-it-setup.html
 folder: ncov
 title_text: "nCoV-2019 novel coronavirus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
