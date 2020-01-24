@@ -21,7 +21,8 @@ category: ncov
 
 {% include callout.html
 type='default'
-content='**Overview:** this document is being revised and will be available shortly.'
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+'
 %}
 
 ## Preparation
