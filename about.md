@@ -34,7 +34,8 @@ nav_menu: true
 					<h3>The Viruses</h3>
 						<ul>
 							<li>Ebola virus</li>
-							<li>Zika virus</li>
+							<li>Measles</li>
+							<li>2019-nCoV</li>
 						</ul>
 				</div>
 				<div class="6u$ 12u$(medium)">

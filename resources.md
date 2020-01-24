@@ -4,7 +4,7 @@ layout: landing
 description: A collection of Nanopore sequencing resources
 image: assets/images/artic-meeting.jpg
 nav_menu: true
-show_tile: false
+show_tile: true
 ---
 
 <section id="content" class="spotlights">
