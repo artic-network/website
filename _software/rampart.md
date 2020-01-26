@@ -7,7 +7,6 @@ show_tile: false
 permalink: rampart
 ---
 
-# RAMPART
 > Read Assignment, Mapping, and Phylogenetic Analysis in Real Time.
 
 RAMPART runs concurrently with MinKNOW and shows you demuxing / mapping results in real time.
@@ -39,5 +38,6 @@ Please [get in contact](https://twitter.com/hamesjadfield) if you have any issue
 
 ## RAMPART has been deployed to sequence:
 
+* [Ebola virus in INRB, Kinshasa and Goma](https://twitter.com/Eddy_Lusamaki_K/status/1218837546878275584)
 * [Yellow Fever Virus in Brazil](https://twitter.com/Hill_SarahC/status/1149372404260593664)
 * [ARTIC workshop in Accra, Ghana](https://twitter.com/george_l/status/1073245364197711874)
