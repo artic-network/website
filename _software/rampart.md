@@ -7,11 +7,13 @@ show_tile: false
 permalink: rampart
 ---
 
+{% include image.html file='/assets/images/rampart/rampart-icon.png' max-width='128px' %}
+
 > Read Assignment, Mapping, and Phylogenetic Analysis in Real Time.
 
 RAMPART runs concurrently with MinKNOW and shows you demuxing / mapping results in real time.
 
-![](assets/images/rampart-placeholder.jpg)
+{% include image.html file='/assets/images/rampart/rampart-placeholder.jpg' max-width='600px' %}
 
 ## Motivation
 Time is crucial in outbreak analysis, and recent advancements in sequencing prep now mean that sequencing is the bottleneck for many pathogens.
