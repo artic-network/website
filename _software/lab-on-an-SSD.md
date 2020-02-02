@@ -11,8 +11,6 @@ permalink: lab-on-an-SSD
 
 Eddie Lusamaki using the lab-on-SSD at INRB, DRC.
 
-> Lab-on-an-SSD 
-
 ## Motivation
 
 Nanopore sequencing and bioinformatics requires a set of specialised software. For real-time work
