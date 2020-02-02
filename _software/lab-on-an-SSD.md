@@ -2,12 +2,12 @@
 layout: post
 title: Lab-on-an-SSD
 description:
-image: assets/images/eddie-lab-on-SSD.jpg
+image: assets/images/eddie-lab-on-ssd.jpg
 show_tile: false
 permalink: lab-on-an-SSD
 ---
 
-{% include image.html file='assets/images/eddie-lab-on-SSD.jpg' %}
+{% include image.html file='assets/images/eddie-lab-on-ssd.jpg' %}
 
 > Lab-on-an-SSD 
 

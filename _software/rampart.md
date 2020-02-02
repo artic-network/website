@@ -2,7 +2,7 @@
 layout: post
 title: RAMPART
 description: Time is crucial in outbreak analysis, and recent advancements in sequencing prep now mean that sequencing is the bottleneck for many pathogens. Furthermore, the small size of many pathogens mean that insightful sequence data is obtained in a matter of minutes. RAMPART run concurrently with MinION sequencing of such pathogens. It provides a real-time overview of genome coverage and reference matching for each barcode.            
-image: assets/images/rampart-placeholder.jpg
+image: assets/images/rampart/rampart-placeholder.jpg
 show_tile: false
 permalink: rampart
 ---
