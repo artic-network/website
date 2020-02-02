@@ -20,7 +20,9 @@ the analysis is best performed at the point of data generation. Nanopore sequenc
 greatly from the availability of graphical processor unit (GPU) enabled computers, paticularly
 for basecalling. For this reason we provide a convenient solution, "lab-on-an-SSD", a software
 image containing a full Linux operating system, GPU drivers, software for nanopore sequencing
-and the ARTIC analysis pipeline (including RAMPART).
+and the ARTIC analysis pipeline (including RAMPART). This can be run on suitable laptops to
+provide rapid sequencign answers without the need for large computing infrastructure or internet
+connectivity.
 
 ## Installation
 
