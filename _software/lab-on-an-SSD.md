@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Lab-on-an-SSD
-description:
+description: Lab-on-an-SSD is a self-contained Linux bootable environment for nanopore sequencing and data analysis performed locally on laptops.
 image: assets/images/eddie-lab-on-ssd.jpg
 show_tile: false
 permalink: lab-on-an-SSD
 ---
 
-{% include image.html file='assets/images/eddie-lab-on-ssd.jpg' %}
+{% include image.html file='assets/images/eddie-lab-on-ssd.jpg' max-width='128px' %}
+
+Eddie Lusamaki using the lab-on-SSD at INRB, DRC.
 
 > Lab-on-an-SSD 
 
