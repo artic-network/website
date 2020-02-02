@@ -7,7 +7,7 @@ show_tile: false
 permalink: lab-on-an-SSD
 ---
 
-{% include image.html file='assets/images/eddie-lab-on-ssd.jpg' max-width='128px' %}
+{% include image.html file='assets/images/eddie-lab-on-ssd.jpg' max-width='600px' %}
 
 Eddie Lusamaki using the lab-on-SSD at INRB, DRC.
 
