@@ -1,0 +1,25 @@
+<figure {% if {{include.align}} %}style="text-align: {{include.align}}" {% endif %}>
+    <svg id="{{ include.id }}_svg"></svg>
+    <div id="{{ include.id }}_legend"></div>
+    {% if {{include.caption}} %}<figcaption>{{include.caption}}</figcaption>{% endif %}
+</figure>
+
+<script>
+    createTree("#{{ include.id }}_svg", "#{{ include.id }}_legend",
+        "{{ include.newick }}",
+        {% if {{include.width}} %}{{ include.width }}{% else %}640{% endif %},
+    {% if {{include.height}} %}{{ include.height }}{% else %}320{% endif %},
+    {% if {{include.font_size}} %}{{ include.font_size }}{% else %}24{% endif %},
+    {% if {{include.circle_size}} %}{{ include.circle_size }}{% else %}0{% endif %},
+    {% if {{include.rerootable}} %}{{ include.rerootable }}{% else %}false{% endif %},
+    {% if {{include.clustering}} %}{{ include.clustering }}{% else %}null{% endif %}
+    );
+    labelTree("#{{ include.id }}_svg",
+        {% if {{include.internal_node_text}} %}"{{ include.internal_node_text }}"{% else %}null{% endif %},
+    {% if {{include.external_node_text}} %}"{{ include.external_node_text }}"{% else %}null{% endif %},
+    {% if {{include.branch_text}} %}"{{ include.branch_text }}"{% else %}null{% endif %},
+    {% if {{include.support_text}} %}"{{ include.support_text }}"{% else %}null{% endif %},
+    {% if {{include.root_text}} %}"{{ include.root_text }}"{% else %}null{% endif %}
+    );
+</script>
+
