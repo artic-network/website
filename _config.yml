@@ -35,17 +35,19 @@ sass:
   style: compressed
 include:
   [
-    "_software",
     "_activities",
+    "_news",
     "_protocols",
     "_people",
     "_resources",
     "_resources/ebov",
     "_resources/ncov",
+    "_software",
   ]
 collections:
-  - software
   - activities
+  - news
   - protocols
   - people
   - resources
+  - software
