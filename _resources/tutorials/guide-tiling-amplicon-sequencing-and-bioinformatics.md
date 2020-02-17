@@ -20,7 +20,7 @@ category: tutorial
 
 There are enough differences between analysing tiling amplicon data compared to regular whole-genome shotgun data to warrant writing this short guide.
 
-For background information on how tiling amplicon sequencing works, please prefer to the original “PrimalSeq” protocol paper as tested on Zika (Quick et al. Nature Protocols)[https://www.nature.com/articles/nprot.2017.066] and a follow-up paper (Grubaugh, Gangavaparu et al. Genome Biology)[https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1618-7] that focuses on in-host variation and Illumina sequencing. This second paper also covers analysis of Illumina data.
+For background information on how tiling amplicon sequencing works, please prefer to the original “PrimalSeq” protocol paper as tested on Zika [Quick et al. Nature Protocols](https://www.nature.com/articles/nprot.2017.066) and a follow-up paper [Grubaugh, Gangavaparu et al. Genome Biology](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1618-7) that focuses on in-host variation and Illumina sequencing. This second paper also covers analysis of Illumina data.
 
 However, for those getting started with amplicon sequencing data who have some experience analysing WGS data, here are some basic points to consider which may affect the downstream analysis.
 
