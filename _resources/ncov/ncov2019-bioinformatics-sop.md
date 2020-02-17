@@ -177,3 +177,23 @@ Load the refernece file (in artic/artic-ncov2019/primer_schemes/nCoV-2019/V1/nCo
 
 Select Variants mode in Color Schemes for ease of viewing variants.
 
+## Experimental Medaka pipeline
+
+An alternative to nanopolish to calling variants is to use medaka. Medaka is faster than nanopolish and seems to perform equivalently in (currently limited) testing. If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
+
+```bash
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq nCov-2019/V1 samplename
+```
+
+Replace ``samplename`` as appropriate.
+
+E.g. for NB02
+
+```bash
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq nCov-2019/V1 samplename
+```
+
+## Using minimap2 instead of bwa
+
+It is possible to use ``minimap2`` in the pipeline instead of ``bwa`` by adding ``--minimap2`` as a parameter to ``artic minion``.
+
