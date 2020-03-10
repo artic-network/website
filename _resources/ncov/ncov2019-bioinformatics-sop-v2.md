@@ -118,6 +118,7 @@ mkdir analysis
 cd analysis
 ```
 
+<!--
 ### Quick usage: Generate a consensus sequence using the ARTIC pipeline
 
 If you haven't used barcodes and are just running one sample, simply type:
@@ -143,6 +144,7 @@ fast5_path=path/to/fast5_pass \
 annotated_path=../annotations \
 barcodes=NB01,NB02,NB03
 ```
+-->
 
 ### Detailed usage: 1) Binning
 
