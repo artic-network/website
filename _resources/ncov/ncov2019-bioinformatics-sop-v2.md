@@ -154,7 +154,7 @@ To make use of the output of RAMPART, run BinLorry to extract the binned read fi
 ```
 binlorry -i path/to/fastq_pass \
 -t ../annotations \
--o binned \
+-o ./binned \
 -n 400 \
 -x 700 \
 --bin-by barcode \
