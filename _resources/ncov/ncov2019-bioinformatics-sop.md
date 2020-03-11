@@ -136,7 +136,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 E.g. for NB01
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq --nanopolish-read-file run_name_pass.fastq nCov-2019/V1 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
 ```
 
 Replace ``samplename`` as appropriate.
@@ -144,7 +144,7 @@ Replace ``samplename`` as appropriate.
 E.g. for NB02
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq --nanopolish-read-file run_name_pass.fastq nCov-2019/V1 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
 ```
 
 ## Output files
@@ -176,4 +176,36 @@ Load the BAM (binary alignment file) as the first file.
 Load the refernece file (in artic/artic-ncov2019/primer_schemes/nCoV-2019/V1/nCoV-2019.reference.fasta) as the second file.
 
 Select Variants mode in Color Schemes for ease of viewing variants.
+
+## Experimental Medaka pipeline
+
+An alternative to nanopolish to calling variants is to use medaka. Medaka is faster than nanopolish and seems to perform mostly equivalently in (currently limited) testing.
+
+You'll need a different environment for Medaka, as it can't happily co-exist with nanopolish:
+
+```
+conda env create -f artic-ncov2019-medaka.yaml
+```
+
+```
+source activate artic-ncov2019-medaka
+``
+
+If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
+
+```bash
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq nCoV-2019/V1 samplename
+```
+
+Replace ``samplename`` as appropriate.
+
+E.g. for NB02
+
+```bash
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq nCoV-2019/V1 samplename
+```
+
+## Using minimap2 instead of bwa
+
+It is possible to use ``minimap2`` in the pipeline instead of ``bwa`` by adding ``--minimap2`` as a parameter to ``artic minion``.
 
