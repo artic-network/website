@@ -77,7 +77,7 @@ By default MinKNOW writes 4000 reads to each FASTQ file it creates. If you want 
 
 {% include image.html file='/assets/images/ncov-2019/minknow_2.png' max-width='450px' %}
 
-> **IMPORTANT** --- At the moment RAMPART is not compatible with MinKNOW's built-in barcode de-multiplexing. This must be turned off.
+> **IMPORTANT** -- At the moment RAMPART is not compatible with MinKNOW's built-in barcode de-multiplexing. This must be turned off.
 
 Also take note of where the data is going to be written (the `Output Location` at the top of this window) as it can vary depending on your operating system. You can also change this to a different location (such as an external SSD).
 
