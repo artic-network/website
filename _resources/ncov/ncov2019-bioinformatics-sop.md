@@ -136,7 +136,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 E.g. for NB01
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file run_name_pass_NB01.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
 ```
 
 Replace ``samplename`` as appropriate.
@@ -144,7 +144,7 @@ Replace ``samplename`` as appropriate.
 E.g. for NB02
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer_schemes --read-file run_name_pass_NB02.fastq --nanopolish-read-file run_name_pass.fastq nCoV-2019/V1 samplename
 ```
 
 ## Output files
