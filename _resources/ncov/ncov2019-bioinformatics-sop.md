@@ -29,6 +29,21 @@ content='**Overview:** A complete bioinformatics protocol to take the output fro
 
 Set up the computing environment as described here in this document: [ncov2019-it-setup](ncov2019-it-setup.html). This should be done and tested prior to sequencing, particularly if this will be done in an environment without internet access or where this is slow or unreliable. Once this is done, the bioinformatics can be performed largely off-line. If you are already using the [lab-on-an-SSD](https://github.com/artic-network/fieldbioinformatics/tree/master/lab-on-an-ssd), you can skip this step.
 
+### Updating the environment
+
+First time only:
+
+```bash
+git checkout https://github.com/artic-network/artic-ncov2019
+```
+
+```
+cd artic-ncov2019
+conda env remove -n artic-ncov-2019
+conda env create -f environment.yml
+conda env create -f environment-medaka.yml
+```
+
 ## Make a new directory for analysis
 
 Give your analysis directory a meaningful name, e.g.. analysis/run_name
