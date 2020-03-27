@@ -40,8 +40,8 @@ git checkout https://github.com/artic-network/artic-ncov2019
 ```
 cd artic-ncov2019
 conda env remove -n artic-ncov-2019
-conda env create -f environment.yml
-conda env create -f environment-medaka.yml
+conda env create -f environment-beta.yml
+conda env create -f environment-beta-medaka.yml
 ```
 
 ## Make a new directory for analysis
@@ -58,7 +58,7 @@ cd run_name
 
 ## Activate the ARTIC environment:
 
-All steps in this tutorial should be performed in the ```artic-ncov2019``` conda environment:
+All steps in this tutorial should be performed in the ```artic-ncov2019-beta``` conda environment:
 
 ```bash
 source activate artic-ncov2019
@@ -188,7 +188,7 @@ conda env create -f artic-ncov2019-medaka.yaml
 ```
 
 ```
-source activate artic-ncov2019-medaka
+source activate artic-ncov2019-beta-medaka
 ```
 
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
