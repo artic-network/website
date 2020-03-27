@@ -189,20 +189,20 @@ conda env create -f artic-ncov2019-medaka.yaml
 
 ```
 source activate artic-ncov2019-medaka
-``
+```
 
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_pass_NB01.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode01.fastq nCoV-2019/V1 samplename
 ```
 
 Replace ``samplename`` as appropriate.
 
-E.g. for NB02
+E.g. for barcode02
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_pass_NB02.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_barcode02.fastq nCoV-2019/V1 samplename
 ```
 
 ## Using minimap2 instead of bwa
