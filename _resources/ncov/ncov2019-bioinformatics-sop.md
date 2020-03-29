@@ -5,7 +5,6 @@ last_updated: Mar 29, 2020
 tags: [protocol]
 permalink: /ncov-2019/ncov2019-bioinformatics-sop.html
 folder: ncov
-category: ncov
 title_text: "nCoV-2019 novel coronavirus bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "ARTIC-nCoV-bioinformaticsSOP"
