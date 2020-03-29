@@ -1,10 +1,9 @@
----
 title: "nCoV-2019 novel coronavirus Nanopore sequencing bioinformatics protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document
-last_updated: Mar 27, 2020
+last_updated: Mar 29, 2020
 tags: [protocol]
-permalink: /ncov-2019/ncov2019-bioinformatics-sop-beta.html
+permalink: /ncov-2019/ncov2019-bioinformatics-sop.html
 folder: ncov
 title_text: "nCoV-2019 novel coronavirus bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
@@ -40,8 +39,8 @@ git checkout https://github.com/artic-network/artic-ncov2019
 ```
 cd artic-ncov2019
 conda env remove -n artic-ncov-2019
-conda env create -f environment-beta.yml
-conda env create -f environment-beta-medaka.yml
+conda env create -f environment.yml
+conda env create -f environment-medaka.yml
 ```
 
 ## Make a new directory for analysis
@@ -58,7 +57,7 @@ cd run_name
 
 ## Activate the ARTIC environment:
 
-All steps in this tutorial should be performed in the ```artic-ncov2019-beta``` conda environment:
+All steps in this tutorial should be performed in the ```artic-ncov2019``` conda environment:
 
 ```bash
 source activate artic-ncov2019
@@ -188,7 +187,7 @@ conda env create -f artic-ncov2019-medaka.yaml
 ```
 
 ```
-source activate artic-ncov2019-beta-medaka
+source activate artic-ncov2019-medaka
 ```
 
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
@@ -205,7 +204,4 @@ E.g. for barcode02
 artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_barcode02.fastq nCoV-2019/V1 samplename
 ```
 
-## Using minimap2 instead of bwa
-
-It is possible to use ``minimap2`` in the pipeline instead of ``bwa`` by adding ``--minimap2`` as a parameter to ``artic minion``.
 
