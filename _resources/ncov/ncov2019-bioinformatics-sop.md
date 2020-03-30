@@ -34,7 +34,7 @@ Set up the computing environment as described here in this document: [ncov2019-i
 First time only:
 
 ```bash
-git checkout https://github.com/artic-network/artic-ncov2019
+git checkout https://github.com/artic-network/artic-ncov2019.git
 ```
 
 ```
