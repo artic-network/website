@@ -39,7 +39,7 @@ git clone https://github.com/artic-network/artic-ncov2019.git
 
 ```
 cd artic-ncov2019
-conda env remove -n artic-ncov-2019
+conda env remove -n artic-ncov2019
 conda env create -f environment.yml
 conda env create -f environment-medaka.yml
 ```
