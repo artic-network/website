@@ -2,7 +2,7 @@
 title: "nCoV-2019 novel coronavirus Nanopore sequencing bioinformatics protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document
-last_updated: Mar 29, 2020
+last_updated: Apr 1, 2020
 tags: [protocol]
 permalink: /ncov-2019/ncov2019-bioinformatics-sop.html
 folder: ncov
@@ -88,7 +88,7 @@ run are. Common locations are:
    - Mac: ```/Library/MinKNOW/data/run_name```
    - Linux: ```/var/lib/MinKNOW/data/run_name```
    - Windows ```c:/data/reads```
-   
+
 This will create a folder called `run_name` with the base-called reads in it.
 
 ### Demultiplexing
@@ -128,8 +128,7 @@ artic guppyplex --skip-quality-check --min-length 400 --max-length 700 --directo
 
 We use a length filter here of between 400 and 700 to remove obviously chimeric reads.
 
-You may need to change these numbers if you are using different length primer schemes. Try the minimum lengths of the amplicons as the 
-minimum, and the maximum length of the amplicons plus 200 as the maximum.
+You may need to change these numbers if you are using different length primer schemes. Try the minimum lengths of the amplicons as the minimum, and the maximum length of the amplicons plus 200 as the maximum.
 
 I.e. if your amplicons are 300 base pairs, use --min-length 300 --max-length 500
 
@@ -142,19 +141,23 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 E.g. for barcode03
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode03.fastq --fast5-directory path_to_fast5 --sequencing-summary path_to_sequencing_summary.txt nCoV-2019/V3 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file run_name_barcode03.fastq --fast5-directory path_to_fast5 --sequencing-summary path_to_sequencing_summary.txt nCoV-2019/V3 samplename
 ```
 
 Replace ``samplename`` as appropriate.
 
 ## Output files
 
-   * ``samplename.primertrimmed.bam`` - BAM file for visualisation after primer-binding site trimming
-   * ``samplename.vcf`` - detected variants in VCF format
-   * ``samplename.variants.tab`` - detected variants
+   * ``samplename.rg.primertrimmed.bam`` - BAM file for visualisation after primer-binding site trimming
+   * ```samplename.trimmed.bam``` - BAM file with the primers left on (used in variant calling)
+   * ``samplename.merged.vcf`` - all detected variants in VCF format
+   * ```samplename.pass.vcf``` - detected variants in VCF format passing quality filter
+   * ```samplename.fail.vcf``` - detected variants in VCF format failing quality filter
+   * ```samplename.primers.vcf``` - detected variants falling in primer-binding regions
+   * ``samplename.variants.tab`` - detected variants in tabular format
    * ``samplename.consensus.fasta`` - consensus sequence
 
-To put all the consensus sequences in one filei called my_consensus_genome, run
+To put all the consensus sequences in one filei called ```my_consensus_genomes.fasta```, run
 
 ```bash
 cat *.consensus.fasta > my_consensus_genomes.fasta
