@@ -41,7 +41,6 @@ git clone https://github.com/artic-network/artic-ncov2019.git
 cd artic-ncov2019
 conda env remove -n artic-ncov2019
 conda env create -f environment.yml
-conda env create -f environment-medaka.yml
 ```
 
 ## Make a new directory for analysis
@@ -183,16 +182,6 @@ Select Variants mode in Color Schemes for ease of viewing variants.
 ## Experimental Medaka pipeline
 
 An alternative to nanopolish to calling variants is to use medaka. Medaka is faster than nanopolish and seems to perform mostly equivalently in (currently limited) testing.
-
-You'll need a different environment for Medaka, as it can't happily co-exist with nanopolish:
-
-```
-conda env create -f artic-ncov2019-medaka.yaml
-```
-
-```
-source activate artic-ncov2019-medaka
-```
 
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
 
