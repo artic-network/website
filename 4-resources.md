@@ -1,11 +1,23 @@
 ---
 title: Resources
-layout: landing
+layout: page
 description: A collection of Nanopore sequencing resources
 image: assets/images/artic-meeting.jpg
 nav_menu: true
 show_tile: true
 ---
+
+<!-- Main -->
+<div id="main" class="alt">
+	<!-- Content -->
+	<section id="one">
+		<div class="inner">
+			<header class="major">
+				<h1>Resources</h1>
+				<h3 id="content">A collection of Nanopore sequencing resources</h3>
+			</header>
+		</div>
+</section>
 
 <section id="content" class="spotlights">
 	<div class="inner">
