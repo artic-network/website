@@ -1,17 +1,28 @@
 ---
 title: Who we are
-layout: landing
+layout: page
 description: 
 image: assets/images/artic-meeting.jpg
 nav_menu: true
 show_tile: true
 ---
 
+<!-- Main -->
+<div id="main" class="alt">
+	<!-- Content -->
+	<section id="one">
+		<div class="inner">
+			<header class="major">
+				<h1>Who we are</h1>
+			</header>
+		</div>
+</section>
+
 <section id="content" class="spotlights">
 	<div class="inner">
 		<div class="box alt">
 			<div class="row 50% ">
-				{% assign sortedTeam = site.people | sort: 'title' %}
+				{% assign sortedTeam = site.people | sort: 'description' %}
 				{% for page in sortedTeam %}
 				{% assign mod = forloop.index | modulo: 5 %}
 				{% if mod == 0 %}

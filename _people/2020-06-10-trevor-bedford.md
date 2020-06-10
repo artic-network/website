@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trevor Bedford
-description: Fred Hutchinson Cancer Research Center
+description: The Fred Hutch Center
 image: assets/images/trevor-bedford.jpg
 link: 
 show_tile: false
