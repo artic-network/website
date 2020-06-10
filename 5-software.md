@@ -1,10 +1,22 @@
 ---
 title: Software
-layout: landing
+layout: page
 description: Check out our software
 image: assets/images/rampart-screenshot.jpg
 nav_menu: true
 ---
+
+
+<!-- Main -->
+<div id="main" class="alt">
+	<!-- Content -->
+	<section id="one">
+		<div class="inner">
+			<header class="major">
+				<h1>Open source software</h1>
+			</header>
+		</div>
+</section>
 
 <section id="content" class="spotlights">
 	<div class="inner">
