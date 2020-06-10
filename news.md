@@ -3,8 +3,8 @@ title: News
 layout: landing
 description: Recent updates from the network
 image: 
-nav_menu: true
-show_tile: true
+nav_menu: false
+show_tile: false
 ---
 
 <section id="content" class="spotlights">

@@ -3,7 +3,7 @@
     --h1-font-size: 32pt;
     --h2-font-size: 18pt;
     --h3-font-size: 12pt;
-    --contrast-colour: #F1605D;
+    --contrast-colour: rgb(242, 76, 74);
 }
 
 @page {

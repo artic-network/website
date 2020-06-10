@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Work Package 2
+title: Sequencing Methods
 description: Sequencing Methods
-image: assets/images/mantis.jpg
+image: assets/images/aerial-shot.jpg
 show_tile: false
 permalink: work-package-2
 ---

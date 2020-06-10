@@ -1,9 +1,9 @@
 ---
-title: Activities
+title: Ongoing projects
 layout: landing
-description: Explore what we are up to
+description: Updates from the network
 image: assets/images/artic-meeting.jpg
-nav_menu: true
+nav_menu: false
 ---
 
 <!-- Main -->
@@ -25,7 +25,7 @@ nav_menu: true
 {% for item in site.activities %}
 	<section>
 		<a href="wp1.html" class="image">
-			<img src="assets/images/mantis.jpg" alt="" data-position="center center" />
+			<img src="{{ item.image }}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -34,7 +34,7 @@ nav_menu: true
 				</header>
 				<p>{{ item.description}}</p>
 				<ul class="actions">
-					<li><a href="{{ item.permalink }}" class="button">Learn more</a></li>
+					<li><a href="{{ item.permalink }}" class="button small">Learn more</a></li>
 				</ul>
 			</div>
 		</div>

@@ -2,7 +2,7 @@
 title: Software
 layout: landing
 description: Check out our software
-image: assets/images/minion.jpg
+image: assets/images/rampart-icon.jpg
 nav_menu: true
 ---
 
@@ -30,9 +30,9 @@ nav_menu: true
 		</div>
 	</div>
 	<section>
-		<a href="wp1.html" class="image">
+		<!-- <a href="wp1.html" class="image">
 			<img src="assets/images/mantis.jpg" alt="" data-position="center center" />
-		</a>
+		</a> -->
 		<div class="content">
 			<div class="inner">
 				<header class="major">

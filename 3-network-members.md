@@ -1,27 +1,27 @@
 ---
-title: Team Members
+title: Who we are
 layout: landing
-description: Find out who's part of the network
+description: 
 image: assets/images/artic-meeting.jpg
 nav_menu: true
-show_tile: false
+show_tile: true
 ---
 
 <section id="content" class="spotlights">
 	<div class="inner">
 		<div class="box alt">
-			<div class="row 50% uniform">
+			<div class="row 50% ">
 				{% assign sortedTeam = site.people | sort: 'title' %}
 				{% for page in sortedTeam %}
-				{% assign mod = forloop.index | modulo: 3 %}
+				{% assign mod = forloop.index | modulo: 5 %}
 				{% if mod == 0 %}
-					<div class="4u$"><span class="image fit">
+					<div class="2u$"><span class="image fit">
 				{% else %}
-					<div class="4u"><span class="image fit">
+					<div class="2u"><span class="image fit">
 				{% endif %}
 					<figure class="imghvr-reveal-right"><img src="{{ page.image }}" alt=""/>
 						<figcaption>
-							<h3>{{ page.title }}</h3>
+							<h4>{{ page.title }}</h4>
 							<p>{{ page.description }}</p>
 						</figcaption>
 						<a href="{{ page.link }}"></a>
@@ -32,9 +32,9 @@ show_tile: false
 		</div>
 	</div>
 	<section>
-		<a href="wp1.html" class="image">
+		<!-- <a href="wp1.html" class="image">
 			<img src="assets/images/mantis.jpg" alt="" data-position="center center" />
-		</a>
+		</a> -->
 		<div class="content">
 			<div class="inner">
 				<header class="major">

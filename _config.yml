@@ -1,16 +1,16 @@
 # site settings
 title: Artic
 subtitle: Network
-email: w.rowe@bham.ac.uk
+email: 
 description: Real-time molecular epidemiology for outbreak response
 url: "https://artic-network.github.io/website" # the base hostname & protocol for your site # https://artic.network/
-author: Will Rowe
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United Kingdom
-phone: (716) 555-5555
+author: 
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone:
 
 # social settings
 500px_url:
@@ -26,7 +26,7 @@ twitter_url: https://twitter.com/NetworkArtic
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 5
 
 # build settings
 markdown: kramdown

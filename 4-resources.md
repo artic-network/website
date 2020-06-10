@@ -21,8 +21,8 @@ show_tile: true
 				{% endif %}
 					<figure class="imghvr-reveal-right"><img src="{{ page.image }}" alt=""/>
 						<figcaption>
-							<h3>{{ page.title }}</h3>
-							<p>{{ page.description }}</p>
+							<h2>{{ page.title }}</h2>
+							<!-- <p>{{ page.description }}</p> -->
 						</figcaption>
 						<a href="{{ page.permalink }}"></a>
 					</figure>
@@ -32,9 +32,9 @@ show_tile: true
 		</div>
 	</div>
 	<section>
-		<a href="wp1.html" class="image">
+		<!-- <a href="wp1.html" class="image">
 			<img src="assets/images/mantis.jpg" alt="" data-position="center center" />
-		</a>
+		</a> -->
 		<div class="content">
 			<div class="inner">
 				<header class="major">
