@@ -2,7 +2,7 @@
 title: Ongoing projects
 layout: landing
 description: Updates from the network
-image: assets/images/artic-meeting.jpg
+image: assets/images/ghana-phylo.jpg
 nav_menu: false
 ---
 

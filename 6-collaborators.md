@@ -2,6 +2,7 @@
 layout: page
 title: Collaborators
 description: Meet our collaborators
+image: assets/images/eddie-lab-on-ssd.jpg
 nav_menu: true
 show_tile: false
 ---

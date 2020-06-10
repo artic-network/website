@@ -2,6 +2,7 @@
 layout: page
 title: Project description
 description: 
+image: assets/images/jt-tree.jpg
 nav_menu: true
 ---
 

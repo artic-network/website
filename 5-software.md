@@ -2,7 +2,7 @@
 title: Software
 layout: landing
 description: Check out our software
-image: assets/images/rampart-icon.jpg
+image: assets/images/rampart-screenshot.jpg
 nav_menu: true
 ---
 

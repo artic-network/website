@@ -2,7 +2,7 @@
 title: Resources
 layout: page
 description: A collection of Nanopore sequencing resources
-image: assets/images/artic-meeting.jpg
+image: assets/images/lab-in-a-suitcase.jpg
 nav_menu: true
 show_tile: true
 ---
