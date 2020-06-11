@@ -13,7 +13,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(bg-alt);
+		background-color: _palette(bg-alt1);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
@@ -42,7 +42,7 @@
 					'color #{_duration(transition)} ease-in-out'
 				));
 				background-color: _palette(fg-bold);
-				color: _palette(bg-alt);
+				color: _palette(bg-alt1);
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
