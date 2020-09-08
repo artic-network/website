@@ -34,7 +34,7 @@ Set up the computing environment as described here in this document: [ncov2019-i
 First time only:
 
 ```bash
-git clone https://github.com/artic-network/artic-ncov2019.git
+git clone --recursive https://github.com/artic-network/artic-ncov2019.git
 ```
 
 ```
@@ -140,7 +140,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 E.g. for barcode03
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file run_name_barcode03.fastq --fast5-directory path_to_fast5 --sequencing-summary path_to_sequencing_summary.txt nCoV-2019/V3 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode03.fastq --fast5-directory path_to_fast5 --sequencing-summary path_to_sequencing_summary.txt SARS-CoV-2/V3 samplename
 ```
 
 Replace ``samplename`` as appropriate.
@@ -153,10 +153,9 @@ Replace ``samplename`` as appropriate.
    * ```samplename.pass.vcf``` - detected variants in VCF format passing quality filter
    * ```samplename.fail.vcf``` - detected variants in VCF format failing quality filter
    * ```samplename.primers.vcf``` - detected variants falling in primer-binding regions
-   * ``samplename.variants.tab`` - detected variants in tabular format
    * ``samplename.consensus.fasta`` - consensus sequence
 
-To put all the consensus sequences in one filei called ```my_consensus_genomes.fasta```, run
+To put all the consensus sequences in one file called ```my_consensus_genomes.fasta```, run
 
 ```bash
 cat *.consensus.fasta > my_consensus_genomes.fasta
@@ -175,7 +174,7 @@ Go to "Open Assembly"
 
 Load the BAM (binary alignment file) as the first file.
 
-Load the reference file (in artic/artic-ncov2019/primer_schemes/nCoV-2019/V1/nCoV-2019.reference.fasta) as the second file.
+Load the reference file (in artic/artic-ncov2019/primer-schemes/SARS-CoV-2/V1/nCoV-2019.reference.fasta) as the second file.
 
 Select Variants mode in Color Schemes for ease of viewing variants.
 
@@ -186,7 +185,7 @@ An alternative to nanopolish to calling variants is to use medaka. Medaka is fas
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode01.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode01.fastq SARS-CoV-2/V1 samplename
 ```
 
 Replace ``samplename`` as appropriate.
@@ -194,7 +193,7 @@ Replace ``samplename`` as appropriate.
 E.g. for barcode02
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_barcode02.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode02.fastq SARS-CoV-2/V1 samplename
 ```
 
 
