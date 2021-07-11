@@ -81,9 +81,9 @@ We can reverse this question and ask, if we see 2 mutations what amount of time 
 |4|0.0023|0.9997|
 |>4|0.0003|1.0|
 
-So one week of evolution still has a good chance of producing 2 mutations. In fact any amount of time between about 4 days and 13 weeks has a greater than 5% chance of producing exactly 2 nucleotide changes. Another way of looking at this is the 95% confidence intervals of the mean of a Poisson distribution for 2 observed events is between 3 and 90 days. Conversely a branch with no mutations (i.e., at a phylogenetic polytomy) can have a time span of between 0 and 46 days.
+So one week of evolution still has a good chance of producing 2 mutations. In fact any amount of time between about 4 days and 13 weeks has a greater than 5% chance of producing exactly 2 nucleotide changes. Another way of looking at this is the 95% confidence intervals of the mean of a Poisson distribution for 2 observed events is between 3 and 90 days. Conversely a branch with no mutations (i.e., at a phylogenetic polytomy) can have a time span of between 0 and 46 days. A similar empirical observation can be made by looking at the span between sampling times of identical genomes in the SARS-CoV-2 pandemic (Figure 1).
 
-{% include image.html file="/assets/images/tutorials/polytomies.png" max-width="70%" caption="" %}
+{% include image.html file="/assets/images/tutorials/polytomies.png" max-width="70%" caption="Figure 1 | Time spans between samples in sets of identical genomes relative to the earliest sampled genome of that set for the SARS-CoV-2 pandemic. Figure by Áine O'Toole, University of Edinburgh." %}
 
 But unless we are sampling every single case it is very unlikely that we have sampled the genome at the beginning of the transmission chain so most likely any two genomes will share a most recent common ancestor MRCA at some point between them. So for two viruses sampled on the same day with 2 nucleotides difference between their genomes, their MRCA will have existed between 2 and 45 days prior to sampling. If they are not sampled on the same day then the MRCA will have existed proportionally closer to the earlier sample.
 
