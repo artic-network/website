@@ -1,4 +1,23 @@
-# Time trees and estimating MRCAs
+---
+title: "Estimating time scales using molecular clocks"
+keywords: tutorial
+layout: document
+last_updated: Jul 11, 2021
+tags: [protocol] 
+permalink: how-to-read-a-tree.html
+folder: tutorials
+title_text: "How to read a tree part 2: Estimating time scales using molecular clocks"
+subtitle_text: "Tutorial | Phylogenetics"
+document_name: "ARTIC-Tutorial-Phylogenetics-Part2"
+version: v1.0.0
+revision_date: 2021-07-11
+creation_date: 2021-07-11 
+forked_from: 
+author: Andrew Rambaut
+nav_menu: false
+show_tile: false
+category: tutorial
+---
 
 Phylogenetic trees usually have branch lengths in units of genetic change either as a count of the number of nucleotide differences or an estimate of the average number of changes per site in the genome. The latter estimates accommodate the fact that some of the genome may be missing in the sequence but the two are very similar when the number of mutations are small.
 
