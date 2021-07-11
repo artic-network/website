@@ -33,7 +33,7 @@ As an aside, coronaviruses are one of the largest known RNA viruses but much of 
 
 Assuming an average of 1 error per genome, this will mean for a coronavirus (genome size of about 30,000 nucleotides) the mutation rate will be 0.000033 mutations/nucleotide/replication. Assuming a binomial distribution (a probability distribution that describes the number of times a particular outcome will occur given a fixed per 'trial' probability of the outcome happening and a certain number of trials) we find that per replication there is about a bit more than 1/3 probability that no mutations will occur, about the same that 1 mutation will occur and about 1/4 that more than one will occur (there is even a 2% chance that 4 or more mutations will occur).
 
-**Table 1** | Binomial distribution of mutation number for 30,000 nucleotides with a 3.3x10^-5 probability of mutation
+**Table 1** \| Binomial distribution of mutation number for 30,000 nucleotides with a 3.3x10^-5 probability of mutation
 
 |mutations|probability|
 | --- | --- |
@@ -55,7 +55,7 @@ This process (the accumulation of mutations at a fixed rate per time as a produc
 
 The Poisson distribution gives you the expected number of events given an average rate of the events happening. The Poisson distribution for an expectation of 2.24 events (4 weeks of evolution at the rate above) is given in Table 2. You can see that although the most probable number of events is 2, 1 and 3 events have nearly as much probability and 0 and 4 have about 10% probability.
 
-**Table 2** | Poisson distribution for a rate of 0.001 subst/site/year = 29 changes/year = 2.24 changes/4 weeks
+**Table 2** \| Poisson distribution for a rate of 0.001 subst/site/year = 29 changes/year = 2.24 changes/4 weeks
 
 |changes|probability|cumulative probability|
 | --- | --- | --- |
@@ -70,7 +70,7 @@ The Poisson distribution gives you the expected number of events given an averag
 
 We can reverse this question and ask, if we see 2 mutations what amount of time could that represent? In 1 week we expect 0.56 changes and Table 3 gives the Poisson distribution with this mean. So we have > 50% chance of seeing no mutations, 32% of seeing exactly one, and still a 11% chance of seeing 2 or more.
 
-**Table 3** | Poisson distribution for a mean 0.56 changes (the number of changes expected in 1 week)
+**Table 3** \| Poisson distribution for a mean 0.56 changes (the number of changes expected in 1 week)
 
 |changes|probability|cumulative probability|
 | --- | --- | --- |
@@ -85,7 +85,7 @@ So one week of evolution still has a good chance of producing 2 mutations. In fa
 
 >{% include image.html file="/assets/images/tutorials/polytomies.png" max-width="70%" caption="" %}
 >
-> **Figure 1** | Time spans between samples in sets of identical genomes relative to the earliest sampled genome of that set for the SARS-CoV-2 pandemic. Figure by Áine O'Toole, University of Edinburgh.
+> **Figure 1** \| Time spans between samples in sets of identical genomes relative to the earliest sampled genome of that set for the SARS-CoV-2 pandemic. Figure by Áine O'Toole, University of Edinburgh.
 
 But unless we are sampling every single case it is very unlikely that we have sampled the genome at the beginning of the transmission chain so most likely any two genomes will share a most recent common ancestor MRCA at some point between them. So for two viruses sampled on the same day with 2 nucleotides difference between their genomes, their MRCA will have existed between 2 and 45 days prior to sampling. If they are not sampled on the same day then the MRCA will have existed proportionally closer to the earlier sample.
 
