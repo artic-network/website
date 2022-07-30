@@ -153,10 +153,9 @@ Replace ``samplename`` as appropriate.
    * ```samplename.pass.vcf``` - detected variants in VCF format passing quality filter
    * ```samplename.fail.vcf``` - detected variants in VCF format failing quality filter
    * ```samplename.primers.vcf``` - detected variants falling in primer-binding regions
-   * ``samplename.variants.tab`` - detected variants in tabular format
    * ``samplename.consensus.fasta`` - consensus sequence
 
-To put all the consensus sequences in one filei called ```my_consensus_genomes.fasta```, run
+To put all the consensus sequences in one file called ```my_consensus_genomes.fasta```, run
 
 ```bash
 cat *.consensus.fasta > my_consensus_genomes.fasta
@@ -186,7 +185,7 @@ An alternative to nanopolish to calling variants is to use medaka. Medaka is fas
 If you want to use Medaka, you can skip the ``nanopolish index`` step, and add the parameter ``--medaka`` to the command, as below:
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer-schemes --read-file run_name_barcode01.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file run_name_barcode01.fastq nCoV-2019/V1 samplename
 ```
 
 Replace ``samplename`` as appropriate.
@@ -194,7 +193,7 @@ Replace ``samplename`` as appropriate.
 E.g. for barcode02
 
 ```bash
-artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic/artic-ncov2019/primer-schemes --read-file run_name_barcode02.fastq nCoV-2019/V1 samplename
+artic minion --medaka --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file run_name_barcode02.fastq nCoV-2019/V1 samplename
 ```
 
 
