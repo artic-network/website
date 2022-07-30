@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Emily Scher
+title: Daniel Maloney
 description: University of Edinburgh
-image: assets/images/emily-scher.jpg
+image: assets/images/daniel-maloney.jpg
 link: 
 show_tile: false
 ---
