@@ -2,7 +2,7 @@
 layout: post
 title: Yasmin Goodfellow
 description: University of Cambridge
-image: 
+image: assets/images/yasmin-goodfellow.png
 link: 
-show_tile: false
+show_tile: true
 ---

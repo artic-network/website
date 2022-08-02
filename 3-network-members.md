@@ -22,7 +22,7 @@ show_tile: true
 	<div class="inner">
 		<div class="box alt">
 			<div class="row 50% ">
-				{% assign sortedTeam = site.people | sort: 'description' %}
+				{% assign sortedTeam = site.people | sort: 'title' %}
 				{% for page in sortedTeam %}
 				{% assign mod = forloop.index | modulo: 5 %}
 				{% if mod == 0 %}
