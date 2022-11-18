@@ -18,11 +18,11 @@ The first stage of this project involved strengthening capacity at WACCBIP throu
 The second stage of this project has involved establishment of 7 spoke laboratories in Burkina Faso, Cameroon, Côte d’Ivoire, Guinea, Mali and Nigeria. A training workshop was held in August 2022 at WACCBIP, in which two people from each spoke laboratory were trained in the wet lab sequencing process, and one was trained in analysis using bioinformatics software. All training of the sequencing process was streamlined to ensure rapid support from the leading bodies, and to strengthen networks between the spoke laboratories.  
 
 ## Spoke laboratories 
-1.	Africa Center of Excellence for Population Health and Policy (ACEPHAP), Bayero University, Nigeria (Professor Hadiza Shehu Galadanci)
-2.	Centre d’Excellence Africain pour la Prévention et le Contrôle des Maladies Transmissibles (CEA-PCMT), Conakry, Guinea (Professor Alexandre Delamou)
-3.	Centre for Research on Filariasis and other Tropical Diseases (CRFiLMT), Yaoundé, Cameroon (Dr Hugues Nana Djeunga) 
-4.	Centre Suisse de Recherche Scientifique en Côte d’Ivoire (CSRS), Abijan, Côte d’Ivoire (Dr Solange Aka)
-5.	Groupe de Recherche Action en Sante (GRAS), Ouagadougou, Burkina Faso (Dr Sodiomon B. Sirima) 
+1.	[African Center of Excellence for Population Health and Policy](https://www.acephap.buk.edu.ng/) (ACEPHAP), Bayero University, Nigeria (Professor Hadiza Shehu Galadanci)
+2.	[Centre d'Excellence Africain pour la Prévention et le Contrôle des Maladies Transmissibles](http://cea-pcmt.org/) (CEA-PCMT), Conakry, Guinea (Professor Alexandre Delamou)
+3.	[Centre de Recherche sur les Filarioses et Autres Maladies Tropicales](https://crfilmt.org/) (CRFiLMT), Yaoundé, Cameroon (Dr Hugues Nana Djeunga) 
+4.	[Centre Suisse de Recherche Scientifique](https://www.csrs.ch/en/) (CSRS), Abijan, Côte d’Ivoire (Dr Solange Aka)
+5.	[Groupe de Recherche Action en Sante](https://gras.bf/) (GRAS), Ouagadougou, Burkina Faso (Dr Sodiomon B. Sirima) 
 6.	Institut de Recherche en Sciences de la Santé (IRSS) (ITEC-MTV), Bobo-Dioulasso, Burkina Faso (Professor Abdoulie Diabates)
 7.	Malaria Research and Training Center (MRTC), Bamako, Mali (Professor Antoine Dara)
 
