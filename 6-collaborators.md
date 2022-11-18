@@ -37,14 +37,14 @@ show_tile: false
 							<li>Nuno Faria</li>
 							<li>Oliver Pybus</li>
 						</ul>
-					</ul>
-				</div>
-				<div class="6u 12u$(medium)">
-					<ul>
 						<li>Redeemers’ University, Nigeria</li>
 						<ul>
 							<li>Christian Happi</li>
 						</ul>
+					</ul>
+				</div>
+				<div class="6u 12u$(medium)">
+					<ul>
 						<li>Roslin Institute, University of Edinburgh</li>
 						<ul>
 							<li>Samantha Lycett</li>
