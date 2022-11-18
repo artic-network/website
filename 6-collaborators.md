@@ -57,6 +57,11 @@ show_tile: false
 						<ul>
 							<li>David Spiro</li>
 						</ul>
+						<li>West African Center for Cell Biology of Infectious Pathogens (WACCBIP), University of Ghana</li>
+						</ul>
+							<li>Gordon Awandare</li>
+							<li>Osbourne Quaye</li>
+						</ul>
 					</ul>				
 				</div>
 			</div>
