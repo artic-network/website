@@ -42,6 +42,7 @@ include:
     "_resources",
     "_resources/ebov",
     "_resources/ncov",
+    "_resources/mpxv",
     "_software",
   ]
 collections:
