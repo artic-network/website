@@ -5,9 +5,9 @@ layout: document
 last_updated: 2024-08-16
 tags: [protocol]
 summary:
-permalink: /mpxv/mpxv-phylogenetics-sop.html
+permalink: /mpxv/mpxv-phylogenetics-epi2me-sop.html
 folder: mpxv
-title_text: "MPXV alignment and phylogenetics protocol"
+title_text: "MPXV alignment and phylogenetics pipeline using Epi2Me"
 subtitle_text: "Squirrel | bioinformatics"
 document_name: "ARTIC-MPXV-phylogeneticsSOP"
 version: v1.0
@@ -18,7 +18,7 @@ author: Áine O'Toole
 citation: https://github.com/aineniamh/squirrel
 nav_menu: false
 show_tile: false
-category: mpxv
+category: mpxv-epi2me
 ---
 
 {% include callout.html

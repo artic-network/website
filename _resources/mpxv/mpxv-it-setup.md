@@ -16,7 +16,7 @@ author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
 nav_menu: false
 show_tile: false
-category: mpxv
+category: mpxv-setup
 ---
 
 {% include callout.html

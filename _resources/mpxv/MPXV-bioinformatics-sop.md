@@ -16,7 +16,7 @@ author: Sam Wilkinson
 citation: "Loman *et al.* In Prep."
 nav_menu: false
 show_tile: false
-category: mpxv
+category: mpxv-cli
 ---
 
 {% include callout.html
