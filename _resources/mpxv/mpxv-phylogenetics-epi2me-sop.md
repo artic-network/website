@@ -56,7 +56,7 @@ Scrolling down the menu, select the box to `Run Phylo`. At this point you have 2
 
 <img width="500" alt="includebackground" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_7.png">
 
-OR you can specify a number of outgroups IDs. These outgroups must be present in the FASTA file you provided and will be pruned out of the final alingment. For Clade I we recommend outgroups KJ642617,KJ642615,KJ642616 and for Clade IIb we recommend KJ642617,KJ642615. If you selected the `Include Background` option these outgroups are ignored.
+OR you can specify a number of outgroups IDs. These outgroups must be present in the FASTA file you provided and will be pruned out of the final alignment. For Clade I we recommend outgroups KJ642617,KJ642615,KJ642616 and for Clade IIb we recommend KJ642617,KJ642615. If you also selected the `Include Background` option your specified outgroups will be ignored.
 
 <img width="500" alt="outgroups" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_8.png">
 
