@@ -52,9 +52,9 @@ show_tile: true
 				<header class="major">
 						<h1>Find out more</h1>
 				</header>
-				<p>Follow the ARTIC twitter account to see what the team is up to</p>
+				<p>Follow the ARTIC BlueSky account to see what the team is up to</p>
 				<ul class="actions">
-					<li><a href="{{ site.twitter_url }}" class="button">visit Twitter</a></li>
+					<li><a href="{{ site.bsky_url }}" class="button">visit BlueSky</a></li>
 				</ul>
 			</div>
 		</div>

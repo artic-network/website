@@ -23,6 +23,7 @@ linkedin_url:
 pinterest_url:
 slack_url:
 twitter_url:
+bsky_url: https://bsky.app/profile/articnetwork.bsky.social
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
