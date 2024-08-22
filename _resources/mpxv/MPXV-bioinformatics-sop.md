@@ -171,7 +171,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 E.g. for barcode03
 
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name grubaugh-mpox --scheme-version v1.0.1 --read-file run_name_barcode03.fastq --model r941_e81_hac_g514 samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name yale-mpox --scheme-version v1.0.1 --read-file run_name_barcode03.fastq --model r941_e81_hac_g514 samplename
 ```
 
 Replace ``samplename`` as appropriate.
