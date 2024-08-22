@@ -4,7 +4,7 @@ keywords: ebov
 last_updated: May 24, 2018
 tags: [ebov]
 sidebar: artic_sidebar
-permalink: ebov/ebov-validation.html
+permalink: /ebov/ebov-validation.html
 toc: false
 hide_sidebar: true
 folder: ebov

@@ -5,7 +5,7 @@ layout: document
 last_updated: Dec 12, 2019
 tags: [protocol]
 summary:
-permalink: ebov/ebov-bioinformatics-sop.html
+permalink: /ebov/ebov-bioinformatics-sop.html
 folder: ebov
 title_text: "Ebola virus bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"

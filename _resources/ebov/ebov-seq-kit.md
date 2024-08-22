@@ -5,7 +5,7 @@ layout: document
 last_updated: Sept 25, 2019
 tags: [kit-list]
 summary:
-permalink: ebov/ebov-seq-kit.html
+permalink: /ebov/ebov-seq-kit.html
 folder: ebov
 title_text: "Ebola virus sequencing kit-list"
 subtitle_text: "Nanopore | amplicon | native barcoding"

@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: May 18, 2018
 tags: [protocol] 
-permalink: ebov/ebov-it-setup.html
+permalink: /ebov/ebov-it-setup.html
 folder: ebov
 title_text: "Ebola virus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"

@@ -5,7 +5,7 @@ layout: document
 last_updated: Sept 25, 2019
 tags: [protocol]
 summary:
-permalink: ebov/ebov-seq-sop.html
+permalink: /ebov/ebov-seq-sop.html
 folder: ebov
 title_text: "Ebola virus sequencing protocol"
 subtitle_text: "Nanopore | amplicon | native barcoding"

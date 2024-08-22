@@ -22,7 +22,7 @@ instagram_url:
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/NetworkArtic
+twitter_url:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

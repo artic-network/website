@@ -5,7 +5,7 @@ layout: document
 last_updated: Dec 12, 2019
 tags: [protocol]
 summary:
-permalink: ebov/ebov-phylogenetics-sop-ituri.html
+permalink: /ebov/ebov-phylogenetics-sop-ituri.html
 folder: ebov
 title_text: "Ebola virus phylogenetic analysis protocol"
 subtitle_text: "Nanopore | bioinformatics"
