@@ -205,6 +205,13 @@ To put all the consensus sequences in one file called ```my_consensus_genomes.fa
 cat *.consensus.fasta > my_consensus_genomes.fasta
 ```
 
+## Software credits
+The ARTIC pipeline and [fieldbioinformatics](https://github.com/artic-network/fieldbioinformatics) software include a number of software packages:
+- Reference alignment with [minimap2](https://github.com/lh3/minimap2)
+- Variant calling with [medaka](https://github.com/nanoporetech/medaka) and [longshot](https://github.com/pjedge/longshot)
+
+
+
 ---
 
 > This document is part of the MPXV sequencing protocol package:
