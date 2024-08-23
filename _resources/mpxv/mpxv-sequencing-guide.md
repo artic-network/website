@@ -126,4 +126,15 @@ ARTIC MPXV bioinformatics SOP \- to follow
 
 Squirrel \- *[https://github.com/aineniamh/squirrel*](https://github.com/aineniamh/squirrel)
 
+ ---
+
+> This document is part of the MPXV sequencing protocol package:
+: [http://artic.network/mpxv](http://artic.network/mpxv)
+
+<br /><br /><br />
+
+{% include wellcome-trust.html %}
+<br />
+
+<div class="pagebreak"> </div>
 

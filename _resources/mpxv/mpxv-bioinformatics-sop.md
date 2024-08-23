@@ -8,7 +8,7 @@ permalink: /mpxv/mpxv-bioinformatics-sop.html
 folder: ncov
 title_text: "MPXV Nanopore sequencing bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
-document_name: "ARTIC-MPXV-bioinformaticsSOP"
+document_name: "ARTIC-MPXV-bioinformatics-SOP"
 version: v1.0.0
 creation_date: 2024-08-20
 forked_from: 
@@ -204,3 +204,15 @@ To put all the consensus sequences in one file called ```my_consensus_genomes.fa
 ```bash
 cat *.consensus.fasta > my_consensus_genomes.fasta
 ```
+
+---
+
+> This document is part of the MPXV sequencing protocol package:
+: [http://artic.network/mpxv](http://artic.network/mpxv)
+
+<br /><br /><br />
+
+{% include wellcome-trust.html %}
+<br />
+
+<div class="pagebreak"> </div>
