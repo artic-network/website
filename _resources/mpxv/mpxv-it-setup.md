@@ -2,7 +2,7 @@
 title: "Mpox virus sequencing | IT setup guide"
 keywords: protocol
 layout: document
-last_updated: Jan 22, 2020
+last_updated: Aug 20 2024
 tags: [protocol] 
 permalink: # /mpxv/mpxv-it-setup.html
 folder: mpxv
@@ -21,18 +21,18 @@ category: # mpxv-setup
 
 {% include callout.html
 type='default'
-content='**Overview:** Instructions for setting up the laptop computing environment for running the MinION sequencer and performing the bioinformatics and downstream phylogenetic analyses.'
+content='**Overview:** Instructions for setting up a computing environment for running the MinION sequencer and performing the bioinformatics and downstream phylogenetic analyses.'
 %}
 
 <br />
 
-This document is part of the nCoV-2019 Nanopore sequencing protocol package:
-: [http://artic.network/ncov-2019](http://artic.network/ncov-2019)
+This document is part of the MPXV sequencing protocol package:
+: [http://artic.network/mpxv](http://artic.network/ncov-2019)
 
 #### Related documents:
 
-nCoV-2019 Nanopore bioinformatics protocol:
-: [http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html](http://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html)
+MPXV nanopore bioinformatics protocol:
+: [http://artic.network/mpxv/mpxv-bioinformatics-sop.html](http://artic.network/mpxv/mpxv-bioinformatics-sop.html)
 
 <br /><br />
 
@@ -52,6 +52,14 @@ Laptop requirements for MinION:
 : Full Oxford Nanopore Technologies [lab and computing requirements are here](https://nanoporetech.com/sites/default/files/s3/MinION-Computer-Requirements-March-17_Final.pdf).
 
 ## Software Setup
+
+https://labs.epi2me.io
+
+https://labs.epi2me.io/downloads/
+
+The current version of the EPI2ME Desktop application is v5.1.14
+
+https://www.docker.com/products/docker-desktop/
 
 These protocols instructions assume a 64-bit UNIX, Linux or similar environment. This could be Mac OS X (Yosemite or later), Linux (e.g., Ubuntu 16 or later), or Windows 10  Subsystem for Linux. It assumes familiarity with a UNIX-like *bash* command-line. 
 
