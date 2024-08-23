@@ -86,7 +86,13 @@ A pop-up window will appear where you can enter the GitHub URL. Enter the URL an
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png">
  
 Once it has downloaded, it will be ready in the `Available Workflows` tab. Select it and you will be taken to a landing page for this workflow.
-  
+
+## Software credits
+
+This resource depends on the [EPI2ME](https://labs.epi2me.io) desktop software provided by Oxford Nanopore Technologies.
+The pipeline is written in [Nextflow](https://www.nextflow.io/) and relies on [Docker containers](https://hub.docker.com/).
+
+
 ---
 
 ## Running a pipeline
@@ -95,6 +101,10 @@ Once it has downloaded, it will be ready in the `Available Workflows` tab. Selec
 
 > This document is part of the MPXV sequencing protocol package:
 : [http://artic.network/mpxv](http://artic.network/mpxv)
+
+
+
+
 
 <br /><br /><br />
 
