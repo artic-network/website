@@ -36,38 +36,43 @@ Squirrel can be used as a command line tool, with full command-line documentatio
 ### User interface
 Squirrel can also be run through the [EPI2ME](https://labs.epi2me.io/downloads/) user interface. Please first install the EPI2ME desktop application using the provided link. You can then go to 'available workflows' then 'Import workflow' from [`https://github.com/artic-network/squirrel-nf`](https://github.com/artic-network/squirrel-nf) as shown below:
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 10 02" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_1.png">
+<img width="500" alt="link" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_1.png">
 
 Once the workflow has successfully downloaded, you can click the X to exit to download window, and select it from the list of available workflows. Next select `Run this workflow` from the available options, and then `Run on your computer`:
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 10 34" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_2.png">
-<img width="500" alt="Screenshot 2024-08-19 at 14 10 58" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_3.png">
+<img width="500" alt="launch" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_2.png">
+<img width="500" alt="run" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_3.png">
 
-This will bring up a menu where you can provide the inputs for your analysis. The only required file is a single FASTA file containing all the sequences and outgroups for your analysis and the clade (i or ii) from the drop down list:
+This will bring up a menu where you can provide the inputs for your analysis. The only required file is a single FASTA file containing all the sequences and outgroups for your analysis and you must also select the clade (i or ii) from the drop down list:
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 11 17" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_4.png">
+<img width="500" alt="fasta" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_4.png">
+<img width="500" alt="clade" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_5.png">
 
-Running with just a FASTA file will generate an alignment of the input sequences. We recommend selecting the check box for `seq_qc` to check this alignment for problematic sites. 
+Running with just a FASTA file will generate an alignment of the input sequences. We recommend selecting the check box for `Seq QC` to check this alignment for problematic sites. 
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 11 39" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_5.png">
+<img width="500" alt="seqqc" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_6.png">
 
-Scrolling down the menu, select the box to `run_phylo`. This requires you to specify the outgroups. For Clade I the recommended outgroups are KJ642617,KJ642615,KJ642616 and for Clade IIb we recommend KJ642617,KJ642615. These need to be in your FASTA file.
+Scrolling down the menu, select the box to `Run Phylo`. At this point you have 2 options. EITHER you can select the check box to `Include Background`, in which case a default panel of clade-specific outgroups sequences will be used.
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 12 43" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_6.png">
+<img width="500" alt="includebackground" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_7.png">
+
+OR you can specify a number of outgroups IDs. These outgroups must be present in the FASTA file you provided and will be pruned out of the final alignment. For Clade I we recommend outgroups KJ642617,KJ642615,KJ642616 and for Clade IIb we recommend KJ642617,KJ642615. If you also selected the `Include Background` option your specified outgroups will be ignored.
+
+<img width="500" alt="outgroups" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_8.png">
 
 Optionally you can provide a different reference sequence, but this is usually unnecessary - a clade specific reference will be used by default. No Advanced Options or Nextflow Configuration options are required by default.
 
 Click Launch: 
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 13 00" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_7.png">
+<img width="500" alt="launch2" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_9.png">
 
 This will start the workflow. A progress bar is displayed with the run status but you will not be able to see the stdout that is generated on the command line. 
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 13 13" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_8.png">
+<img width="500" alt="progress" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_10.png">
 
 Once the run is completed, a number of files will be available and you can double-click to view them:
 
-<img width="500" alt="Screenshot 2024-08-19 at 14 23 09" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_9.png">
+<img width="500" alt="complete" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_9.png">
 
 This includes a suggested_mask.csv file generated by the run with potentially problematic sites. If you start a new run with the same inputs and additionally provide this mask file in the menu, it will improve the alignment and phylogeny.
 
