@@ -96,6 +96,9 @@ Medaka runs within the pipeline to call variants between the reads provided and 
 ---
 
 ## Related documents:
+
+This pipeline can also be run in a command-line environment. [See this document for detailed instructions for doing this](https://artic.network/mpxv/mpxv-bioinformatics-sop.html).
+
 This document is part of the MPXV sequencing protocol package:
 : [http://artic.network/mpxv](http://artic.network/mpxv)
 
