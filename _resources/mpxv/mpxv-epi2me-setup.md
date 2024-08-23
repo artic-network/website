@@ -1,5 +1,5 @@
 ---
-title: "Setting up and using EPI2ME to ARTIC pipelines | EPI2ME"
+title: "Setting up and using EPI2ME for ARTIC pipelines | EPI2ME"
 keywords: protocol
 layout: document
 last_updated: 2024-08-22
@@ -7,9 +7,9 @@ tags: [protocol]
 summary:
 permalink: /mpxv/mpxv-ont-epi2me-sop.html
 folder: mpxv
-title_text: "Running the ARTIC MPXV analysis pipeline for nanopore data using EPI2ME"
-subtitle_text: "ARTIC nanopore protocol | bioinformatics"
-document_name: "ARTIC-MPXV-nanopore-Epi2Me-SOP"
+title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
+subtitle_text: "ARTIC pipelines | bioinformatics"
+document_name: "ARTIC-MPXV-EPI2ME-Setup"
 version: v1.0
 creation_date: 2024-08-22
 revision_date: 
@@ -26,27 +26,29 @@ type='default'
 content="**Overview:** This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface."
 %}
 
+**Requirements:**
+
+* The ability to install software on your desktop or laptop. This includes some extra packages like Java and Docker that may require administrator level privileges.   
+* Internet access to download the pipeline, and for the first time running it. After that, you should be able to run it offline.
+* Details about how the data was generated including the primer scheme used and the base-caller specified within the MinKNOW software.
+
+---
+
 ## Installing the EPI2ME software
 
-EPI2ME is a standard desktop software package available for Windows, Macintosh and Linux operating systems and is used to run 'NextFlow' pipelines in a simple easy-to-use environment without interacting with a command-line. It can be obtained from the EPI2ME website https://labs.epi2me.io with downloads for each operating system available from the download page:
+EPI2ME is a standard desktop software package available for Windows, Macintosh and Linux operating systems and is used to run 'NextFlow' pipelines in a simple easy-to-use environment without interacting with a command-line. It can be obtained from the EPI2ME website --- [https://labs.epi2me.io]() --- with downloads for each operating system available from the download page:
 
-https://labs.epi2me.io/downloads/
+> [https://labs.epi2me.io/downloads/](https://labs.epi2me.io/downloads/)
 
 Once you have downloaded the appropriate installer for your operating system, install it in the usual way.
 
+## Initial setup of EPI2ME
 
-                                                                                                                   
+The first time you run EPI2ME it may need to install some additional software. It will guide you through this process.
 
-## Using the ARTIC MPXV ONT pipeline in EPI2ME
+## Using an ARTIC MPXV analysis pipeline in EPI2ME
 
 ## ---
-
-**Requirements:**
-
-* EPI2ME already installed (see separate document “Laptop Setup Instructions”)
-* Internet access to download the pipeline, and for the first time running it. After that, you should be able to run it offline
-
----
 
 ### **Import the workflow**
 
@@ -68,7 +70,7 @@ Once it has downloaded, it will be ready in the Available Workflows tab. Select 
 
 From the workflow landing page, click “Run this workflow”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_4.png">
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_4b.png">
 
 Then select “Run on your computer” and click “Continue”.
 
