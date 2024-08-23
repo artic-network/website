@@ -1,5 +1,5 @@
 ---
-title: "Setting up and using EPI2ME for ARTIC pipelines | EPI2ME"
+title: "Setting up and using EPI2ME for MPXV analysis pipelines | EPI2ME"
 keywords: protocol
 layout: document
 last_updated: 2024-08-22
@@ -7,7 +7,7 @@ tags: [protocol]
 summary:
 permalink: /mpxv/mpxv-epi2me-setup.html
 folder: mpxv
-title_text: "Setting up and running ARTIC MPXV analysis pipelines using EPI2ME"
+title_text: "Setting up and using EPI2ME for MPXV analysis pipelines"
 subtitle_text: "ARTIC pipelines | bioinformatics"
 document_name: "ARTIC-MPXV-EPI2ME-Setup"
 version: v1.0
