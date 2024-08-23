@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Jan 22, 2020
 tags: [protocol] 
-permalink: /mpxv/mpxv-it-setup.html
+permalink: # /mpxv/mpxv-it-setup.html
 folder: mpxv
 title_text: "MPXV bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
@@ -16,7 +16,7 @@ author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
 nav_menu: false
 show_tile: false
-category: mpxv-setup
+category: # mpxv-setup
 ---
 
 {% include callout.html

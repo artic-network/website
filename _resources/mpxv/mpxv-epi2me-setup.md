@@ -1,5 +1,5 @@
 ---
-title: "Using the ARTIC MPXV ONT pipeline | EPI2ME"
+title: "Setting up and using EPI2ME to ARTIC pipelines | EPI2ME"
 keywords: protocol
 layout: document
 last_updated: 2024-08-22
@@ -18,14 +18,24 @@ author: Lauren Lansdowne
 citation: 
 nav_menu: false
 show_tile: false
-category: mpxv-epi2me
+category: mpxv-setup
 ---
 
 {% include callout.html
 type='default'
-content='**Overview:** 
-'
+content="**Overview:** This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface."
 %}
+
+## Installing the EPI2ME software
+
+EPI2ME is a standard desktop software package available for Windows, Macintosh and Linux operating systems and is used to run 'NextFlow' pipelines in a simple easy-to-use environment without interacting with a command-line. It can be obtained from the EPI2ME website https://labs.epi2me.io with downloads for each operating system available from the download page:
+
+https://labs.epi2me.io/downloads/
+
+Once you have downloaded the appropriate installer for your operating system, install it in the usual way.
+
+
+                                                                                                                   
 
 ## Using the ARTIC MPXV ONT pipeline in EPI2ME
 
