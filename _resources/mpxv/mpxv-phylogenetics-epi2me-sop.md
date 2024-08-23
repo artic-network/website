@@ -101,12 +101,16 @@ The rationale for this is that N sites are usually a product of low coverage reg
 - <strong>Unique mutations that clump together</strong>
 If mutations are observed in only a single sequence in the genome, they are classed as unique mutations. <it>Usually</it> mutations do not clump closely together and may suggest an alignment or assembly issue. If these mutations are not shared with any other sequences, they are flagged for masking. 
 
+### Phylogenetic inference
+Tree vizualisations are rendered using [baltic](https://github.com/evogytis/baltic)
 
 ## References
 
 Heng Li, Minimap2: pairwise alignment for nucleotide sequences, Bioinformatics, Volume 34, Issue 18, September 2018, Pages 3094–3100, https://doi.org/10.1093/bioinformatics/bty191<br>
 Ben Jackson, gofasta: command-line utilities for genomic epidemiology research, Bioinformatics, Volume 38, Issue 16, August 2022, Pages 4033–4035, https://doi.org/10.1093/bioinformatics/btac424<br>
 Bui Quang Minh, Heiko A Schmidt, Olga Chernomor, Dominik Schrempf, Michael D Woodhams, Arndt von Haeseler, Robert Lanfear, IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era, Molecular Biology and Evolution, Volume 37, Issue 5, May 2020, Pages 1530–1534, https://doi.org/10.1093/molbev/msaa015<br>
+Gytis Dudas (2016) https://github.com/evogytis/baltic
+
 
 ---
 
