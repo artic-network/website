@@ -96,6 +96,13 @@ Once it has downloaded, it will be ready in the `Available Workflows` tab. Selec
 > This document is part of the MPXV sequencing protocol package:
 : [http://artic.network/mpxv](http://artic.network/mpxv)
 
+
+## Software credits
+This resource depends on the [EPI2ME](https://labs.epi2me.io) desktop software provided by Oxford Nanopore Technologies.
+The pipeline is written in [Nextflow](https://www.nextflow.io/) and relies on [Docker containers](https://hub.docker.com/).
+
+
+
 <br /><br /><br />
 
 {% include wellcome-trust.html %}
