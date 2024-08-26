@@ -62,6 +62,7 @@ Once the workflow has successfully downloaded, you can click the X to exit to do
 This will bring up a menu where you can provide the inputs for your analysis. The only required file is a single FASTA file containing all the sequences and outgroups for your analysis and you must also select the clade (i or ii) from the drop down list:
 
 <img width="500" alt="fasta" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_4.png">
+
 <img width="500" alt="clade" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_5.png">
 
 Running with just a FASTA file will generate an alignment of the input sequences. We recommend selecting the check box for `Seq QC` to check this alignment for problematic sites. 
@@ -79,8 +80,8 @@ OR you can specify a number of outgroups IDs. These outgroups must be present in
 Optionally you can provide a different reference sequence, but this is usually unnecessary - a clade specific reference will be used by default. No Advanced Options or Nextflow Configuration options are required by default.
 
 Click `Launch Workflow` and then `Launch`:
-<img width="500" alt="launch2" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_8b.png">
 
+<img width="500" alt="launch2" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_8b.png">
 <img width="500" alt="launch2" src="/assets/images/mpxv/phylogenetics-sop/screen_shot_9.png">
 
 This will start the workflow. A progress bar is displayed with the run status but you will not be able to see the stdout that is generated on the command line. 
