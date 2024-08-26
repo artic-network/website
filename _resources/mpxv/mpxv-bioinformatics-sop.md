@@ -210,8 +210,6 @@ The ARTIC pipeline and [fieldbioinformatics](https://github.com/artic-network/fi
 - Reference alignment with [minimap2](https://github.com/lh3/minimap2)
 - Variant calling with [medaka](https://github.com/nanoporetech/medaka) and [longshot](https://github.com/pjedge/longshot)
 
-
-
 ---
 
 {% include callout.html

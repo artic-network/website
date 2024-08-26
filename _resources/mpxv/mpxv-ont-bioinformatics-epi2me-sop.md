@@ -27,7 +27,7 @@ content="**Overview:** The `artic-mpxv-nf` workflow implements an ARTIC FieldBio
 This document walks-through how to install and run the ARTIC bioinformatics pipeline in the ONT EPI2ME desktop software."
 %}
 
-## Credits / Acknowledgements
+### Credits / Acknowledgements
 
 This pipeline is possible due to the ongoing efforts of many people developing and maintaining bioinformatics software. For a complete list of acknowledgments please see the documentation on the pipeline Github repository: [https://github.com/artic-network/artic-mpxv-nf](https://github.com/artic-network/artic-mpxv-nf/blob/master/README.md) 
 
@@ -117,11 +117,11 @@ Medaka runs within the pipeline to call variants between the reads provided and 
 
 **We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
       
----
-
 ## Related documents:
 
 This pipeline can also be run in a command-line environment. [See this document for detailed instructions for doing this](https://artic.network/mpxv/mpxv-bioinformatics-sop.html).
+
+---
 
 {% include callout.html
 type='default'

@@ -2,14 +2,14 @@
 title: "Mpox virus sequencing | A guide to sequencing for genomic epidemiology"
 keywords: protocol
 layout: document
-last_updated: Aug 23, 2024
+last_updated: 2024-08-26
 tags: [protocol] 
 permalink: /mpxv/artic-mpxv-guide.html
 folder: mpxv
 title_text: "Mpox virus sequencing"
 subtitle_text: "A guide to sequencing for genomic epidemiology"
 document_name: "ARTIC-MPXV-guide"
-version: v1.0.0
+version: v1.0.1
 creation_date: 2024-08-20
 forked_from: 
 author: ARTIC team
@@ -24,12 +24,9 @@ type='default'
 content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)'
 %}
 
-<br />
+<hr />
 
-This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv]()
-
-**Why do sequencing of Mpox?**
+### Why do sequencing of Mpox?
 
 In contrast to clade-specific PCR tests, monkeypox virus (MPXV) genome sequencing provides a much more fine-scale characterisation of the virus and insights into the unfolding situation of an epidemic. Specifically, for MPXV, whole genome sequencing allows:
 
@@ -37,7 +34,7 @@ In contrast to clade-specific PCR tests, monkeypox virus (MPXV) genome sequencin
 * **Genomic epidemiology** — Within human outbreaks a host enzyme, APOBEC3F, induces mutations in the virus, hugely increasing the rate of accumulation of mutations (MPXV as a double stranded DNA virus has a low rate of evolution in other contexts). These mutations mean that genome sequencing can be used as a tool for genomic epidemiology on a relatively short timescale. Estimates from Clade IIb suggest that we expect approximately 20 mutations to accumulate per year \- a similar rate to many RNA viruses.
 * **Tracking changes in the virus** — although most observed mutations within an outbreak are driven by APOBEC3, other mutations are observed including amino acid changes and deletions. In most cases the phenotypic properties of these changes will be unknown and difficult to infer due to the large and complex nature of the MPXV genome. It is possible that changes associated with more rapidly spreading lineages could be identified for further investigation. Changes may affect the performance diagnostic assays (i.e., the large deletion in Clade Ib).
 
-**How best to perform sequencing of Mpox?**
+### How best to perform sequencing of Mpox?
 
 Choice of sequencing instrument and protocol is likely to depend on local availability of instruments, expertise and reagents, and therefore vary between laboratories. Employing a diversity of approaches increases accessibility of sequencing for laboratories globally, although care must be taken to generate sequences that can be reliably compared.
 
@@ -49,7 +46,7 @@ A further approach to sequencing is target enrichment (also known as bait captur
 
 We emphasise that the process of generating sequence data for genomic epidemiology is fundamentally different to the generation of reference-grade MPXV viruses. This process, whilst important, is fundamentally a low throughput method which involves long read sequencing, de novo assembly, optionally short read polishing and manual finishing and curation techniques.
 
-**Primer schemes for amplicon schemes**
+### Primer schemes for amplicon schemes
 
 [Amplicon sequencing of](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o) MPXV relies on a set of PCR primers (typically divided into two pools) that tile across the genome. Given the large genome size (200kb), a large amplicon fragment size (typically 2000, 2500 or 5000 bases) is targeted to divide the genome into 100, 80 or 40 fragments respectively. Generally speaking, longer amplicon schemes produce a result that results in more even sequencing coverage. However, as there are fewer long fragments in a typical sample than short fragments, this comes at the expense of sensitivity (i.e. samples with higher Ct values do not sequence as well).
 
@@ -66,7 +63,7 @@ Amplicon schemes can be designed against single reference genomes, in which case
 
 Given the large amplicon size, for Illumina applications there needs to be an additional fragmentation stage (typically using Nextera XT/Flex) before sequencing can occur. For Oxford Nanopore sequencing, an optional fragmentation step can be introduced by using the rapid barcoding kit (SQK-RBK004) on the barcoded products. This is colloquially referred to as the “Midnight” protocol. Generally, although fragmentation is a convenient sequencing step, it results in less confidence about whether a sequence read has been generated from an intact PCR product, with the potential for technical artefacts to be generated. In practice, this is unlikely to have a big impact on phylogenetic analysis but should be considered if unusual mutations, e.g. homoplasies are detected.
 
-**Use of clade II primer schemes for global MPXV genomic epidemiology**
+#### Use of clade II primer schemes for global MPXV genomic epidemiology
 
 We found that primer schemes designed against Clade II references are likely to generate adequate results on Clade I/Ib genomes, therefore covering the clades of interest. With reference to the Yale (Chen *et al.*) scheme, 83% of the primer sites are unaffected, with 14% containing one SNP, and 3% containing multiple mutations or indels. In our testing this results in typically around 85-90% genome coverage, which is sufficient for genomic epidemiology.
 
@@ -74,7 +71,7 @@ ARTIC have developed a Clade II scheme in response to the 2022-2023 epidemic, an
 
 We recommend that users visit [Primal Scheme Labs](https://labs.primalscheme.com/) to find validated primer schemes that have accompanying BED files that permit analysis using standardised bioinformatics pipelines. We also encourage users who have generated and validated schemes to contribute them to Primal Scheme Labs for the wider community to benefit.
 
-**Specific considerations when sequencing Mpox with amplicons**
+### Specific considerations when sequencing Mpox with amplicons
 
 The \~200 kilobase DNA genome of the Monkeypox virus (MPXV) that causes mpox provides some challenges, specifically:
 
@@ -84,7 +81,7 @@ The \~200 kilobase DNA genome of the Monkeypox virus (MPXV) that causes mpox pro
 * The MPXV genome contains short tandem repeats that undergo expansion and contraction. Whilst these typically will sequence correctly with long read sequencing approaches, certain alignment packages may fail to correctly align this region, leading to sequencing errors. Additionally, [these genomic accordions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11026394/) can be variable within a sample.
 * On a longer evolutionary timescale, the genome can undergo rearrangements. Rearrangements pose difficulties to amplicon sequencing approaches that rely on genome synteny (the order of genes) being conserved.
 
-**Sequencing handling and bioinformatics and quality control**
+### Sequencing handling and bioinformatics and quality control
 
 Regardless of the exact sequencing protocol employed, bioinformaticians analysing amplicon sequencing data must be aware of common analytical pitfalls.
 
@@ -94,7 +91,7 @@ A second, common and pervasive problem with amplicon sequencing is that laborato
 
 Failure to correctly handle these situations is a common scenario that hampered SARS-CoV-2 genomics and results in low quality consensus genomes that may make false inferences from genomic epidemiology.
 
-**Bioinformatics recommendations for consensus sequence generation**
+### Bioinformatics recommendations for consensus sequence generation
 
 For nanopore amplicon sequence data generated with the ARTIC protocol, or with the ARTIC protocol using the rapid kit (“Midnight”) we recommend using fieldbioinformatics 1.4.0. This can be run easily through the EPI2Me Labs interface by installing  [artic-mpxv-nf](https://github.com/artic-network/artic-mpxv-nf), which is currently undergoing field testing in collaboration with INRB. We have made it easy to switch between a clade I and clade II reference, for sequences generated using the Yale or INRB primers.
 
@@ -104,7 +101,7 @@ For Illumina amplicon sequence, the ARTIC team recommend using [artic-mpxv-illum
 
 An overview of some other options for bioinformatics pipelines can be found at the PHA4GE Github: [https://github.com/pha4ge/pipeline-resources/blob/main/docs/mpxv-bioinfo-solutions.md](https://github.com/pha4ge/pipeline-resources/blob/main/docs/mpxv-bioinfo-solutions.md)
 
-**Recommendations for downstream processing, QC and phylogenetics**
+### Recommendations for downstream processing, QC and phylogenetics
 
 Phylogenetic reconstruction is confounded by erroneous mutations being included in analysis, with false positive SNPs particularly likely to create erroneous inferences. Therefore, a conservative approach to phylogenetic reconstruction focuses on trying to generate a trusted set of SNPs and reducing the influence of error-prone regions of the genome. This generally means the need to mask the parts of genomes that are likely to contain errors, particularly low-complexity and repetitive areas.
 
@@ -114,17 +111,22 @@ Signatures of APOBEC3-editing are characteristic of MPXV evolution when sustaine
 
 An EPI2ME version of squirrel is also available from [https://github.com/artic-network/squirrel-nf](https://github.com/artic-network/squirrel-nf)
 
-**Further Reading / Viewing**
+### Further Reading / Viewing
 
-EPI2ME Labs \- [https://labs.epi2me.io/](https://labs.epi2me.io/)
+> ARTIC list of MPXV sequencing and bioinformatics resources:
+: [https://artic.network/mpxv/resources](https://artic.network/mpxv/resources)
 
-ARTIC-CLIMB workshop videos (covering SARS-CoV-2 but generally applicable to MPXV) \- [https://www.climb.ac.uk/artic-and-climb-big-data-joint-workshop-2/](https://www.climb.ac.uk/artic-and-climb-big-data-joint-workshop-2/)
+> Oxford Nanopore Technologies' EPI2ME Labs:
+: [https://labs.epi2me.io/](https://labs.epi2me.io/)
 
-Chen *et al.* Yale amplicon sequencing protocol \- [https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o)
+> ARTIC-CLIMB workshop videos (covering SARS-CoV-2 but generally applicable to MPXV): 
+: [https://www.climb.ac.uk/artic-and-climb-big-data-joint-workshop-2/](https://www.climb.ac.uk/artic-and-climb-big-data-joint-workshop-2/)
 
-ARTIC MPXV bioinformatics SOP \- to follow
+> Chen *et al.* Yale amplicon sequencing protocol:
+: [https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o)
 
-Squirrel \- *[https://github.com/aineniamh/squirrel*](https://github.com/aineniamh/squirrel)
+> Squirrel MPXV alignment and phylogenetics tool:
+: [https://github.com/aineniamh/squirrel](https://github.com/aineniamh/squirrel)
 
  ---
 

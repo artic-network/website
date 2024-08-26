@@ -26,7 +26,7 @@ type='default'
 content="**Overview:** This document walks-through how to install and run a bioinformatics pipeline for analysing Illumina data generated from the ARTIC amplicon protocol within the ONT EPI2ME desktop software."
 %}
 
-## Credits / Acknowledgements
+### Credits / Acknowledgements
 
 This pipeline is based on the [BCCDC-PHL/ncov2019-artic-nf](https://github.com/BCCDC-PHL/ncov2019-artic-nf) pipeline, which is a fork of the [connor-lab/ncov2019-artic-nf](https://github.com/connor-lab/ncov2019-artic-nf) pipeline. It has been modified here to support analysis of monkeypox virus. This pipeline is possible due to the ongoing efforts of many people developing and maintaining bioinformatics software. For a complete list of acknowledgments please see the documentation on the pipeline Github repository: [https://github.com/artic-network/artic-mpxv-nf](https://github.com/artic-network/artic-mpxv-illumina-nf/blob/master/README.md)
   
@@ -98,11 +98,11 @@ Fasta files can be found in the output alignConsensusToReference folder.
 
 If you need to use a previous or a development version of the pipeline, this can be selected from the workflow landing page.
 
----
-
 ## Related documents:
 
 This pipeline can also be run in a command-line environment. [See this document for detailed instructions for doing this](https://artic.network/mpxv/mpxv-bioinformatics-sop.html).
+
+---
 
 {% include callout.html
 type='default'
