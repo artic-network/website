@@ -50,7 +50,7 @@ A pop-up window will appear where you can enter the GitHub URL. Enter the URL an
 
 ![][image3]
 
-Once it has downloaded, it will be ready in the Installed tab. Select it and you will be taken to a landing page for this workflow.
+Once it has downloaded, it will be ready in the `Installed` tab. Select it and you will be taken to a landing page for this workflow.
 
 ### **Running the workflow**
 
