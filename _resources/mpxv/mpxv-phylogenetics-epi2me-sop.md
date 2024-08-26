@@ -9,7 +9,7 @@ permalink: /mpxv/mpxv-phylogenetics-epi2me-sop.html
 folder: mpxv
 title_text: "Running the MPXV alignment and phylogenetics pipeline using Epi2Me"
 subtitle_text: "Squirrel | phylogenetics"
-document_name: "ARTIC-MPXV-phylogeneticsSOP"
+document_name: "ARTIC-MPXV-squirrel-EPI2ME-SOP"
 version: v1.0
 creation_date: 2024-08-21
 revision_date: 

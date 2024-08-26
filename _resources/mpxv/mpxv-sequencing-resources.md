@@ -35,25 +35,23 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
 ## MPXV sequencing
-link:
-MPXV sequencing
-link: /mpxv/artic-mpxv-resources.html
-Setup guides
+
+> Tiled amplicon sequencing protocol and primer scheme for MPXV
+: Chen *et al.* Yale amplicon sequencing protocol \- [dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4](dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4)
+: This protocol is a primer scheme and validation for MPXV of the [ARTIC SARS-CoV-2 tiled amplicon protocol](https://dx.doi.org/10.17504/protocols.io.bp2l6n26rgqe/v4)
 
 ## Bioinformatics pipeplines
+        
+> [Running the ARTIC nanopore bioinformatics pipeline using EPI2ME](/mpxv/mpxv-ont-epi2me-sop.html)
+: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
-Running a bioinformatics pipeline for Illumina data using EPI2ME
-link: /mpxv/mpxv-illumina-epi2me-sop.html
-Running the ARTIC nanopore bioinformatics pipeline using EPI2ME
-link: /mpxv/mpxv-ont-epi2me-sop.html
-Command line interface bioinformatics pipeline
-link: /mpxv/mpxv-bioinformatics-sop.html
-                            
+> [Running a bioinformatics pipeline for Illumina data using EPI2ME](/mpxv/mpxv-illumina-epi2me-sop.html)
+: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
+
 ## Analysis pipeline
 
-Running the MPXV alignment and phylogenetics pipeline using Epi2Me
-link: /mpxv/mpxv-phylogenetics-epi2me-sop.html
-
+> [Running the Squirrel MPXV alignment and phylogenetics pipeline using EPI2ME](/mpxv/mpxv-phylogenetics-epi2me-sop.html)
+: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
 **Further Reading / Viewing**
 
@@ -63,16 +61,15 @@ ARTIC-CLIMB workshop videos (covering SARS-CoV-2 but generally applicable to MPX
 
 Chen *et al.* Yale amplicon sequencing protocol \- [https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o)
 
-ARTIC MPXV bioinformatics SOP \- to follow
-
 Squirrel \- *[https://github.com/aineniamh/squirrel*](https://github.com/aineniamh/squirrel)
 
  ---
 
 > This document is part of the MPXV sequencing protocol package:
 : [http://artic.network/mpxv](http://artic.network/mpxv)
+: Link to this document: [http://artic.network/mpxv/resources](http://artic.network/mpxv/resources)
 
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 <br />
