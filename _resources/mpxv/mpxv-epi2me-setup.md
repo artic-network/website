@@ -85,7 +85,7 @@ A pop-up window will appear where you can enter the GitHub URL. Enter the URL an
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png" alt="">
  
-Once it has downloaded, it will be ready in the `Available Workflows` tab. Select it, and you will be taken to a landing page for this workflow.
+Once it has downloaded, it will be ready in the `Installed` tab. Select it, and you will be taken to a landing page for this workflow.
 
 ## Software credits
 
