@@ -23,18 +23,23 @@ category: mpxv-epi2me
 
 {% include callout.html
 type='default'
-content="**Overview:** This document walks-through how to install and run the ARTIC bioinformatics pipeline in the ONT EPI2ME desktop software."
+content="**Overview:** The `artic-mpxv-nf` workflow implements an ARTIC FieldBioinformatics pipeline for the purpose of preparing consensus sequences from MPXV genomes that have been DNA sequenced using a pooled tiling amplicon strategy.
+This document walks-through how to install and run the ARTIC bioinformatics pipeline in the ONT EPI2ME desktop software."
 %}
+
+## Credits / Acknowledgements
+
+This pipeline is possible due to the ongoing efforts of many people developing and maintaining bioinformatics software. For a complete list of acknowledgments please see the documentation on the pipeline Github repository: [https://github.com/artic-network/artic-mpxv-nf](https://github.com/artic-network/artic-mpxv-nf/blob/master/README.md) 
+
+---
+
+## Using the ARTIC MPXV analysis pipeline in EPI2ME
 
 **Requirements:**
 
 * A working installation of EPI2ME. For instructions for installing EPI2ME, [see this document](/mpxv/mpxv-epi2me-setup.html).   
 * Internet access to download the pipeline, and for the first time running it. After that, you should be able to run it offline.
 * Details about how the data was generated including the primer scheme used and the base-caller specified within the MinKNOW software.
-
----
-
-## Using an ARTIC MPXV analysis pipeline in EPI2ME
 
 ### **Import the workflow**
 
