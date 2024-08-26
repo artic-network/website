@@ -31,7 +31,7 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 
 ## Setup Guides
 
-> [Setting up and using EPI2ME for MPXV analysis pipelines](/mpxv/mpxv-it-setup.html) 
+> [Setting up and using EPI2ME for MPXV analysis pipelines](/mpxv/mpxv-epi2me-setup.html) 
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
 ## MPXV sequencing
