@@ -43,19 +43,22 @@ This pipeline is possible due to the ongoing efforts of many people developing a
 
 ### **Import the workflow**
 
-Open EPI2ME. On the main dashboard select “View workflows”.
-
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_1.png">
+Open EPI2ME. On the main dashboard select “View workflows”:
+: <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_1.png">
   
-Then select “Import workflow”.
+Then select “Import workflow”:
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_2.png">
+: <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_2.png">
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL  (`https://github.com/artic-network/artic-mpxv-nf`) and click “Download”:
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png">
+: <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png">
  
-Once it has downloaded, it will be ready in the `Available Workflows` tab. Select it and you will be taken to a landing page for this workflow.
+Once it has downloaded, it will be ready in the `Installed` tab: 
+
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_4a.png">
+
+Select it and you will be taken to a landing page for this workflow.
 
 ### **Running the workflow**
 
@@ -67,17 +70,33 @@ Then select “Run on your computer” and click “Continue”.
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_5.png">
 
-It will then ask you to select your fastq folders. Select the ones you want and continue.  
+At this point EPI2ME will show you a panel called "Setup local run" which will give you all the options and settings for the workflow.
+
+The first settings are the "Input Options" where it will ask you to select your FASTQ folders. This will usually be the `fastq_pass` folder in the base-called output of MinKnow. Click the folder icon to select the folder you want:  
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_6.png">
 
-Go to the Primer Scheme Selection tab and **make sure that the primer scheme matches the one you used**. If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files; \<SCHEME\_NAME\>.bed and \<SCHEME\_NAME\>.fasta.
+Next go to the "Primer Scheme Selection" tab and **make sure that the primer scheme matches the one you used**:
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_7.png">
 
-Finally click “Launch workflow”. It will then start running. The runtime will depend on the size of your files and the speed of your computer, but 10-30 minutes is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
+If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files --- `<SCHEME_NAME>.bed` and `<SCHEME_NAME>.fasta`.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_8.png">
+Next go to the "Sample Options" tab to provide details about the samples (and controls) that match each barcode:
+
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_7b.png">
+
+> **Samples Sheet** This is a CSV file that maps the name of each barcode in the run to a sample ID that will be used to name the output consensus sequences. 
+
+Finally, click “Launch Workflow” and then "Launch":
+
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_8a.png">
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_8b.png">
+
+The pipeline will then start running. The run-time will depend on the size of your files, the number of barcodes and the speed of your computer, but a few minutes per barcode is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
+
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_8c.png">
+
 
 When it has finished you will have a collection of outputs for both consensus and individual barcodes.
 
