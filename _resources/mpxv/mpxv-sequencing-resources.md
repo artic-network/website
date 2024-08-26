@@ -1,12 +1,12 @@
 ---
-title: "Mpox virus sequencing | A list of resources for sequencing and bioinformatics"
+title: "MPXV sequencing | A list of resources for sequencing and bioinformatics"
 keywords: protocol
 layout: document
-last_updated: Aug 23, 2024
+last_updated: 2024-08-26
 tags: [protocol] 
-permalink: /mpxv/artic-mpxv-resources.html
+permalink: /mpxv/resources.html
 folder: mpxv
-title_text: "Mpox virus sequencing"
+title_text: "Mpox virus (MPXV) resources"
 subtitle_text: "A list of resources for sequencing and bioinformatics"
 document_name: "ARTIC-MPXV-resources"
 version: v1.0.0
@@ -21,17 +21,12 @@ category: mpxv-guide
 
 {% include callout.html
 type='default'
-content='**Overview:** .'
+content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)'
 %}
-
-<br />
-
-This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv]()
 
 ## Background
 
-> [Mpox virus sequencing | A guide to sequencing for genomic epidemiology](/mpxv/artic-mpxv-guide.html)
+> [Mpox virus sequencing | A guide to sequencing for genomic epidemiology](/mpxv/artic-mpxv-guide)
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
 ## Setup Guides
@@ -39,26 +34,26 @@ This document is part of the MPXV sequencing protocol package:
 > [Setting up and using EPI2ME for MPXV analysis pipelines](/mpxv/mpxv-it-setup.html) 
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
-Mpox virus sequencing
-link: 
-Mpox virus sequencing
+## MPXV sequencing
+link:
+MPXV sequencing
 link: /mpxv/artic-mpxv-resources.html
 Setup guides
 
-Setting up and using EPI2ME for MPXV analysis pipelines
-link: /mpxv/mpxv-epi2me-setup.html
-User-interface pipelines using Epi2me
+## Bioinformatics pipeplines
 
-Running the MPXV alignment and phylogenetics pipeline using Epi2Me
-link: /mpxv/mpxv-phylogenetics-epi2me-sop.html
 Running a bioinformatics pipeline for Illumina data using EPI2ME
 link: /mpxv/mpxv-illumina-epi2me-sop.html
 Running the ARTIC nanopore bioinformatics pipeline using EPI2ME
 link: /mpxv/mpxv-ont-epi2me-sop.html
-Command line interface pipeline SOPs
-
-MPXV Nanopore sequencing bioinformatics protocol
+Command line interface bioinformatics pipeline
 link: /mpxv/mpxv-bioinformatics-sop.html
+                            
+## Analysis pipeline
+
+Running the MPXV alignment and phylogenetics pipeline using Epi2Me
+link: /mpxv/mpxv-phylogenetics-epi2me-sop.html
+
 
 **Further Reading / Viewing**
 

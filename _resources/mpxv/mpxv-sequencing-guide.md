@@ -21,7 +21,7 @@ category: mpxv-guide
 
 {% include callout.html
 type='default'
-content='**Overview:** .'
+content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)'
 %}
 
 <br />

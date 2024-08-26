@@ -47,23 +47,23 @@ When you run EPI2ME it will ask if you want to sign-up or sign-in to the Cloud-b
 
 The first time you run EPI2ME it may need to install some additional software. It will guide you through this process.
 
-<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot1.png"> 
+<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot1.png" alt=""> 
                       
 If you see a panel that says `Additional setup is required` then select it:
 
-<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot2.png"> 
+<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot2.png" alt=""> 
 
 You may need to install the `NextFlow` software and `Java` - in which case click the `Setup` button:
 
-<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot3.png"> 
+<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot3.png" alt=""> 
 
 Then click `Continue ->`. Unless it has already been installed it will next ask you to install the `Docker` software. Click on the link to `Docker Desktop Install` and follow the instructions there to install `Docker`:
 
-<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot3c.png"> 
+<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot3c.png" alt=""> 
 
 When it says `Docker is ready`, click `Finish`. The EPI2ME window will now look like this:
 
-<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot4.png"> 
+<img width="500" src="/assets/images/mpxv/epi2me-install/screenshot4.png" alt=""> 
 
 You are now ready to install an analysis pipeline in EPI2ME.
 
@@ -75,17 +75,17 @@ You are now ready to install an analysis pipeline in EPI2ME.
 
 Open EPI2ME. On the main dashboard select “View workflows”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_1.png">
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_1.png" alt="">
   
 Then select “Import workflow”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_2.png">
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_2.png" alt="">
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” --- the exact URL will depend on the pipeline you wish to install. For example, to install the ARTIC bioinformatics pipeline for nanopore sequence data use [`https://github.com/artic-network/artic-mpxv-nf`](https://github.com/BioWilko/artic-mpxv-nf) (details about running this pipeline can be [found here](/mpxv/mpxv-ont-epi2me-sop.html)):
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png">
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png" alt="">
  
-Once it has downloaded, it will be ready in the `Available Workflows` tab. Select it and you will be taken to a landing page for this workflow.
+Once it has downloaded, it will be ready in the `Available Workflows` tab. Select it, and you will be taken to a landing page for this workflow.
 
 ## Software credits
 
