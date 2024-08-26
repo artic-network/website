@@ -104,10 +104,12 @@ If you need to use a previous or a development version of the pipeline, this can
 
 This pipeline can also be run in a command-line environment. [See this document for detailed instructions for doing this](https://artic.network/mpxv/mpxv-bioinformatics-sop.html).
 
-This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](http://artic.network/mpxv)
+{% include callout.html
+type='default'
+content="This document is part of the MPXV sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)"
+%}
 
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 <br />

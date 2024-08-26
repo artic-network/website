@@ -23,7 +23,7 @@ category: mpxv-setup
 
 {% include callout.html
 type='default'
-content="**Overview:** This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface."
+content="**Overview:** This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface. This document is part of the MPXV sequencing protocol package <a href='http://artic.network/mpxv'>http://artic.network/mpxv </a>"
 %}
 
 **Requirements:**
@@ -96,21 +96,18 @@ Select it and you will be taken to a landing page for this workflow.
 This resource depends on the [EPI2ME](https://labs.epi2me.io) desktop software provided by Oxford Nanopore Technologies.
 The pipeline is written in [Nextflow](https://www.nextflow.io/) and relies on [Docker containers](https://hub.docker.com/).
 
+## Running a pipeline
+
+For instructions on running individual ARTIC pipelines in EPI2ME see the [list of documents here](/mpxv/resources).
 
 ---
 
-## Running a pipeline
+{% include callout.html
+type='default'
+content="This document is part of the MPXV sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)"
+%}
 
-> For instructions on running individual ARTIC pipelines in EPI2ME see the [list of documents here](/mpxv).
-
-> This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](http://artic.network/mpxv)
-
-
-
-
-
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 <br />

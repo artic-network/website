@@ -131,12 +131,12 @@ Gytis Dudas (2016) https://github.com/evogytis/baltic
 
 ---
 
-#### Related documents:
-This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](http://artic.network/mpxv)
+{% include callout.html
+type='default'
+content="This document is part of the MPXV sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)"
+%}
 
-
-<br /><br /><br />
+<br /><br />
 
 {% include wellcome-trust.html %}
 <br />

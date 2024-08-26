@@ -68,9 +68,10 @@ Squirrel \- *[https://github.com/aineniamh/squirrel*](https://github.com/ainenia
 
  ---
 
-> This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](http://artic.network/mpxv)
-: Link to this document: [http://artic.network/mpxv/resources](http://artic.network/mpxv/resources)
+{% include callout.html
+type='default'
+content="This document is part of the MPXV sequencing protocol package: [http://artic.network/mpxv](http://artic.network/mpxv)"
+%}
 
 <br /><br />
 
