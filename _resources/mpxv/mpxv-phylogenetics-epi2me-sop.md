@@ -2,7 +2,7 @@
 title: "MPXV alignment and phylogenetics protocol | Squirrel"
 keywords: protocol
 layout: document
-last_updated: 2024-08-16
+last_updated: 2024-08-26
 tags: [protocol]
 summary:
 permalink: /mpxv/mpxv-phylogenetics-epi2me-sop.html
@@ -14,7 +14,7 @@ version: v1.0
 creation_date: 2024-08-21
 revision_date: 
 forked_from: 
-author: Áine O'Toole
+author: Áine O'Tool, Rachel Colquhoun
 citation: https://github.com/aineniamh/squirrel
 nav_menu: false
 show_tile: false
@@ -27,8 +27,14 @@ content='**Overview:** A complete protocol to take the output consensus genome s
 '
 %}
 
+## Credits / Acknowledgements
+
+This workflow runs the [Squirrel pipeline](https://github.com/aineniamh/squirrel) written by [Áine O'Toole](https://github.com/aineniamh). Squirrel itself makes use of a number of open-source software packages, including [minimap2](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778),  [gofasta](https://academic.oup.com/bioinformatics/article/38/16/4033/6631223) and [IQTREE2](https://doi.org/10.1093/molbev/msaa015), in addition to custom code for APOBEC3 analysis.
+
+---
+
 ## Rationale
-MPXV is a large poxvirus, with a complex dsDNA genome ~200kb in length. Alignment of sequences, and therefore phylogenetics, is challenging using classic due to tracts of low-complexity and repetitive regions. Squirrel provides an efficient map-to-reference alignment pipeline with masking of problematic regions of the genome. The squirrel pipeline makes use of a number of open-source software packages, including [minimap2](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778),  [gofasta](https://academic.oup.com/bioinformatics/article/38/16/4033/6631223) and [IQTREE2](https://doi.org/10.1093/molbev/msaa015), in addition to custom code for APOBEC3 analysis. Full details of the pipeline and workflow can be found [here](#pipeline-description).
+MPXV is a large poxvirus, with a complex dsDNA genome ~200kb in length. Alignment of sequences, and therefore phylogenetics, is challenging using classic due to tracts of low-complexity and repetitive regions. Squirrel provides an efficient map-to-reference alignment pipeline with masking of problematic regions of the genome. Full details of the pipeline and workflow can be found [here](#pipeline-description).
 
 ## Command line
 Squirrel can be used as a command line tool, with full command-line documentation available on the squirrel GitHub repository at (github.com/aineniamh/squirrel)[https://github.com/aineniamh/squirrel].
