@@ -40,39 +40,39 @@ Nextflow Pipeline created by:
 ### **Import the workflow**
 
 Open EPI2ME. On the main dashboard select “View workflows”.  
-![][image1]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_1.png">
 
 Then select “Import workflow”.
 
-![][image2]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_2.png">
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” ([https://github.com/artic-network/artic-mpxv-illumina-nf](https://github.com/artic-network/artic-mpxv-illumina-nf) ):
 
-![][image3]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_3.png">
 
-Once it has downloaded, it will be ready in the Available Workflows tab. Select it and you will be taken to a landing page for this workflow.
+Once it has downloaded, it will be ready in the `Installed` tab. Select it and you will be taken to a landing page for this workflow.
 
 ### **Running the workflow**
 
 From the workflow landing page, click “Run this workflow”.
 
-![][image4]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_4b.png">
 
 Then select “Run on your computer” and click “Continue”.
 
-![][image5]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_5.png">
 
 It will then ask you to select your fastq folders under the tab ‘Input Options’. Select the ones you want to analyse.
 
-![][image6]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_6.png">
 
 Go to the Primer Scheme Selection tab and **make sure that the primer scheme matches the one you used**. If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files; \<SCHEME\_NAME\>.bed and \<SCHEME\_NAME\>.fasta.
 
-![][image7]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_7.png">
 
 Go to the ‘Output Options’ tab and select your desired output folder, and the prefix you want for your output files.
 
-![][image8]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_7b.png">
 
 The ‘Advanced Options’ have been set to defaults which are suitable for most cases, but can be changed if you wish.
 
@@ -80,8 +80,10 @@ Once you have selected everything you need, click ‘Launch workflow’.
 
 It will then start running. The runtime will depend on the size of your files and the speed of your computer, but \>30 minutes is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
 
-![][image9]  
-![][image10]
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_8.png">
+ 
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_9.png">
+
 
 Fasta files can be found in the output alignConsensusToReference folder.
 
