@@ -48,6 +48,9 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 > [Running a bioinformatics pipeline for Illumina data using EPI2ME](/mpxv/mpxv-illumina-epi2me-sop.html)
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
+> [Running the ARTIC nanopore bioinformatics pipeline using the command line](/mpxv/mpxv-bioinformatics-sop.html)
+: This document provides detailed instructions for running the ARTIC fieldbioinformatics pipeline for MPXV on the command-line. This is useful to review what the pipeline does and how it works and for debugging issues for particular datasets. 
+
 ## Analysis pipeline
 
 > [Running the Squirrel MPXV alignment and phylogenetics pipeline using EPI2ME](/mpxv/mpxv-phylogenetics-epi2me-sop.html)
