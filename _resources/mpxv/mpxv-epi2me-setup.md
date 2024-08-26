@@ -84,8 +84,12 @@ Then select “Import workflow”.
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” --- the exact URL will depend on the pipeline you wish to install. For example, to install the ARTIC bioinformatics pipeline for nanopore sequence data use [`https://github.com/artic-network/artic-mpxv-nf`](https://github.com/BioWilko/artic-mpxv-nf) (details about running this pipeline can be [found here](/mpxv/mpxv-ont-epi2me-sop.html)):
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png" alt="">
- 
-Once it has downloaded, it will be ready in the `Installed` tab. Select it, and you will be taken to a landing page for this workflow.
+
+Once it has downloaded, it will be ready in the `Installed` tab:
+
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_4a.png">
+
+Select it and you will be taken to a landing page for this workflow.
 
 ## Software credits
 
