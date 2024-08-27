@@ -27,7 +27,7 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 ## Background
 
 > [Mpox virus sequencing | A guide to sequencing for genomic epidemiology](/mpxv/artic-mpxv-guide)
-: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
+: This is an overview guide and set of recommendations for MPXV genome sequencing with an emphasis on genomic epidemiology. 
 
 ## Setup Guides
 
