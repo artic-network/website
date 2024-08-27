@@ -27,7 +27,7 @@ content='**Overview:** A complete bioinformatics protocol to take the output fro
 
 ## Preparation
 
-This SOP is purely for command line usage, if you are uncomfortable using the command line for bioinformatics data analysis do not worry! We have an SOP for performing the exact same steps using the Epi2me front end available here: []().
+This SOP is purely for command line usage, if you are uncomfortable using the command line for bioinformatics data analysis do not worry! We have an SOP for performing the exact same steps using the Epi2me front end available here: [epi2me MPXV bioinformatics](https://artic.network/mpxv/mpxv-ont-epi2me-sop.html).
 
 If you are using a windows PC we recommend that you do any bioinformatics in a WSL2 environment, a tutorial for installing WSL2 is available here: [Microsoft WSL Install Tutorial](https://learn.microsoft.com/en-us/windows/wsl/install), this will be required before moving to the next steps.
 
