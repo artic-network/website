@@ -50,6 +50,8 @@ We emphasise that the process of generating sequence data for genomic epidemiolo
 
 [Amplicon sequencing of](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o) MPXV relies on a set of PCR primers (typically divided into two pools) that tile across the genome. Given the large genome size (200kb), a large amplicon fragment size (typically 2000, 2500 or 5000 bases) is targeted to divide the genome into 100, 80 or 40 fragments respectively. Generally speaking, longer amplicon schemes produce a result that results in more even sequencing coverage. However, as there are fewer long fragments in a typical sample than short fragments, this comes at the expense of sensitivity (i.e. samples with higher Ct values do not sequence as well).
 
+<div class="pagebreak"> </div>
+
 Amplicon schemes can be designed against single reference genomes, in which case they are clade-specific, or against a broader range of references to permit them to be clade-independent. We found that most publicly available MPXV primer schemes are designed against clade II references.
 
 | Scheme | Clade reference | Size (bases) | Link |
