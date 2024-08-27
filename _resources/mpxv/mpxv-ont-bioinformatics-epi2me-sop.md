@@ -109,13 +109,14 @@ If you need to use a previous or a development version of the pipeline, this can
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_9a.png">
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_9b.png">
 
-### **Changing the basecaller**
+### **Overriding the basecaller configuration for variant caller model selection**
 
-Medaka runs within the pipeline to call variants between the reads provided and the reference. It will try to auto-select. If it is unable to auto-select (for example if your data was basecalled with a version of MinKNOW which is no longer supported) you may need to choose an option from this drop down list of available models in “Advance Options” (scroll down).
+Medaka runs within the pipeline to call variants between the reads provided and the reference. It will try to auto-select a variant calling model based upon the “basecall_model_version_id” field within the FASTQ read header. If it is unable to auto-select (for example if your data was basecalled with a version of MinKNOW which is no longer supported) you may need to choose an option from this drop down list of available models in “Advance Options” (scroll down).
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_10.png">
 
-**We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
+**We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed at a minimum for *medaka* to function normally. For example, if you have used an r9.4.1 flowcell on run at 450bps translocation speed (standard) you will need to select the “dna_r9.4.1_450bps_hac” basecaller configuration so that the pipeline can select an appropriate *medaka* model.
+
       
 ## Related documents:
 
