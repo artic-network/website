@@ -2,14 +2,14 @@
 title: "Mpox virus sequencing | A guide to sequencing for genomic epidemiology"
 keywords: protocol
 layout: document
-last_updated: 2024-08-26
+last_updated: 2024-09-05
 tags: [protocol] 
 permalink: /mpxv/artic-mpxv-guide.html
 folder: mpxv
 title_text: "Mpox virus sequencing"
 subtitle_text: "A guide to sequencing for genomic epidemiology"
 document_name: "ARTIC-MPXV-guide"
-version: v1.0.1
+version: v1.0.2
 creation_date: 2024-08-20
 forked_from: 
 author: ARTIC team
@@ -48,7 +48,7 @@ We emphasise that the process of generating sequence data for genomic epidemiolo
 
 ### Primer schemes for amplicon schemes
 
-[Amplicon sequencing of](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o) MPXV relies on a set of PCR primers (typically divided into two pools) that tile across the genome. Given the large genome size (200kb), a large amplicon fragment size (typically 2000, 2500 or 5000 bases) is targeted to divide the genome into 100, 80 or 40 fragments respectively. Generally speaking, longer amplicon schemes produce a result that results in more even sequencing coverage. However, as there are fewer long fragments in a typical sample than short fragments, this comes at the expense of sensitivity (i.e. samples with higher Ct values do not sequence as well).
+[Amplicon sequencing of](https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o) MPXV relies on a set of PCR primers (typically divided into two pools) that tile across the genome. Given the large genome size (200kb), a large amplicon fragment size (typically 2000, 2500 or 5000 bases) is targeted to divide the genome into 100, 80 or 40 fragments respectively. Generally speaking, longer amplicon schemes produce a result that results in more even sequencing coverage. However, as there are fewer long fragments in a typical sample than short fragments, this comes at the expense of sensitivity (i.e. samples with higher Ct values do not sequence as well). Uneven coverage from preferential amplification can be mitigated to a limited extent by changing the relative quantities of primers used during PCR, as shown in [this protocol from BCCDC/ARTIC](https://www.protocols.io/view/bccdc-artic-mpox-v2-3-4-2500bp-amplicon-generation-n2bvj34nnlk5/v1).
 
 <div class="pagebreak"> </div>
 
@@ -59,7 +59,7 @@ Amplicon schemes can be designed against single reference genomes, in which case
 | Yale – Chen *et al.* | IIb | 2000 | [Primal Scheme Labs](https://labs.primalscheme.com/detail/grubaugh-mpox/2000/v1.0.0/?q=Mpox), [Manuscript](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151), [Primer Request Link](https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html) |
 | INRB | IIb | 2000 | [Link](https://github.com/inrb-labgenpath/DRC\_MPXV\_primers) (NB: identical Primal Scheme to Yale) |
 | Welkers *et al.* | IIb | 2500 | [Link](https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1?step=1), [Primer Scheme Repository](https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0) |
-| ARTIC/BCCDC | IIb | 3000 | [Link](https://github.com/quick-lab/MPXV) |
+| ARTIC/BCCDC | IIb | 2500-3000 | [Protocol](https://www.protocols.io/view/bccdc-artic-mpox-v2-3-4-2500bp-amplicon-generation-n2bvj34nnlk5/v1), [Primer Scheme Repository](https://github.com/BCCDC-PHL/artic-mpxv2022/tree/main/primer_schemes/mpxv-2022/V2.3) |
 
 **Table 1** | Publicly available MPXV primer schemes.
 
