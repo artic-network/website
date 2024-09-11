@@ -37,7 +37,7 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 ## MPXV sequencing
 
 > Tiled amplicon sequencing protocol and primer scheme for MPXV
-: Chen *et al.* Yale amplicon sequencing protocol \- [dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4](dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4)
+: Chen *et al.* Yale amplicon sequencing protocol \- [dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4](http://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4)
 : This protocol is a primer scheme and validation for MPXV of the [ARTIC SARS-CoV-2 tiled amplicon protocol](https://dx.doi.org/10.17504/protocols.io.bp2l6n26rgqe/v4)
 
 ## Bioinformatics pipeplines
