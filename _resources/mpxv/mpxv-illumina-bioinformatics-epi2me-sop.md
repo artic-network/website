@@ -12,9 +12,9 @@ subtitle_text: "ARTIC pipelines | bioinformatics"
 document_name: "ARTIC-MPXV-Illumina-bioinformatics-EPI2ME-SOP"
 version: v1.0
 creation_date: 2024-08-22
-revision_date: 
+revision_date: 2024-11-12
 forked_from: 
-author: Lauren Lansdowne
+author: Lauren Lansdowne, Sam Wilkinson
 citation: 
 nav_menu: false
 show_tile: false
@@ -74,6 +74,10 @@ It will then ask you to select your fastq folders under the tab ‘Input Options
 Go to the Primer Scheme Selection tab and **make sure that the primer scheme matches the one you used**. If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files; \<SCHEME\_NAME\>.bed and \<SCHEME\_NAME\>.fasta.
 
 <img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_7.png">
+
+Go to "Squirrel Options" and select the clade which your sequences most likely belong to, if you are unsure of the specific subclade or you have a mixture within your sequencing run you may select a higher level clade (e.g. cladei). If you do not wish to run squirrel you may also select "Skip Squirrel" to skip it.
+
+<img width="500" src="/assets/images/mpxv/illumina-sop/screenshot_10.png">
 
 Go to the ‘Output Options’ tab and select your desired output folder, and the prefix you want for your output files.
 

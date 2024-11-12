@@ -82,6 +82,10 @@ Next go to the "Primer Scheme Selection" tab and **make sure that the primer sch
 
 If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files --- `<SCHEME_NAME>.bed` and `<SCHEME_NAME>.fasta`.
 
+<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_11.png">
+
+Go to "Squirrel Options" and select the clade which your sequences most likely belong to, if you are unsure of the specific subclade or you have a mixture within your sequencing run you may select a higher level clade (e.g. cladei). If you do not wish to run squirrel you may also select "Skip Squirrel" to skip it.
+
 Next go to the "Sample Options" tab to provide details about the samples (and controls) that match each barcode:
 
 <img width="500" src="/assets/images/mpxv/ont-sop/screenshot_7b.png">
