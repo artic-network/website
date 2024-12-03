@@ -2,7 +2,7 @@
 title: "MPXV Nanopore sequencing bioinformatics protocol | amplicon"
 keywords: protocol
 layout: document
-last_updated: Nov 12 2024
+last_updated: Dec 03 2024
 tags: [protocol]
 permalink: /mpxv/mpxv-bioinformatics-sop.html
 folder: ncov
@@ -47,12 +47,11 @@ Once this completes you should have a working Conda install and can move onto th
 
 ### Creating the environment
 
-First time only, clone the fieldbioinformatics github repository and checkout the 1.4.0-dev branch, once 1.4.0 has been properly released this section will be updated to reflect this:
+First time only, clone the fieldbioinformatics github repository:
 
 ```bash
 git clone https://github.com/artic-network/fieldbioinformatics.git
 cd fieldbioinformatics
-git checkout 1.4.0-dev
 ```
 
 ```bash
