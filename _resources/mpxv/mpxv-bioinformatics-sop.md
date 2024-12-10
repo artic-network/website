@@ -172,6 +172,7 @@ artic_get_models
 By default models are stored in the users conda environment `$CONDA_PREFIX/bin/models` however this may be changed to another location if desired in the `artic_get_models` and `artic minion` commands by using the `--model-dir` argument.
 
 The following command will automatically pull primer schemes from the [PrimalScheme primerschemes repository](https://github.com/quick-lab/primerschemes) based on the ```--scheme-name```, ```--scheme-version```, and ```--scheme-length``` arguments, the scheme length arg is optional in most cases since the vast majority of primer schemes are only available in a single amplicon length. If the scheme you specify in this command is available in multiple different lengths you will be prompted to specify which length should be downloaded.
+If a scheme supports automatic reference selection (currently only artic-inrb-mpox) the pipeline will attempt to determine the most appropriate reference sequence for your data (e.g. clade-ib) and download a version of the scheme remapped to that reference during the pipeline.
 
 For each barcode you wish to process (e.g. run this command 12 times for 12 barcodes), replacing the file name and sample name as appropriate:
 
