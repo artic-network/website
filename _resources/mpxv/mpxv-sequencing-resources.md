@@ -2,7 +2,7 @@
 title: "MPXV sequencing | A list of resources for sequencing and bioinformatics"
 keywords: protocol
 layout: document
-last_updated: 2024-08-26
+last_updated: 2024-12-12
 tags: [protocol] 
 permalink: /mpxv/resources.html
 folder: mpxv
