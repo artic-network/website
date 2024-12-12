@@ -37,8 +37,8 @@ content='**Overview:** This document is part of the Mpox virus (MPXV) sequencing
 ## MPXV sequencing
 
 > ARTIC/INRB Clade-independent Primer Schemes
-: 2500 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 2500 bp](/_resources/mpxv/mpox-multiplex-pcr-protocol-2500.docx)
-: 400 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 400 bp](/_resources/mpxv/mpox-multiplex-pcr-protocol-400.docx)
+: 2500 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 2500 bp](/_resources/mpxv/mpxv-multiplex-pcr-protocol-2500.docx)
+: 400 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 400 bp](/_resources/mpxv/mpxv-multiplex-pcr-protocol-400.docx)
 
 > Tiled amplicon sequencing protocol and primer scheme for MPXV
 : Chen *et al.* Yale amplicon sequencing protocol \- [dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4](http://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4)
