@@ -2,7 +2,7 @@
 title: "Mpox virus sequencing | A guide to sequencing for genomic epidemiology"
 keywords: protocol
 layout: document
-last_updated: 2024-09-05
+last_updated: 2024-12-12
 tags: [protocol] 
 permalink: /mpxv/artic-mpxv-guide.html
 folder: mpxv
@@ -52,10 +52,12 @@ We emphasise that the process of generating sequence data for genomic epidemiolo
 
 <div class="pagebreak"> </div>
 
-Amplicon schemes can be designed against single reference genomes, in which case they are clade-specific, or against a broader range of references to permit them to be clade-independent. We found that most publicly available MPXV primer schemes are designed against clade II references.
+Amplicon schemes can be designed against single reference genomes, in which case they are clade-specific, or against a broader range of references to permit them to be clade-independent. We found that most publicly available MPXV primer schemes are designed against clade II references. More recently, ARTIC has developed a pan-clade primer scheme:
 
 | Scheme | Clade reference | Size (bases) | Link |
 | :---- | :---- | :---- | :---- |
+| ARTIC/INRB (Clinical) | I and II | 2500 | [Primal Scheme Labs](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0/?q=) |
+| ARTIC/INRB (Wastewater) | I and II | 400 | [Primal Scheme Labs](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0/?q=) |
 | Yale – Chen *et al.* | IIb | 2000 | [Primal Scheme Labs](https://labs.primalscheme.com/detail/grubaugh-mpox/2000/v1.0.0/?q=Mpox), [Manuscript](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151), [Primer Request Link](https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html) |
 | INRB | IIb | 2000 | [Link](https://github.com/inrb-labgenpath/DRC\_MPXV\_primers) (NB: identical Primal Scheme to Yale) |
 | Welkers *et al.* | IIb | 2500 | [Link](https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1?step=1), [Primer Scheme Repository](https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0) |
@@ -67,9 +69,9 @@ Given the large amplicon size, for Illumina applications there needs to be an ad
 
 #### Use of clade II primer schemes for global MPXV genomic epidemiology
 
-We found that primer schemes designed against Clade II references are likely to generate adequate results on Clade I/Ib genomes, therefore covering the clades of interest. With reference to the Yale (Chen *et al.*) scheme, 83% of the primer sites are unaffected, with 14% containing one SNP, and 3% containing multiple mutations or indels. In our testing this results in typically around 85-90% genome coverage, which is sufficient for genomic epidemiology.
+ARTIC in collaboration with INRB have recently developed and tested a clade-independent primer scheme that is able to generate complete genomes from both clades I and II using the same primer set. Two versions of this scheme is available: 400 bp (optimised for wastewater applications) and 2500 bp versions (optimised for clinical samples).
 
-ARTIC have developed a Clade II scheme in response to the 2022-2023 epidemic, and are currently working on an updated clade-independent scheme and will publish details following validation. Currently we are recommending that groups focus on the Yale/INRB scheme at this time as this seems to work adequately.
+We found that primer schemes designed against Clade II references are likely to generate adequate results on Clade I/Ib genomes, therefore covering the clades of interest. With reference to the Yale (Chen *et al.*) scheme, 83% of the primer sites are unaffected, with 14% containing one SNP, and 3% containing multiple mutations or indels. In our testing this results in typically around 85-90% genome coverage, which is sufficient for genomic epidemiology.
 
 We recommend that users visit [Primal Scheme Labs](https://labs.primalscheme.com/) to find validated primer schemes that have accompanying BED files that permit analysis using standardised bioinformatics pipelines. We also encourage users who have generated and validated schemes to contribute them to Primal Scheme Labs for the wider community to benefit.
 
