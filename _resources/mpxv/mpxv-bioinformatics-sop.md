@@ -45,11 +45,17 @@ Miniforge will then install into the previously specified directory, after which
 Once this completes you should have a working Conda install and can move onto the next step.
 
 
-### Creating the environment
+### Install the latest version from bioconda
 
-First time only, clone the fieldbioinformatics github repository:
+First time only, create a conda environment containing the pipeline:
 
 ```bash
+conda create -n artic -c bioconda -c conda-forge artic
+```
+
+This may take a while to solve the environment and download the packages, if this takes a very long time or is unable to solve the environment ensure that you are using a version of conda >= v23.10.0.
+
+<!-- ```bash
 git clone https://github.com/artic-network/fieldbioinformatics.git
 cd fieldbioinformatics
 ```
@@ -68,7 +74,7 @@ Finally, to install the pipeline itself, we use pip install while inside the fie
 
 ```bash
 pip install .
-```
+``` -->
 
 ## Make a new directory for analysis
 
