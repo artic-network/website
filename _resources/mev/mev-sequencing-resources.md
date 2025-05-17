@@ -37,20 +37,23 @@ content='**Overview:** This document is part of the measles virus (MeV) sequenci
 ## MeV sequencing
 
 > ARTIC pan-genotype MeV Primer Schemes
-: 2500 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 2500 bp](/_resources/mpxv/mpxv-multiplex-pcr-protocol-2500.docx)
-: 400 bp primer scheme [Clade-I reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeia/?q=mpox), [Clade II reference](https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeib/?q=mpox), [PCR amplification protocol for 400 bp](/_resources/mpxv/mpxv-multiplex-pcr-protocol-400.docx)
+
+[//]: # (: 2500 bp primer scheme [Clade-I reference]&#40;https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeia/?q=mpox&#41;, [Clade II reference]&#40;https://labs.primalscheme.com/detail/artic-inrb-mpox/2500/v1.0.0-cladeib/?q=mpox&#41;, [PCR amplification protocol for 2500 bp]&#40;/_resources/mpxv/mpxv-multiplex-pcr-protocol-2500.docx&#41;)
+
+[//]: # (: 400 bp primer scheme [Clade-I reference]&#40;https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeia/?q=mpox&#41;, [Clade II reference]&#40;https://labs.primalscheme.com/detail/artic-inrb-mpox/400/v1.0.0-cladeib/?q=mpox&#41;, [PCR amplification protocol for 400 bp]&#40;/_resources/mpxv/mpxv-multiplex-pcr-protocol-400.docx&#41;)
 
 > Other amplicon sequencing protocols and primer schemes for MeV
 
 ## Bioinformatics pipeplines
         
-> [Running the ARTIC nanopore bioinformatics pipeline using EPI2ME](/mpxv/mpxv-ont-epi2me-sop.html)
+> [Running the ARTIC nanopore bioinformatics pipeline using EPI2ME](/mev/mev-ont-epi2me-sop.html)
 : This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
 
-> [Running a bioinformatics pipeline for Illumina data using EPI2ME](/mpxv/mpxv-illumina-epi2me-sop.html)
-: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
+[//]: # (> [Running a bioinformatics pipeline for Illumina data using EPI2ME]&#40;/mev/mev-illumina-epi2me-sop.html&#41;)
 
-> [Running the ARTIC nanopore bioinformatics pipeline using the command line](/mpxv/mpxv-bioinformatics-sop.html)
+[//]: # (: This document walks-through how to install and setup Oxford Nanopore Technology's EPI2ME software package so that it can be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.)
+
+> [Running the ARTIC nanopore bioinformatics pipeline using the command line](/mev/mev-bioinformatics-sop.html)
 : This document provides detailed instructions for running the ARTIC fieldbioinformatics pipeline for MeV on the command-line. This is useful to review what the pipeline does and how it works and for debugging issues for particular datasets. 
 
 ## Analysis pipeline
